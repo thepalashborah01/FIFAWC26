@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-13T18:44:33.218Z"
+    "lastUpdated": "2026-06-13T20:08:31.964Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537334,
         "date": "2026-06-13T19:00:00Z",
-        "status": "NS",
+        "status": "PAUSED",
         "minute": null,
         "round": "Group B",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/788.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537339,
         "date": "2026-06-13T22:00:00Z",
@@ -2246,6 +2247,16 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg",
+          "played": 1,
+          "points": 3,
+          "gd": 1,
+          "gf": 1,
+          "ga": 0
+        },
+        {
+          "rank": 2,
           "name": "Bosnia-H.",
           "logo": "https://crests.football-data.org/bosnia.svg",
           "played": 1,
@@ -2255,7 +2266,7 @@
           "ga": 1
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "Canada",
           "logo": "https://crests.football-data.org/canada.svg",
           "played": 1,
@@ -2265,24 +2276,14 @@
           "ga": 1
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Qatar",
           "logo": "https://crests.football-data.org/8030.svg",
-          "played": 0,
+          "played": 1,
           "points": 0,
-          "gd": 0,
+          "gd": -1,
           "gf": 0,
-          "ga": 0
-        },
-        {
-          "rank": 3,
-          "name": "Switzerland",
-          "logo": "https://crests.football-data.org/788.svg",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
+          "ga": 1
         }
       ]
     },
@@ -2796,6 +2797,12 @@
       "name": "Gio Reyna",
       "photo": "https://crests.football-data.org/usa.svg",
       "team": "USA",
+      "goals": 1
+    },
+    {
+      "name": "Breel Embolo",
+      "photo": "https://crests.football-data.org/788.svg",
+      "team": "Switzerland",
       "goals": 1
     }
   ],
