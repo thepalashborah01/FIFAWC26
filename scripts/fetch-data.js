@@ -20,6 +20,7 @@ async function api(endpoint) {
   if (!res.ok) throw new Error(`${endpoint} -> HTTP ${res.status}`);
   const json = await res.json();
   return json.response || [];
+  console.log(endpoint, "-> results:", json.results, "errors:", JSON.stringify(json.errors || {}));
 }
 
 // status codes that mean a match is in progress
