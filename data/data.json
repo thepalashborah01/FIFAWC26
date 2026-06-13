@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-13T17:30:26.684Z"
+    "lastUpdated": "2026-06-13T17:41:28.920Z"
   },
   "matches": {
     "live": [],
@@ -2805,6 +2805,56 @@
       "photo": "https://crests.football-data.org/772.png",
       "team": "Korea Republic",
       "assists": 1
+    }
+  ],
+  "goldenGlove": [
+    {
+      "team": "Mexico",
+      "logo": "https://crests.football-data.org/769.svg",
+      "cleanSheets": 1,
+      "played": 1
+    },
+    {
+      "team": "USA",
+      "logo": "https://crests.football-data.org/usa.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Paraguay",
+      "logo": "https://crests.football-data.org/761.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Canada",
+      "logo": "https://crests.football-data.org/canada.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Bosnia-H.",
+      "logo": "https://crests.football-data.org/bosnia.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Korea Republic",
+      "logo": "https://crests.football-data.org/772.png",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Czechia",
+      "logo": "https://crests.football-data.org/798.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "South Africa",
+      "logo": "https://crests.football-data.org/9396.svg",
+      "cleanSheets": 0,
+      "played": 1
     }
   ]
 }
