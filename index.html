@@ -59,13 +59,21 @@ body{font-family:var(--body);background:#05070F;color:var(--text);display:flex;j
 .kickoff{font-family:var(--display);font-weight:700;font-size:15px;color:var(--muted)}
 .empty{text-align:center;color:var(--muted);padding:34px 16px;font-size:14px;line-height:1.5}
 .empty .big{font-family:var(--display);font-size:18px;color:var(--text);margin-bottom:6px}
+.seg{display:flex;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px;margin:4px 4px 14px}
+.seg button{flex:1;background:none;border:none;color:var(--muted);font-family:var(--display);font-weight:700;font-size:12px;padding:9px 4px;border-radius:9px;cursor:pointer;text-transform:uppercase;letter-spacing:.2px;white-space:nowrap;transition:background .15s,color .15s}
+.seg button.on{background:var(--crimson);color:#fff}
+.award-panel{display:none}
+.award-panel.on{display:block}
 .race-leader{background:linear-gradient(135deg,rgba(255,210,63,.16),var(--surface));border-color:rgba(255,210,63,.4);display:flex;align-items:center;gap:14px}
+.race-leader.glove{background:linear-gradient(135deg,rgba(0,224,122,.16),var(--surface));border-color:rgba(0,224,122,.4)}
 .boot{font-size:30px}
 .race-leader .info{flex:1;min-width:0}
 .race-leader .label{font-size:10px;letter-spacing:1.4px;text-transform:uppercase;color:var(--gold);font-weight:700}
+.race-leader.glove .label{color:var(--live)}
 .race-leader .name{font-family:var(--display);font-weight:700;font-size:20px;margin:1px 0}
 .race-leader .t{font-size:12px;color:var(--muted)}
 .race-leader .tally{font-family:var(--display);font-weight:800;font-size:34px;color:var(--gold)}
+.race-leader.glove .tally{color:var(--live)}
 .list-card{padding:4px 2px}
 .stat-row{display:flex;align-items:center;gap:12px;padding:11px 14px;border-bottom:1px solid var(--line)}
 .stat-row:last-child{border-bottom:none}
@@ -78,8 +86,8 @@ body{font-family:var(--body);background:#05070F;color:var(--text);display:flex;j
 .bar i{display:block;height:100%;border-radius:3px}
 .bar.goals i{background:var(--gold)}
 .bar.assists i{background:var(--crimson)}
+.bar.glove i{background:var(--live)}
 .stat-val{font-family:var(--display);font-weight:800;font-size:17px;width:16px;text-align:right}
-/* standings */
 .grp{margin-bottom:14px}
 .grp h3{font-family:var(--display);font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin:0 4px 7px}
 .tbl{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
@@ -93,8 +101,7 @@ body{font-family:var(--body);background:#05070F;color:var(--text);display:flex;j
 .legend{display:flex;gap:16px;margin:2px 4px 14px;font-size:11px;color:var(--muted)}
 .legend span{display:flex;align-items:center;gap:6px}
 .legend i{width:9px;height:9px;border-radius:2px;display:inline-block}
-.note{font-size:11px;color:var(--muted-2);margin:0 4px 8px;line-height:1.5}
-/* live */
+.note{font-size:11px;color:var(--muted-2);margin:4px 4px 8px;line-height:1.5}
 .live-hero{background:linear-gradient(180deg,#13243A,var(--surface));border:1px solid rgba(0,224,122,.3);border-radius:18px;padding:18px 16px;margin-bottom:14px}
 .live-hero .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;font-size:11px;color:var(--muted);font-weight:600}
 .lh-teams{display:flex;align-items:center;justify-content:center;gap:14px}
@@ -129,115 +136,92 @@ body{font-family:var(--body);background:#05070F;color:var(--text);display:flex;j
   <main class="screen">
     <section class="view active" id="view-matches"></section>
     <section class="view" id="view-table"></section>
-    <section class="view" id="view-scorers"></section>
-    <section class="view" id="view-assists"></section>
+    <section class="view" id="view-awards"></section>
     <section class="view" id="view-live"></section>
   </main>
   <nav class="tabbar">
     <button class="tab active" data-view="matches"><span class="ic">⚽</span><span class="lb">Matches</span></button>
     <button class="tab" data-view="table"><span class="ic">📊</span><span class="lb">Table</span></button>
-    <button class="tab" data-view="scorers"><span class="ic">👟</span><span class="lb">Scorers</span></button>
-    <button class="tab" data-view="assists"><span class="ic">🎯</span><span class="lb">Assists</span></button>
+    <button class="tab" data-view="awards"><span class="ic">🏆</span><span class="lb">Awards</span></button>
     <button class="tab" data-view="live"><span class="ic">📡</span><span class="lb">Live</span></button>
   </nav>
 </div>
 <script>
 let DATA = null;
+let currentAward = "boot";
 
-// embedded fallback so the app shows full sample content even if data.json
-// can't load (e.g. when you open index.html straight off your computer)
 const FALLBACK = {
   meta:{league:"FIFA World Cup 2026",sample:true,lastUpdated:"2026-06-13T12:00:00.000Z"},
   matches:{
-    live:[{id:1,status:"2H",minute:67,round:"Group F",venue:"MetLife Stadium",home:{name:"Brazil",logo:""},away:{name:"Morocco",logo:""},goals:{home:2,away:1},events:[
-      {min:"66'",icon:"\u26BD",text:"GOAL! Ziyech scores for Morocco. (assist: Hakimi)",goal:true},
-      {min:"58'",icon:"\u26BD",text:"GOAL! Rodrygo scores for Brazil.",goal:true},
-      {min:"52'",icon:"\uD83D\uDFE8",text:"Yellow Card for Amrabat (Morocco).",goal:false},
-      {min:"45'",icon:"\u2022",text:"Half-time: Brazil 1-0 Morocco.",goal:false}]}],
+    live:[{id:1,status:"IN_PLAY",minute:67,round:"Group F",venue:"MetLife Stadium",home:{name:"Brazil",logo:""},away:{name:"Morocco",logo:""},goals:{home:2,away:1},events:[]}],
     upcoming:[
       {id:2,date:"2026-06-13T15:00:00Z",status:"NS",round:"Group D",home:{name:"Haiti",logo:""},away:{name:"Scotland",logo:""},goals:{home:null,away:null},events:[]},
-      {id:3,date:"2026-06-13T18:00:00Z",status:"NS",round:"Group A",home:{name:"Qatar",logo:""},away:{name:"Switzerland",logo:""},goals:{home:null,away:null},events:[]},
-      {id:4,date:"2026-06-13T21:00:00Z",status:"NS",round:"Group E",home:{name:"Australia",logo:""},away:{name:"T\u00fcrkiye",logo:""},goals:{home:null,away:null},events:[]}],
+      {id:3,date:"2026-06-13T18:00:00Z",status:"NS",round:"Group A",home:{name:"Qatar",logo:""},away:{name:"Switzerland",logo:""},goals:{home:null,away:null},events:[]}],
     finished:[
-      {id:5,date:"2026-06-12T20:00:00Z",status:"FT",round:"Group C",home:{name:"USA",logo:""},away:{name:"Paraguay",logo:""},goals:{home:4,away:1},events:[]},
-      {id:6,date:"2026-06-12T17:00:00Z",status:"FT",round:"Group B",home:{name:"Canada",logo:""},away:{name:"Bosnia",logo:""},goals:{home:1,away:1},events:[]},
-      {id:7,date:"2026-06-11T19:00:00Z",status:"FT",round:"Group A",home:{name:"Mexico",logo:""},away:{name:"South Africa",logo:""},goals:{home:2,away:1},events:[]}]
+      {id:5,date:"2026-06-12T20:00:00Z",status:"FINISHED",round:"Group C",home:{name:"USA",logo:""},away:{name:"Paraguay",logo:""},goals:{home:4,away:1},events:[]},
+      {id:7,date:"2026-06-11T19:00:00Z",status:"FINISHED",round:"Group A",home:{name:"Mexico",logo:""},away:{name:"South Africa",logo:""},goals:{home:2,away:0},events:[]}]
   },
   standings:[
     {group:"Group A",teams:[
-      {rank:1,name:"Mexico",logo:"",played:1,points:3,gd:1,gf:2,ga:1},
+      {rank:1,name:"Mexico",logo:"",played:1,points:3,gd:2,gf:2,ga:0},
       {rank:2,name:"Switzerland",logo:"",played:0,points:0,gd:0,gf:0,ga:0},
       {rank:3,name:"Qatar",logo:"",played:0,points:0,gd:0,gf:0,ga:0},
-      {rank:4,name:"South Africa",logo:"",played:1,points:0,gd:-1,gf:1,ga:2}]},
-    {group:"Group F",teams:[
-      {rank:1,name:"Brazil",logo:"",played:1,points:3,gd:2,gf:3,ga:1},
-      {rank:2,name:"Morocco",logo:"",played:1,points:0,gd:-1,gf:1,ga:2},
-      {rank:3,name:"Croatia",logo:"",played:0,points:0,gd:0,gf:0,ga:0},
-      {rank:4,name:"Japan",logo:"",played:0,points:0,gd:0,gf:0,ga:0}]}
+      {rank:4,name:"South Africa",logo:"",played:1,points:0,gd:-2,gf:0,ga:2}]}
   ],
   scorers:[
     {name:"F. Balogun",photo:"",team:"USA",goals:3},
-    {name:"V. Gy\u00f6keres",photo:"",team:"Sweden",goals:2},
     {name:"Rodrygo",photo:"",team:"Brazil",goals:2},
-    {name:"L. Messi",photo:"",team:"Argentina",goals:1},
-    {name:"H. Ziyech",photo:"",team:"Morocco",goals:1}],
+    {name:"L. Messi",photo:"",team:"Argentina",goals:1}],
   assists:[
     {name:"C. Pulisic",photo:"",team:"USA",assists:3},
-    {name:"Neymar",photo:"",team:"Brazil",assists:2},
-    {name:"A. Davies",photo:"",team:"Canada",assists:2},
-    {name:"A. Hakimi",photo:"",team:"Morocco",assists:1}]
+    {name:"Neymar",photo:"",team:"Brazil",assists:2}],
+  goldenGlove:[
+    {team:"Mexico",logo:"",cleanSheets:1,played:1},
+    {team:"USA",logo:"",cleanSheets:0,played:1}]
 };
 
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-
-// consistent color per team name
 function hue(name){let h=0;for(const c of String(name))h=(h*31+c.charCodeAt(0))%360;return h;}
 function crest(t){
   if(t.logo) return `<span class="crest"><img src="${esc(t.logo)}" alt="" loading="lazy"></span>`;
   const code=(t.name||"?").replace(/[^A-Za-z]/g,"").slice(0,3).toUpperCase()||"?";
   return `<span class="crest" style="background:hsl(${hue(t.name)} 55% 38%)">${esc(code)}</span>`;
 }
-function kickoff(iso){
-  if(!iso) return "";
-  const d=new Date(iso);
-  return d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
-}
+function kickoff(iso){if(!iso) return "";return new Date(iso).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});}
 
 function render(){
   const sample = DATA.meta && DATA.meta.sample;
   document.getElementById('sampleBadge').classList.toggle('show', !!sample);
   const lu = DATA.meta && DATA.meta.lastUpdated ? new Date(DATA.meta.lastUpdated) : null;
-  document.getElementById('updated').innerHTML = lu
-    ? `Updated <b>${lu.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}</b>`
-    : '';
+  document.getElementById('updated').innerHTML = lu ? `Updated <b>${lu.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}</b>` : '';
   renderMatches();
   renderTable();
-  renderScorers();
-  renderAssists();
+  renderAwards();
   renderLive();
 }
 
 function matchCard(m, live){
   const meta = live
-    ? `<span>${esc(m.round||'')}</span><span class="live-pill"><span class="dot"></span>LIVE ${m.minute||''}'</span>`
+    ? `<span>${esc(m.round||'')}</span><span class="live-pill"><span class="dot"></span>LIVE ${m.minute?m.minute+"'":''}</span>`
     : (m.status==='NS'
         ? `<span>${esc(m.round||'')}</span><span>${kickoff(m.date)||'Upcoming'}</span>`
         : `<span>${esc(m.round||'')}</span><span>Full time</span>`);
-  const right = (h,a)=> m.status==='NS'
+  const homeRight = m.status==='NS'
     ? `<span class="kickoff">${kickoff(m.date)}</span>`
-    : `<span class="score ${h<a?'dim':''}">${h==null?'':h}</span>`;
+    : `<span class="score ${m.goals.home<m.goals.away?'dim':''}">${m.goals.home==null?'':m.goals.home}</span>`;
+  const awayRight = m.status==='NS' ? '' : `<span class="score ${m.goals.away<m.goals.home?'dim':''}">${m.goals.away==null?'':m.goals.away}</span>`;
   return `<div class="card match ${live?'live':''}" ${live?'onclick="go(\'live\')"':''}>
     <div class="match-meta">${meta}</div>
-    <div class="team-row"><div class="team">${crest(m.home)}<span class="team-name">${esc(m.home.name)}</span></div>${right(m.goals.home,m.goals.away)}</div>
-    <div class="team-row"><div class="team">${crest(m.away)}<span class="team-name">${esc(m.away.name)}</span></div>${m.status==='NS'?'':`<span class="score ${m.goals.away<m.goals.home?'dim':''}">${m.goals.away==null?'':m.goals.away}</span>`}</div>
+    <div class="team-row"><div class="team">${crest(m.home)}<span class="team-name">${esc(m.home.name)}</span></div>${homeRight}</div>
+    <div class="team-row"><div class="team">${crest(m.away)}<span class="team-name">${esc(m.away.name)}</span></div>${awayRight}</div>
   </div>`;
 }
 
 function renderMatches(){
   const M=DATA.matches; let h='';
   if(M.live.length){h+=`<div class="section-head"><h2>Live now</h2><span class="hint">Tap for commentary</span></div>`+M.live.map(m=>matchCard(m,true)).join('');}
-  if(M.upcoming.length){h+=`<div class="section-head"><h2>Upcoming</h2></div>`+M.upcoming.slice(0,8).map(m=>matchCard(m,false)).join('');}
-  if(M.finished.length){h+=`<div class="section-head"><h2>Latest results</h2></div>`+M.finished.slice(0,10).map(m=>matchCard(m,false)).join('');}
+  if(M.upcoming.length){h+=`<div class="section-head"><h2>Upcoming</h2></div>`+M.upcoming.slice(0,10).map(m=>matchCard(m,false)).join('');}
+  if(M.finished.length){h+=`<div class="section-head"><h2>Latest results</h2></div>`+M.finished.slice(0,12).map(m=>matchCard(m,false)).join('');}
   if(!h)h=`<div class="empty"><div class="big">No matches yet</div>Once the live feed is connected, fixtures appear here.</div>`;
   document.getElementById('view-matches').innerHTML=h;
 }
@@ -262,21 +246,53 @@ function renderTable(){
   document.getElementById('view-table').innerHTML=h;
 }
 
-function renderScorers(){
-  const s=DATA.scorers; let h=`<div class="section-head"><h2>Golden Boot race</h2></div>`;
-  if(!s.length){h+=`<div class="empty"><div class="big">No goals yet</div>Top scorers appear here.</div>`;document.getElementById('view-scorers').innerHTML=h;return;}
+function bootPanel(){
+  const s=DATA.scorers||[];
+  if(!s.length) return `<div class="empty"><div class="big">No goals yet</div>Top scorers appear here.</div>`;
   const top=s[0],max=s[0].goals||1;
-  h+=`<div class="card race-leader"><div class="boot">👟</div><div class="info"><div class="label">Leading the race</div><div class="name">${esc(top.name)}</div><div class="t">${esc(top.team)}</div></div><div class="tally">${top.goals}</div></div>`;
+  let h=`<div class="card race-leader"><div class="boot">👟</div><div class="info"><div class="label">Leading the race</div><div class="name">${esc(top.name)}</div><div class="t">${esc(top.team)}</div></div><div class="tally">${top.goals}</div></div>`;
   h+=`<div class="card list-card">`+s.map((p,i)=>`<div class="stat-row"><span class="rank">${i+1}</span>${crest({name:p.team,logo:p.photo})}<div class="stat-info"><div class="n">${esc(p.name)}</div><div class="t">${esc(p.team)}</div></div><div class="bar-wrap"><div class="bar goals"><i style="width:${p.goals/max*100}%"></i></div></div><span class="stat-val">${p.goals}</span></div>`).join('')+`</div>`;
-  document.getElementById('view-scorers').innerHTML=h;
+  return h;
 }
 
-function renderAssists(){
-  const s=DATA.assists; let h=`<div class="section-head"><h2>Top assists</h2><span class="hint">Playmakers</span></div>`;
-  if(!s.length){h+=`<div class="empty"><div class="big">No assists yet</div>Top assists appear here.</div>`;document.getElementById('view-assists').innerHTML=h;return;}
+function glovePanel(){
+  const g=DATA.goldenGlove||[];
+  if(!g.length) return `<div class="empty"><div class="big">No clean sheets yet</div>Appears once matches have been played.</div>`;
+  const top=g[0],max=g[0].cleanSheets||1;
+  let h=`<div class="card race-leader glove"><div class="boot">🧤</div><div class="info"><div class="label">Most clean sheets</div><div class="name">${esc(top.team)}</div><div class="t">${top.played} played</div></div><div class="tally">${top.cleanSheets}</div></div>`;
+  h+=`<div class="card list-card">`+g.map((t,i)=>`<div class="stat-row"><span class="rank">${i+1}</span>${crest({name:t.team,logo:t.logo})}<div class="stat-info"><div class="n">${esc(t.team)}</div><div class="t">${t.played} played</div></div><div class="bar-wrap"><div class="bar glove"><i style="width:${(t.cleanSheets/max)*100}%"></i></div></div><span class="stat-val">${t.cleanSheets}</span></div>`).join('')+`</div>`;
+  h+=`<p class="note">Clean sheets counted by team from match results. The full Golden Glove (per goalkeeper, with saves) needs a richer data plan — easy to add later.</p>`;
+  return h;
+}
+
+function assistsPanel(){
+  const s=DATA.assists||[];
+  if(!s.length) return `<div class="empty"><div class="big">No assists data</div>Assists aren't in the free data tier yet — they unlock with a richer plan.</div>`;
   const max=s[0].assists||1;
-  h+=`<div class="card list-card">`+s.map((p,i)=>`<div class="stat-row"><span class="rank">${i+1}</span>${crest({name:p.team,logo:p.photo})}<div class="stat-info"><div class="n">${esc(p.name)}</div><div class="t">${esc(p.team)}</div></div><div class="bar-wrap"><div class="bar assists"><i style="width:${p.assists/max*100}%"></i></div></div><span class="stat-val">${p.assists}</span></div>`).join('')+`</div>`;
-  document.getElementById('view-assists').innerHTML=h;
+  return `<div class="card list-card">`+s.map((p,i)=>`<div class="stat-row"><span class="rank">${i+1}</span>${crest({name:p.team,logo:p.photo})}<div class="stat-info"><div class="n">${esc(p.name)}</div><div class="t">${esc(p.team)}</div></div><div class="bar-wrap"><div class="bar assists"><i style="width:${p.assists/max*100}%"></i></div></div><span class="stat-val">${p.assists}</span></div>`).join('')+`</div>`;
+}
+
+function renderAwards(){
+  const on=(n)=>currentAward===n?'on':'';
+  const h=`
+    <div class="seg">
+      <button id="seg-boot" class="${on('boot')}" onclick="awardShow('boot')">Golden Boot</button>
+      <button id="seg-glove" class="${on('glove')}" onclick="awardShow('glove')">Golden Glove</button>
+      <button id="seg-assists" class="${on('assists')}" onclick="awardShow('assists')">Assists</button>
+    </div>
+    <div id="panel-boot" class="award-panel ${on('boot')}">${bootPanel()}</div>
+    <div id="panel-glove" class="award-panel ${on('glove')}">${glovePanel()}</div>
+    <div id="panel-assists" class="award-panel ${on('assists')}">${assistsPanel()}</div>`;
+  document.getElementById('view-awards').innerHTML=h;
+}
+
+function awardShow(name){
+  currentAward=name;
+  ['boot','glove','assists'].forEach(n=>{
+    const seg=document.getElementById('seg-'+n), panel=document.getElementById('panel-'+n);
+    if(seg) seg.classList.toggle('on', n===name);
+    if(panel) panel.classList.toggle('on', n===name);
+  });
 }
 
 function renderLive(){
@@ -290,12 +306,12 @@ function renderLive(){
     <div class="lh-teams"><div class="lh-side">${crest(m.home)}<span class="nm">${esc(m.home.name)}</span></div>
     <div class="lh-score"><span>${m.goals.home}</span><span style="color:var(--muted-2)">:</span><span>${m.goals.away}</span></div>
     <div class="lh-side">${crest(m.away)}<span class="nm">${esc(m.away.name)}</span></div></div>
-    <div class="lh-min">${m.minute||''}'</div></div>`;
+    <div class="lh-min">${m.minute?m.minute+"'":'In play'}</div></div>`;
   h+=`<div class="section-head"><h2>Live commentary</h2></div>`;
   if(m.events && m.events.length){
     h+=m.events.map(e=>`<div class="cmt ${e.goal?'goal':''}"><span class="cmt-min">${esc(e.min)}</span><div class="cmt-body"><span class="cmt-icon">${e.icon||''}</span>${esc(e.text)}</div></div>`).join('');
   } else {
-    h+=`<div class="empty">Match events will appear here as they happen.</div>`;
+    h+=`<div class="empty">Minute-by-minute commentary isn't in the free data tier — it unlocks with a richer plan.</div>`;
   }
   document.getElementById('view-live').innerHTML=h;
 }
@@ -313,13 +329,10 @@ async function load(){
     const res=await fetch('data/data.json?t='+Date.now());
     if(!res.ok) throw new Error('no data');
     DATA=await res.json();
-  }catch(e){
-    DATA=FALLBACK;
-  }
+  }catch(e){ DATA=FALLBACK; }
   render();
 }
 load();
-// refresh from the repo periodically so the deployed app stays current
 setInterval(load, 60000);
 
 if('serviceWorker' in navigator){
