@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-13T20:08:31.964Z"
+    "lastUpdated": "2026-06-13T21:38:44.601Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537334,
-        "date": "2026-06-13T19:00:00Z",
-        "status": "PAUSED",
-        "minute": null,
-        "round": "Group B",
-        "venue": "",
-        "home": {
-          "name": "Qatar",
-          "logo": "https://crests.football-data.org/8030.svg"
-        },
-        "away": {
-          "name": "Switzerland",
-          "logo": "https://crests.football-data.org/788.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537339,
@@ -2111,6 +2089,27 @@
     ],
     "finished": [
       {
+        "id": 537334,
+        "date": "2026-06-13T19:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group B",
+        "venue": "",
+        "home": {
+          "name": "Qatar",
+          "logo": "https://crests.football-data.org/8030.svg"
+        },
+        "away": {
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "events": []
+      },
+      {
         "id": 537345,
         "date": "2026-06-13T01:00:00Z",
         "status": "FINISHED",
@@ -2247,16 +2246,6 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Switzerland",
-          "logo": "https://crests.football-data.org/788.svg",
-          "played": 1,
-          "points": 3,
-          "gd": 1,
-          "gf": 1,
-          "ga": 0
-        },
-        {
-          "rank": 2,
           "name": "Bosnia-H.",
           "logo": "https://crests.football-data.org/bosnia.svg",
           "played": 1,
@@ -2266,7 +2255,7 @@
           "ga": 1
         },
         {
-          "rank": 2,
+          "rank": 1,
           "name": "Canada",
           "logo": "https://crests.football-data.org/canada.svg",
           "played": 1,
@@ -2276,13 +2265,23 @@
           "ga": 1
         },
         {
-          "rank": 4,
+          "rank": 1,
           "name": "Qatar",
           "logo": "https://crests.football-data.org/8030.svg",
           "played": 1,
-          "points": 0,
-          "gd": -1,
-          "gf": 0,
+          "points": 1,
+          "gd": 0,
+          "gf": 1,
+          "ga": 1
+        },
+        {
+          "rank": 1,
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg",
+          "played": 1,
+          "points": 1,
+          "gd": 0,
+          "gf": 1,
           "ga": 1
         }
       ]
@@ -2804,6 +2803,12 @@
       "photo": "https://crests.football-data.org/788.svg",
       "team": "Switzerland",
       "goals": 1
+    },
+    {
+      "name": "Boualem Khoukhi",
+      "photo": "https://crests.football-data.org/8030.svg",
+      "team": "Qatar",
+      "goals": 1
     }
   ],
   "assists": [
@@ -2819,6 +2824,18 @@
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 1,
+      "played": 1
+    },
+    {
+      "team": "Qatar",
+      "logo": "https://crests.football-data.org/8030.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Switzerland",
+      "logo": "https://crests.football-data.org/788.svg",
+      "cleanSheets": 0,
       "played": 1
     },
     {
