@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "league": "FIFA World Cup 2026",
+    "season": 2026,
+    "lastUpdated": "2026-06-13T12:00:00.000Z",
+    "sample": true
+  },
+  "matches": {
+    "live": [
+      {
+        "id": 1,
+        "status": "2H",
+        "minute": 67,
+        "round": "Group F",
+        "venue": "MetLife Stadium",
+        "home": { "name": "Brazil", "logo": "" },
+        "away": { "name": "Morocco", "logo": "" },
+        "goals": { "home": 2, "away": 1 },
+        "events": [
+          { "min": "66'", "icon": "\u26BD", "text": "GOAL! Ziyech scores for Morocco. (assist: Hakimi)", "goal": true },
+          { "min": "58'", "icon": "\u26BD", "text": "GOAL! Rodrygo scores for Brazil.", "goal": true },
+          { "min": "52'", "icon": "\uD83D\uDFE8", "text": "Yellow Card for Amrabat (Morocco).", "goal": false },
+          { "min": "45'", "icon": "\u2022", "text": "Half-time: Brazil 1-0 Morocco.", "goal": false }
+        ]
+      }
+    ],
+    "upcoming": [
+      { "id": 2, "date": "2026-06-13T15:00:00Z", "status": "NS", "round": "Group D", "venue": "", "home": { "name": "Haiti", "logo": "" }, "away": { "name": "Scotland", "logo": "" }, "goals": { "home": null, "away": null }, "events": [] },
+      { "id": 3, "date": "2026-06-13T18:00:00Z", "status": "NS", "round": "Group A", "venue": "", "home": { "name": "Qatar", "logo": "" }, "away": { "name": "Switzerland", "logo": "" }, "goals": { "home": null, "away": null }, "events": [] },
+      { "id": 4, "date": "2026-06-13T21:00:00Z", "status": "NS", "round": "Group E", "venue": "", "home": { "name": "Australia", "logo": "" }, "away": { "name": "T\u00fcrkiye", "logo": "" }, "goals": { "home": null, "away": null }, "events": [] }
+    ],
+    "finished": [
+      { "id": 5, "date": "2026-06-12T20:00:00Z", "status": "FT", "round": "Group C", "venue": "", "home": { "name": "USA", "logo": "" }, "away": { "name": "Paraguay", "logo": "" }, "goals": { "home": 4, "away": 1 }, "events": [] },
+      { "id": 6, "date": "2026-06-12T17:00:00Z", "status": "FT", "round": "Group B", "venue": "", "home": { "name": "Canada", "logo": "" }, "away": { "name": "Bosnia", "logo": "" }, "goals": { "home": 1, "away": 1 }, "events": [] },
+      { "id": 7, "date": "2026-06-11T19:00:00Z", "status": "FT", "round": "Group A", "venue": "", "home": { "name": "Mexico", "logo": "" }, "away": { "name": "South Africa", "logo": "" }, "goals": { "home": 2, "away": 1 }, "events": [] }
+    ]
+  },
+  "standings": [
+    {
+      "group": "Group A",
+      "teams": [
+        { "rank": 1, "name": "Mexico", "logo": "", "played": 1, "points": 3, "gd": 1, "gf": 2, "ga": 1 },
+        { "rank": 2, "name": "Switzerland", "logo": "", "played": 0, "points": 0, "gd": 0, "gf": 0, "ga": 0 },
+        { "rank": 3, "name": "Qatar", "logo": "", "played": 0, "points": 0, "gd": 0, "gf": 0, "ga": 0 },
+        { "rank": 4, "name": "South Africa", "logo": "", "played": 1, "points": 0, "gd": -1, "gf": 1, "ga": 2 }
+      ]
+    },
+    {
+      "group": "Group F",
+      "teams": [
+        { "rank": 1, "name": "Brazil", "logo": "", "played": 1, "points": 3, "gd": 2, "gf": 3, "ga": 1 },
+        { "rank": 2, "name": "Morocco", "logo": "", "played": 1, "points": 0, "gd": -1, "gf": 1, "ga": 2 },
+        { "rank": 3, "name": "Croatia", "logo": "", "played": 0, "points": 0, "gd": 0, "gf": 0, "ga": 0 },
+        { "rank": 4, "name": "Japan", "logo": "", "played": 0, "points": 0, "gd": 0, "gf": 0, "ga": 0 }
+      ]
+    }
+  ],
+  "scorers": [
+    { "name": "F. Balogun", "photo": "", "team": "USA", "goals": 3 },
+    { "name": "V. Gy\u00f6keres", "photo": "", "team": "Sweden", "goals": 2 },
+    { "name": "Rodrygo", "photo": "", "team": "Brazil", "goals": 2 },
+    { "name": "L. Messi", "photo": "", "team": "Argentina", "goals": 1 },
+    { "name": "H. Ziyech", "photo": "", "team": "Morocco", "goals": 1 }
+  ],
+  "assists": [
+    { "name": "C. Pulisic", "photo": "", "team": "USA", "assists": 3 },
+    { "name": "Neymar", "photo": "", "team": "Brazil", "assists": 2 },
+    { "name": "A. Davies", "photo": "", "team": "Canada", "assists": 2 },
+    { "name": "A. Hakimi", "photo": "", "team": "Morocco", "assists": 1 }
+  ]
+}
