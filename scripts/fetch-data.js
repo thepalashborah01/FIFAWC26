@@ -1,7 +1,13 @@
+/*
+ * WC26 Portal — data fetcher (football-data.org free version)
+ * Matches, standings, scorers, plus a clean-sheets leaderboard (Golden Glove).
+ * Node 18+. Key from env var FOOTBALL_DATA_KEY.
+ */
+
 const fs = require("fs");
 const path = require("path");
 
-const COMP = "WC"; // World Cup competition code on football-data.org
+const COMP = "WC";
 const BASE = "https://api.football-data.org/v4";
 const KEY = process.env.FOOTBALL_DATA_KEY;
 
@@ -33,11 +39,7 @@ function classify(status) {
 
 function pretty(s) {
   if (!s) return "";
-  return s
-    .toLowerCase()
-    .split("_")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
+  return s.toLowerCase().split("_").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 }
 
 function team(t) {
@@ -51,6 +53,7 @@ async function main() {
     standings: [],
     scorers: [],
     assists: [],
+    goldenGlove: [],
   };
 
   // ---- Matches ----
@@ -80,6 +83,27 @@ async function main() {
     console.error("Matches failed:", e.message);
   }
 
+  // ---- Golden Glove (clean sheets per team, derived from finished matches) ----
+  try {
+    const cs = {};
+    const bump = (name, logo, conceded) => {
+      if (!cs[name]) cs[name] = { team: name, logo: logo || "", cleanSheets: 0, played: 0 };
+      cs[name].played++;
+      if (conceded === 0) cs[name].cleanSheets++;
+    };
+    for (const m of out.matches.finished) {
+      const hg = m.goals.home, ag = m.goals.away;
+      if (hg == null || ag == null) continue;
+      bump(m.home.name, m.home.logo, ag);
+      bump(m.away.name, m.away.logo, hg);
+    }
+    out.goldenGlove = Object.values(cs)
+      .sort((a, b) => b.cleanSheets - a.cleanSheets || a.played - b.played)
+      .slice(0, 20);
+  } catch (e) {
+    console.error("Golden Glove failed:", e.message);
+  }
+
   // ---- Standings ----
   try {
     const data = await api(`/competitions/${COMP}/standings`);
@@ -103,7 +127,7 @@ async function main() {
     console.error("Standings failed:", e.message);
   }
 
-  // ---- Scorers (and assists where available) ----
+  // ---- Scorers + Assists ----
   try {
     const data = await api(`/competitions/${COMP}/scorers?limit=20`);
     const list = data.scorers || [];
@@ -130,7 +154,7 @@ async function main() {
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
   console.log(
-    `Wrote data.json — live:${out.matches.live.length} upcoming:${out.matches.upcoming.length} finished:${out.matches.finished.length} scorers:${out.scorers.length} assists:${out.assists.length}`
+    `Wrote data.json — live:${out.matches.live.length} upcoming:${out.matches.upcoming.length} finished:${out.matches.finished.length} scorers:${out.scorers.length} assists:${out.assists.length} glove:${out.goldenGlove.length}`
   );
 }
 
