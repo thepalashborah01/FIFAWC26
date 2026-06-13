@@ -1,130 +1,101 @@
 const fs = require("fs");
 const path = require("path");
 
-// ---- Config: FIFA World Cup 2026 in API-Football ----
-const LEAGUE = 1;        // 1 = FIFA World Cup
-const SEASON = 2026;
-const BASE = "https://v3.football.api-sports.io";
-const KEY = process.env.API_FOOTBALL_KEY;
+const COMP = "WC"; // World Cup competition code on football-data.org
+const BASE = "https://api.football-data.org/v4";
+const KEY = process.env.FOOTBALL_DATA_KEY;
 
 if (!KEY) {
-  console.error("Missing API_FOOTBALL_KEY environment variable.");
+  console.error("Missing FOOTBALL_DATA_KEY environment variable.");
   process.exit(1);
 }
 
-const headers = { "x-apisports-key": KEY };
+const headers = { "X-Auth-Token": KEY };
 
 async function api(endpoint) {
-  const url = `${BASE}${endpoint}`;
-  const res = await fetch(url, { headers });
-  if (!res.ok) throw new Error(`${endpoint} -> HTTP ${res.status}`);
-  const json = await res.json();
-  return json.response || [];
-  console.log(endpoint, "-> results:", json.results, "errors:", JSON.stringify(json.errors || {}));
+  const res = await fetch(`${BASE}${endpoint}`, { headers });
+  const json = await res.json().catch(() => ({}));
+  console.log(`${endpoint} -> HTTP ${res.status}`);
+  if (!res.ok) {
+    console.error(`  message: ${json.message || "(none)"}`);
+    throw new Error(`${endpoint} failed`);
+  }
+  return json;
 }
 
-// status codes that mean a match is in progress
-const LIVE = ["1H", "HT", "2H", "ET", "BT", "P", "SUSP", "INT", "LIVE"];
-const DONE = ["FT", "AET", "PEN"];
-
-function classify(short) {
-  if (LIVE.includes(short)) return "live";
-  if (DONE.includes(short)) return "finished";
+const LIVE = ["IN_PLAY", "PAUSED", "LIVE"];
+const DONE = ["FINISHED", "AWARDED"];
+function classify(status) {
+  if (LIVE.includes(status)) return "live";
+  if (DONE.includes(status)) return "finished";
   return "upcoming";
 }
 
-function eventIcon(type, detail) {
-  if (type === "Goal") return "\u26BD";
-  if (type === "Card" && /Yellow/.test(detail)) return "\uD83D\uDFE8";
-  if (type === "Card") return "\uD83D\uDFE5";
-  if (type === "subst") return "\uD83D\uDD01";
-  if (type === "Var") return "\uD83D\uDCFA";
-  return "\u2022";
+function pretty(s) {
+  if (!s) return "";
+  return s
+    .toLowerCase()
+    .split("_")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
 }
 
-function eventText(e) {
-  const who = e.player && e.player.name ? e.player.name : "";
-  const team = e.team && e.team.name ? e.team.name : "";
-  if (e.type === "Goal") {
-    const assist = e.assist && e.assist.name ? ` (assist: ${e.assist.name})` : "";
-    return `GOAL! ${who} scores for ${team}.${assist}`;
-  }
-  if (e.type === "Card") return `${e.detail} for ${who} (${team}).`;
-  if (e.type === "subst") return `${team}: ${e.assist?.name || "player"} on, ${who} off.`;
-  return `${e.detail || e.type} — ${who} (${team})`;
+function team(t) {
+  return { name: (t && (t.shortName || t.name)) || "TBD", logo: (t && t.crest) || "" };
 }
 
 async function main() {
   const out = {
-    meta: {
-      league: "FIFA World Cup 2026",
-      season: SEASON,
-      lastUpdated: new Date().toISOString(),
-    },
+    meta: { league: "FIFA World Cup 2026", season: 2026, lastUpdated: new Date().toISOString() },
     matches: { live: [], upcoming: [], finished: [] },
     standings: [],
     scorers: [],
     assists: [],
   };
 
-  // ---- Fixtures ----
+  // ---- Matches ----
   try {
-    const fixtures = await api(`/fixtures?league=${LEAGUE}&season=${SEASON}`);
-    for (const f of fixtures) {
-      const bucket = classify(f.fixture.status.short);
-      const match = {
-        id: f.fixture.id,
-        date: f.fixture.date,
-        status: f.fixture.status.short,
-        minute: f.fixture.status.elapsed,
-        round: f.league.round,
-        venue: f.fixture.venue?.name || "",
-        home: { name: f.teams.home.name, logo: f.teams.home.logo },
-        away: { name: f.teams.away.name, logo: f.teams.away.logo },
-        goals: { home: f.goals.home, away: f.goals.away },
+    const data = await api(`/competitions/${COMP}/matches`);
+    for (const m of data.matches || []) {
+      const bucket = classify(m.status);
+      out.matches[bucket].push({
+        id: m.id,
+        date: m.utcDate,
+        status: m.status === "SCHEDULED" || m.status === "TIMED" ? "NS" : m.status,
+        minute: m.minute || null,
+        round: pretty(m.group) || pretty(m.stage),
+        venue: m.venue || "",
+        home: team(m.homeTeam),
+        away: team(m.awayTeam),
+        goals: {
+          home: m.score && m.score.fullTime ? m.score.fullTime.home : null,
+          away: m.score && m.score.fullTime ? m.score.fullTime.away : null,
+        },
         events: [],
-      };
-      out.matches[bucket].push(match);
+      });
     }
     out.matches.upcoming.sort((a, b) => new Date(a.date) - new Date(b.date));
     out.matches.finished.sort((a, b) => new Date(b.date) - new Date(a.date));
   } catch (e) {
-    console.error("Fixtures failed:", e.message);
-  }
-
-  // ---- Live match events (commentary) ----
-  for (const m of out.matches.live) {
-    try {
-      const evs = await api(`/fixtures/events?fixture=${m.id}`);
-      m.events = evs
-        .map((e) => ({
-          min: `${e.time.elapsed}${e.time.extra ? "+" + e.time.extra : ""}'`,
-          icon: eventIcon(e.type, e.detail),
-          text: eventText(e),
-          goal: e.type === "Goal",
-        }))
-        .reverse();
-    } catch (e) {
-      console.error(`Events failed for fixture ${m.id}:`, e.message);
-    }
+    console.error("Matches failed:", e.message);
   }
 
   // ---- Standings ----
   try {
-    const st = await api(`/standings?league=${LEAGUE}&season=${SEASON}`);
-    const groups = st[0]?.league?.standings || [];
-    for (const g of groups) {
+    const data = await api(`/competitions/${COMP}/standings`);
+    for (const s of data.standings || []) {
+      if (s.type && s.type !== "TOTAL") continue;
       out.standings.push({
-        group: g[0]?.group || "Group",
-        teams: g.map((t) => ({
-          rank: t.rank,
-          name: t.team.name,
-          logo: t.team.logo,
-          played: t.all.played,
-          points: t.points,
-          gd: t.goalsDiff,
-          gf: t.all.goals.for,
-          ga: t.all.goals.against,
+        group: pretty(s.group) || pretty(s.stage) || "Group",
+        teams: (s.table || []).map((r) => ({
+          rank: r.position,
+          name: (r.team && (r.team.shortName || r.team.name)) || "",
+          logo: (r.team && r.team.crest) || "",
+          played: r.playedGames,
+          points: r.points,
+          gd: r.goalDifference,
+          gf: r.goalsFor,
+          ga: r.goalsAgainst,
         })),
       });
     }
@@ -132,37 +103,34 @@ async function main() {
     console.error("Standings failed:", e.message);
   }
 
-  // ---- Top scorers ----
+  // ---- Scorers (and assists where available) ----
   try {
-    const sc = await api(`/players/topscorers?league=${LEAGUE}&season=${SEASON}`);
-    out.scorers = sc.slice(0, 20).map((p) => ({
-      name: p.player.name,
-      photo: p.player.photo,
-      team: p.statistics[0]?.team?.name || "",
-      goals: p.statistics[0]?.goals?.total || 0,
+    const data = await api(`/competitions/${COMP}/scorers?limit=20`);
+    const list = data.scorers || [];
+    out.scorers = list.map((p) => ({
+      name: p.player ? p.player.name : "",
+      photo: (p.team && p.team.crest) || "",
+      team: p.team ? p.team.shortName || p.team.name : "",
+      goals: p.goals || 0,
     }));
+    out.assists = list
+      .filter((p) => typeof p.assists === "number" && p.assists > 0)
+      .sort((a, b) => b.assists - a.assists)
+      .map((p) => ({
+        name: p.player ? p.player.name : "",
+        photo: (p.team && p.team.crest) || "",
+        team: p.team ? p.team.shortName || p.team.name : "",
+        assists: p.assists,
+      }));
   } catch (e) {
-    console.error("Top scorers failed:", e.message);
-  }
-
-  // ---- Top assists ----
-  try {
-    const as = await api(`/players/topassists?league=${LEAGUE}&season=${SEASON}`);
-    out.assists = as.slice(0, 20).map((p) => ({
-      name: p.player.name,
-      photo: p.player.photo,
-      team: p.statistics[0]?.team?.name || "",
-      assists: p.statistics[0]?.goals?.assists || 0,
-    }));
-  } catch (e) {
-    console.error("Top assists failed:", e.message);
+    console.error("Scorers failed:", e.message);
   }
 
   const outPath = path.join(__dirname, "..", "data", "data.json");
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
   console.log(
-    `Wrote data.json — live:${out.matches.live.length} upcoming:${out.matches.upcoming.length} finished:${out.matches.finished.length} scorers:${out.scorers.length}`
+    `Wrote data.json — live:${out.matches.live.length} upcoming:${out.matches.upcoming.length} finished:${out.matches.finished.length} scorers:${out.scorers.length} assists:${out.assists.length}`
   );
 }
 
