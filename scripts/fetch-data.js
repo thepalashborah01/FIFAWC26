@@ -158,6 +158,7 @@ async function main() {
   }
 
   const outPath = path.join(__dirname, "..", "data", "data.json");
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
   console.log(
     `Wrote data.json — live:${out.matches.live.length} upcoming:${out.matches.upcoming.length} finished:${out.matches.finished.length} scorers:${out.scorers.length}`
