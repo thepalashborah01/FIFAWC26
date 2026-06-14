@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-14T16:57:03.011Z"
+    "lastUpdated": "2026-06-14T18:17:51.948Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537351,
         "date": "2026-06-14T17:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group E",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/curacao.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537357,
         "date": "2026-06-14T20:00:00Z",
@@ -2381,26 +2382,16 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Curaçao",
-          "logo": "https://crests.football-data.org/curacao.svg",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
-        },
-        {
-          "rank": 1,
           "name": "Germany",
           "logo": "https://crests.football-data.org/759.svg",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
+          "played": 1,
+          "points": 3,
+          "gd": 2,
+          "gf": 3,
+          "ga": 1
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "Ecuador",
           "logo": "https://crests.football-data.org/791.svg",
           "played": 0,
@@ -2410,7 +2401,7 @@
           "ga": 0
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "Ivory Coast",
           "logo": "https://crests.football-data.org/787.svg",
           "played": 0,
@@ -2418,6 +2409,16 @@
           "gd": 0,
           "gf": 0,
           "ga": 0
+        },
+        {
+          "rank": 4,
+          "name": "Curaçao",
+          "logo": "https://crests.football-data.org/curacao.svg",
+          "played": 1,
+          "points": 0,
+          "gd": -2,
+          "gf": 1,
+          "ga": 3
         }
       ]
     },
@@ -2838,6 +2839,24 @@
       "name": "Connor Metcalfe",
       "photo": "https://crests.football-data.org/779.svg",
       "team": "Australia",
+      "goals": 1
+    },
+    {
+      "name": "Felix Kalu Nmecha",
+      "photo": "https://crests.football-data.org/759.svg",
+      "team": "Germany",
+      "goals": 1
+    },
+    {
+      "name": "Livano Comenencia",
+      "photo": "https://crests.football-data.org/curacao.svg",
+      "team": "Curaçao",
+      "goals": 1
+    },
+    {
+      "name": "Nico Schlotterbeck",
+      "photo": "https://crests.football-data.org/759.svg",
+      "team": "Germany",
       "goals": 1
     }
   ],
