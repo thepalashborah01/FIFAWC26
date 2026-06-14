@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-14T05:08:24.672Z"
+    "lastUpdated": "2026-06-14T08:50:04.989Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537346,
-        "date": "2026-06-14T04:00:00Z",
-        "status": "PAUSED",
-        "minute": null,
-        "round": "Group D",
-        "venue": "",
-        "home": {
-          "name": "Australia",
-          "logo": "https://crests.football-data.org/779.svg"
-        },
-        "away": {
-          "name": "Turkey",
-          "logo": "https://crests.football-data.org/803.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537351,
@@ -2048,6 +2026,27 @@
     ],
     "finished": [
       {
+        "id": 537346,
+        "date": "2026-06-14T04:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group D",
+        "venue": "",
+        "home": {
+          "name": "Australia",
+          "logo": "https://crests.football-data.org/779.svg"
+        },
+        "away": {
+          "name": "Turkey",
+          "logo": "https://crests.football-data.org/803.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "events": []
+      },
+      {
         "id": 537340,
         "date": "2026-06-14T01:00:00Z",
         "status": "FINISHED",
@@ -2247,8 +2246,8 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Bosnia-H.",
-          "logo": "https://crests.football-data.org/bosnia.svg",
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
@@ -2256,7 +2255,7 @@
           "ga": 1
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "Canada",
           "logo": "https://crests.football-data.org/canada.svg",
           "played": 1,
@@ -2266,7 +2265,7 @@
           "ga": 1
         },
         {
-          "rank": 1,
+          "rank": 3,
           "name": "Qatar",
           "logo": "https://crests.football-data.org/8030.svg",
           "played": 1,
@@ -2276,9 +2275,9 @@
           "ga": 1
         },
         {
-          "rank": 1,
-          "name": "Switzerland",
-          "logo": "https://crests.football-data.org/788.svg",
+          "rank": 4,
+          "name": "Bosnia-H.",
+          "logo": "https://crests.football-data.org/bosnia.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
@@ -2302,8 +2301,8 @@
         },
         {
           "rank": 2,
-          "name": "Brazil",
-          "logo": "https://crests.football-data.org/764.svg",
+          "name": "Morocco",
+          "logo": "https://crests.football-data.org/morocco.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
@@ -2311,9 +2310,9 @@
           "ga": 1
         },
         {
-          "rank": 2,
-          "name": "Morocco",
-          "logo": "https://crests.football-data.org/morocco.svg",
+          "rank": 3,
+          "name": "Brazil",
+          "logo": "https://crests.football-data.org/764.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
@@ -2351,8 +2350,8 @@
           "logo": "https://crests.football-data.org/779.svg",
           "played": 1,
           "points": 3,
-          "gd": 1,
-          "gf": 1,
+          "gd": 2,
+          "gf": 2,
           "ga": 0
         },
         {
@@ -2361,9 +2360,9 @@
           "logo": "https://crests.football-data.org/803.svg",
           "played": 1,
           "points": 0,
-          "gd": -1,
+          "gd": -2,
           "gf": 0,
-          "ga": 1
+          "ga": 2
         },
         {
           "rank": 4,
@@ -2834,6 +2833,12 @@
       "photo": "https://crests.football-data.org/779.svg",
       "team": "Australia",
       "goals": 1
+    },
+    {
+      "name": "Connor Metcalfe",
+      "photo": "https://crests.football-data.org/779.svg",
+      "team": "Australia",
+      "goals": 1
     }
   ],
   "assists": [
@@ -2846,6 +2851,12 @@
   ],
   "goldenGlove": [
     {
+      "team": "Australia",
+      "logo": "https://crests.football-data.org/779.svg",
+      "cleanSheets": 1,
+      "played": 1
+    },
+    {
       "team": "Scotland",
       "logo": "https://crests.football-data.org/814.svg",
       "cleanSheets": 1,
@@ -2855,6 +2866,12 @@
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 1,
+      "played": 1
+    },
+    {
+      "team": "Turkey",
+      "logo": "https://crests.football-data.org/803.svg",
+      "cleanSheets": 0,
       "played": 1
     },
     {
