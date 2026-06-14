@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-14T21:40:14.483Z"
+    "lastUpdated": "2026-06-14T22:51:07.018Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537357,
-        "date": "2026-06-14T20:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group F",
-        "venue": "",
-        "home": {
-          "name": "Netherlands",
-          "logo": "https://crests.football-data.org/8601.svg"
-        },
-        "away": {
-          "name": "Japan",
-          "logo": "https://crests.football-data.org/766.svg"
-        },
-        "goals": {
-          "home": 2,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537352,
@@ -2006,6 +1984,27 @@
     ],
     "finished": [
       {
+        "id": 537357,
+        "date": "2026-06-14T20:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group F",
+        "venue": "",
+        "home": {
+          "name": "Netherlands",
+          "logo": "https://crests.football-data.org/8601.svg"
+        },
+        "away": {
+          "name": "Japan",
+          "logo": "https://crests.football-data.org/766.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 2
+        },
+        "events": []
+      },
+      {
         "id": 537351,
         "date": "2026-06-14T17:00:00Z",
         "status": "FINISHED",
@@ -2427,16 +2426,26 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Japan",
+          "logo": "https://crests.football-data.org/766.svg",
+          "played": 1,
+          "points": 1,
+          "gd": 0,
+          "gf": 2,
+          "ga": 2
+        },
+        {
+          "rank": 1,
           "name": "Netherlands",
           "logo": "https://crests.football-data.org/8601.svg",
           "played": 1,
-          "points": 3,
-          "gd": 1,
+          "points": 1,
+          "gd": 0,
           "gf": 2,
-          "ga": 1
+          "ga": 2
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Sweden",
           "logo": "https://crests.football-data.org/792.svg",
           "played": 0,
@@ -2446,7 +2455,7 @@
           "ga": 0
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Tunisia",
           "logo": "https://crests.football-data.org/tunisia.svg",
           "played": 0,
@@ -2454,16 +2463,6 @@
           "gd": 0,
           "gf": 0,
           "ga": 0
-        },
-        {
-          "rank": 4,
-          "name": "Japan",
-          "logo": "https://crests.football-data.org/766.svg",
-          "played": 1,
-          "points": 0,
-          "gd": -1,
-          "gf": 1,
-          "ga": 2
         }
       ]
     },
@@ -2885,6 +2884,18 @@
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 1,
+      "played": 1
+    },
+    {
+      "team": "Netherlands",
+      "logo": "https://crests.football-data.org/8601.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Japan",
+      "logo": "https://crests.football-data.org/766.svg",
+      "cleanSheets": 0,
       "played": 1
     },
     {
