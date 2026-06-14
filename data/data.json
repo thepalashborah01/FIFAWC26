@@ -2,58 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-14T00:08:53.869Z"
+    "lastUpdated": "2026-06-14T05:08:24.672Z"
   },
   "matches": {
     "live": [
       {
-        "id": 537339,
-        "date": "2026-06-13T22:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group C",
-        "venue": "",
-        "home": {
-          "name": "Brazil",
-          "logo": "https://crests.football-data.org/764.svg"
-        },
-        "away": {
-          "name": "Morocco",
-          "logo": "https://crests.football-data.org/morocco.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
-    "upcoming": [
-      {
-        "id": 537340,
-        "date": "2026-06-14T01:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group C",
-        "venue": "",
-        "home": {
-          "name": "Haiti",
-          "logo": "https://crests.football-data.org/haiti.svg"
-        },
-        "away": {
-          "name": "Scotland",
-          "logo": "https://crests.football-data.org/814.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
-      {
         "id": 537346,
         "date": "2026-06-14T04:00:00Z",
-        "status": "NS",
+        "status": "PAUSED",
         "minute": null,
         "round": "Group D",
         "venue": "",
@@ -66,11 +22,13 @@
           "logo": "https://crests.football-data.org/803.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537351,
         "date": "2026-06-14T17:00:00Z",
@@ -2090,6 +2048,48 @@
     ],
     "finished": [
       {
+        "id": 537340,
+        "date": "2026-06-14T01:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group C",
+        "venue": "",
+        "home": {
+          "name": "Haiti",
+          "logo": "https://crests.football-data.org/haiti.svg"
+        },
+        "away": {
+          "name": "Scotland",
+          "logo": "https://crests.football-data.org/814.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "events": []
+      },
+      {
+        "id": 537339,
+        "date": "2026-06-13T22:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group C",
+        "venue": "",
+        "home": {
+          "name": "Brazil",
+          "logo": "https://crests.football-data.org/764.svg"
+        },
+        "away": {
+          "name": "Morocco",
+          "logo": "https://crests.football-data.org/morocco.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "events": []
+      },
+      {
         "id": 537334,
         "date": "2026-06-13T19:00:00Z",
         "status": "FINISHED",
@@ -2292,6 +2292,16 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Scotland",
+          "logo": "https://crests.football-data.org/814.svg",
+          "played": 1,
+          "points": 3,
+          "gd": 1,
+          "gf": 1,
+          "ga": 0
+        },
+        {
+          "rank": 2,
           "name": "Brazil",
           "logo": "https://crests.football-data.org/764.svg",
           "played": 1,
@@ -2301,7 +2311,7 @@
           "ga": 1
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "Morocco",
           "logo": "https://crests.football-data.org/morocco.svg",
           "played": 1,
@@ -2311,24 +2321,14 @@
           "ga": 1
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Haiti",
           "logo": "https://crests.football-data.org/haiti.svg",
-          "played": 0,
+          "played": 1,
           "points": 0,
-          "gd": 0,
+          "gd": -1,
           "gf": 0,
-          "ga": 0
-        },
-        {
-          "rank": 3,
-          "name": "Scotland",
-          "logo": "https://crests.football-data.org/814.svg",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
+          "ga": 1
         }
       ]
     },
@@ -2349,21 +2349,21 @@
           "rank": 2,
           "name": "Australia",
           "logo": "https://crests.football-data.org/779.svg",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
+          "played": 1,
+          "points": 3,
+          "gd": 1,
+          "gf": 1,
           "ga": 0
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Turkey",
           "logo": "https://crests.football-data.org/803.svg",
-          "played": 0,
+          "played": 1,
           "points": 0,
-          "gd": 0,
+          "gd": -1,
           "gf": 0,
-          "ga": 0
+          "ga": 1
         },
         {
           "rank": 4,
@@ -2822,6 +2822,18 @@
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
       "goals": 1
+    },
+    {
+      "name": "John McGinn",
+      "photo": "https://crests.football-data.org/814.svg",
+      "team": "Scotland",
+      "goals": 1
+    },
+    {
+      "name": "Nestor Irankunda",
+      "photo": "https://crests.football-data.org/779.svg",
+      "team": "Australia",
+      "goals": 1
     }
   ],
   "assists": [
@@ -2834,9 +2846,33 @@
   ],
   "goldenGlove": [
     {
+      "team": "Scotland",
+      "logo": "https://crests.football-data.org/814.svg",
+      "cleanSheets": 1,
+      "played": 1
+    },
+    {
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 1,
+      "played": 1
+    },
+    {
+      "team": "Haiti",
+      "logo": "https://crests.football-data.org/haiti.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Brazil",
+      "logo": "https://crests.football-data.org/764.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Morocco",
+      "logo": "https://crests.football-data.org/morocco.svg",
+      "cleanSheets": 0,
       "played": 1
     },
     {
