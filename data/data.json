@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-13T22:46:44.824Z"
+    "lastUpdated": "2026-06-14T00:08:53.869Z"
   },
   "matches": {
     "live": [
@@ -2292,16 +2292,26 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Brazil",
+          "logo": "https://crests.football-data.org/764.svg",
+          "played": 1,
+          "points": 1,
+          "gd": 0,
+          "gf": 1,
+          "ga": 1
+        },
+        {
+          "rank": 1,
           "name": "Morocco",
           "logo": "https://crests.football-data.org/morocco.svg",
           "played": 1,
-          "points": 3,
-          "gd": 1,
+          "points": 1,
+          "gd": 0,
           "gf": 1,
-          "ga": 0
+          "ga": 1
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Haiti",
           "logo": "https://crests.football-data.org/haiti.svg",
           "played": 0,
@@ -2311,7 +2321,7 @@
           "ga": 0
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Scotland",
           "logo": "https://crests.football-data.org/814.svg",
           "played": 0,
@@ -2319,16 +2329,6 @@
           "gd": 0,
           "gf": 0,
           "ga": 0
-        },
-        {
-          "rank": 4,
-          "name": "Brazil",
-          "logo": "https://crests.football-data.org/764.svg",
-          "played": 1,
-          "points": 0,
-          "gd": -1,
-          "gf": 0,
-          "ga": 1
         }
       ]
     },
