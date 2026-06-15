@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-15T11:33:30.265Z"
+    "lastUpdated": "2026-06-15T16:32:50.828Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537369,
         "date": "2026-06-15T16:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group H",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/cape_verde.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537363,
         "date": "2026-06-15T19:00:00Z",
@@ -2518,14 +2519,24 @@
           "rank": 1,
           "name": "Cape Verde",
           "logo": "https://crests.football-data.org/cape_verde.svg",
-          "played": 0,
-          "points": 0,
+          "played": 1,
+          "points": 1,
           "gd": 0,
           "gf": 0,
           "ga": 0
         },
         {
           "rank": 1,
+          "name": "Spain",
+          "logo": "https://crests.football-data.org/760.svg",
+          "played": 1,
+          "points": 1,
+          "gd": 0,
+          "gf": 0,
+          "ga": 0
+        },
+        {
+          "rank": 3,
           "name": "Saudi Arabia",
           "logo": "https://crests.football-data.org/saudi_arabia.svg",
           "played": 0,
@@ -2535,17 +2546,7 @@
           "ga": 0
         },
         {
-          "rank": 1,
-          "name": "Spain",
-          "logo": "https://crests.football-data.org/760.svg",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
-        },
-        {
-          "rank": 1,
+          "rank": 3,
           "name": "Uruguay",
           "logo": "https://crests.football-data.org/758.svg",
           "played": 0,
