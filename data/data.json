@@ -2,32 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-16T00:17:36.447Z"
+    "lastUpdated": "2026-06-16T06:06:15.076Z"
   },
   "matches": {
     "live": [],
     "upcoming": [
-      {
-        "id": 537364,
-        "date": "2026-06-16T01:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group G",
-        "venue": "",
-        "home": {
-          "name": "Iran",
-          "logo": "https://crests.football-data.org/iran.svg"
-        },
-        "away": {
-          "name": "New Zealand",
-          "logo": "https://crests.football-data.org/783.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
       {
         "id": 537391,
         "date": "2026-06-16T19:00:00Z",
@@ -1879,6 +1858,27 @@
     ],
     "finished": [
       {
+        "id": 537364,
+        "date": "2026-06-16T01:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group G",
+        "venue": "",
+        "home": {
+          "name": "Iran",
+          "logo": "https://crests.football-data.org/iran.svg"
+        },
+        "away": {
+          "name": "New Zealand",
+          "logo": "https://crests.football-data.org/783.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 2
+        },
+        "events": []
+      },
+      {
         "id": 537370,
         "date": "2026-06-15T22:00:00Z",
         "status": "FINISHED",
@@ -2471,6 +2471,26 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Iran",
+          "logo": "https://crests.football-data.org/iran.svg",
+          "played": 1,
+          "points": 1,
+          "gd": 0,
+          "gf": 2,
+          "ga": 2
+        },
+        {
+          "rank": 1,
+          "name": "New Zealand",
+          "logo": "https://crests.football-data.org/783.svg",
+          "played": 1,
+          "points": 1,
+          "gd": 0,
+          "gf": 2,
+          "ga": 2
+        },
+        {
+          "rank": 3,
           "name": "Belgium",
           "logo": "https://crests.football-data.org/805.svg",
           "played": 1,
@@ -2480,7 +2500,7 @@
           "ga": 1
         },
         {
-          "rank": 2,
+          "rank": 4,
           "name": "Egypt",
           "logo": "https://crests.football-data.org/825.svg",
           "played": 1,
@@ -2488,26 +2508,6 @@
           "gd": 0,
           "gf": 1,
           "ga": 1
-        },
-        {
-          "rank": 3,
-          "name": "Iran",
-          "logo": "https://crests.football-data.org/iran.svg",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
-        },
-        {
-          "rank": 3,
-          "name": "New Zealand",
-          "logo": "https://crests.football-data.org/783.svg",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
         }
       ]
     },
@@ -2757,6 +2757,12 @@
       "goals": 2
     },
     {
+      "name": "Elijah Just",
+      "photo": "https://crests.football-data.org/783.svg",
+      "team": "New Zealand",
+      "goals": 2
+    },
+    {
       "name": "Julián Quiñones",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
@@ -2851,12 +2857,6 @@
       "photo": "https://crests.football-data.org/779.svg",
       "team": "Australia",
       "goals": 1
-    },
-    {
-      "name": "Felix Kalu Nmecha",
-      "photo": "https://crests.football-data.org/759.svg",
-      "team": "Germany",
-      "goals": 1
     }
   ],
   "assists": [
@@ -2902,6 +2902,18 @@
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 1,
+      "played": 1
+    },
+    {
+      "team": "Iran",
+      "logo": "https://crests.football-data.org/iran.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "New Zealand",
+      "logo": "https://crests.football-data.org/783.svg",
+      "cleanSheets": 0,
       "played": 1
     },
     {
@@ -2973,18 +2985,6 @@
     {
       "team": "Turkey",
       "logo": "https://crests.football-data.org/803.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Haiti",
-      "logo": "https://crests.football-data.org/haiti.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Brazil",
-      "logo": "https://crests.football-data.org/764.svg",
       "cleanSheets": 0,
       "played": 1
     }
