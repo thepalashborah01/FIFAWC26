@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-16T16:13:16.891Z"
+    "lastUpdated": "2026-06-16T19:51:45.388Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537391,
         "date": "2026-06-16T19:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group I",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/senegal.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537392,
         "date": "2026-06-16T22:00:00Z",
@@ -2146,8 +2147,8 @@
           "logo": "https://crests.football-data.org/bosnia.svg"
         },
         "goals": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "events": []
       },
@@ -2563,14 +2564,24 @@
           "rank": 1,
           "name": "France",
           "logo": "https://crests.football-data.org/773.svg",
-          "played": 0,
-          "points": 0,
+          "played": 1,
+          "points": 1,
           "gd": 0,
           "gf": 0,
           "ga": 0
         },
         {
           "rank": 1,
+          "name": "Senegal",
+          "logo": "https://crests.football-data.org/senegal.svg",
+          "played": 1,
+          "points": 1,
+          "gd": 0,
+          "gf": 0,
+          "ga": 0
+        },
+        {
+          "rank": 3,
           "name": "Iraq",
           "logo": "https://crests.football-data.org/iraq.svg",
           "played": 0,
@@ -2580,19 +2591,9 @@
           "ga": 0
         },
         {
-          "rank": 1,
+          "rank": 3,
           "name": "Norway",
           "logo": "https://crests.football-data.org/813.svg",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
-        },
-        {
-          "rank": 1,
-          "name": "Senegal",
-          "logo": "https://crests.football-data.org/senegal.svg",
           "played": 0,
           "points": 0,
           "gd": 0,
