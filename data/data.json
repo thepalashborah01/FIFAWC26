@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-16T06:06:15.076Z"
+    "lastUpdated": "2026-06-16T11:35:02.796Z"
   },
   "matches": {
     "live": [],
@@ -2471,8 +2471,8 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Iran",
-          "logo": "https://crests.football-data.org/iran.svg",
+          "name": "New Zealand",
+          "logo": "https://crests.football-data.org/783.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
@@ -2480,9 +2480,9 @@
           "ga": 2
         },
         {
-          "rank": 1,
-          "name": "New Zealand",
-          "logo": "https://crests.football-data.org/783.svg",
+          "rank": 2,
+          "name": "Iran",
+          "logo": "https://crests.football-data.org/iran.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
@@ -2516,8 +2516,8 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Saudi Arabia",
-          "logo": "https://crests.football-data.org/saudi_arabia.svg",
+          "name": "Uruguay",
+          "logo": "https://crests.football-data.org/758.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
@@ -2525,9 +2525,9 @@
           "ga": 1
         },
         {
-          "rank": 1,
-          "name": "Uruguay",
-          "logo": "https://crests.football-data.org/758.svg",
+          "rank": 2,
+          "name": "Saudi Arabia",
+          "logo": "https://crests.football-data.org/saudi_arabia.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
