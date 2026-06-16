@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-16T22:13:33.474Z"
+    "lastUpdated": "2026-06-16T23:50:23.295Z"
   },
   "matches": {
     "live": [
@@ -22,8 +22,8 @@
           "logo": "https://crests.football-data.org/813.svg"
         },
         "goals": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 3
         },
         "events": []
       }
@@ -2147,8 +2147,8 @@
           "logo": "https://crests.football-data.org/bosnia.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "events": []
       },
@@ -2572,23 +2572,23 @@
         },
         {
           "rank": 2,
-          "name": "Iraq",
-          "logo": "https://crests.football-data.org/iraq.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
-        },
-        {
-          "rank": 2,
           "name": "Norway",
           "logo": "https://crests.football-data.org/813.svg",
           "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
+          "points": 3,
+          "gd": 1,
+          "gf": 2,
+          "ga": 1
+        },
+        {
+          "rank": 3,
+          "name": "Iraq",
+          "logo": "https://crests.football-data.org/iraq.svg",
+          "played": 1,
+          "points": 0,
+          "gd": -1,
+          "gf": 1,
+          "ga": 2
         },
         {
           "rank": 4,
@@ -2770,6 +2770,12 @@
       "goals": 2
     },
     {
+      "name": "Erling Haaland",
+      "photo": "https://crests.football-data.org/813.svg",
+      "team": "Norway",
+      "goals": 2
+    },
+    {
       "name": "Julián Quiñones",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
@@ -2851,12 +2857,6 @@
       "name": "John McGinn",
       "photo": "https://crests.football-data.org/814.svg",
       "team": "Scotland",
-      "goals": 1
-    },
-    {
-      "name": "Nestor Irankunda",
-      "photo": "https://crests.football-data.org/779.svg",
-      "team": "Australia",
       "goals": 1
     }
   ],
