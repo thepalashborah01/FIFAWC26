@@ -2,37 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-16T19:51:45.388Z"
+    "lastUpdated": "2026-06-16T22:13:33.474Z"
   },
   "matches": {
     "live": [
       {
-        "id": 537391,
-        "date": "2026-06-16T19:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group I",
-        "venue": "",
-        "home": {
-          "name": "France",
-          "logo": "https://crests.football-data.org/773.svg"
-        },
-        "away": {
-          "name": "Senegal",
-          "logo": "https://crests.football-data.org/senegal.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
-    "upcoming": [
-      {
         "id": 537392,
         "date": "2026-06-16T22:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group I",
         "venue": "",
@@ -45,11 +22,13 @@
           "logo": "https://crests.football-data.org/813.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537397,
         "date": "2026-06-17T01:00:00Z",
@@ -1859,6 +1838,27 @@
     ],
     "finished": [
       {
+        "id": 537391,
+        "date": "2026-06-16T19:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group I",
+        "venue": "",
+        "home": {
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg"
+        },
+        "away": {
+          "name": "Senegal",
+          "logo": "https://crests.football-data.org/senegal.svg"
+        },
+        "goals": {
+          "home": 3,
+          "away": 1
+        },
+        "events": []
+      },
+      {
         "id": 537364,
         "date": "2026-06-16T01:00:00Z",
         "status": "FINISHED",
@@ -2565,15 +2565,15 @@
           "name": "France",
           "logo": "https://crests.football-data.org/773.svg",
           "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
+          "points": 3,
+          "gd": 2,
+          "gf": 3,
+          "ga": 1
         },
         {
-          "rank": 1,
-          "name": "Senegal",
-          "logo": "https://crests.football-data.org/senegal.svg",
+          "rank": 2,
+          "name": "Iraq",
+          "logo": "https://crests.football-data.org/iraq.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
@@ -2581,24 +2581,24 @@
           "ga": 0
         },
         {
-          "rank": 3,
-          "name": "Iraq",
-          "logo": "https://crests.football-data.org/iraq.svg",
-          "played": 0,
-          "points": 0,
+          "rank": 2,
+          "name": "Norway",
+          "logo": "https://crests.football-data.org/813.svg",
+          "played": 1,
+          "points": 1,
           "gd": 0,
           "gf": 0,
           "ga": 0
         },
         {
-          "rank": 3,
-          "name": "Norway",
-          "logo": "https://crests.football-data.org/813.svg",
-          "played": 0,
+          "rank": 4,
+          "name": "Senegal",
+          "logo": "https://crests.football-data.org/senegal.svg",
+          "played": 1,
           "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
+          "gd": -2,
+          "gf": 1,
+          "ga": 3
         }
       ]
     },
@@ -2764,6 +2764,12 @@
       "goals": 2
     },
     {
+      "name": "Kylian Mbappé",
+      "photo": "https://crests.football-data.org/773.svg",
+      "team": "France",
+      "goals": 2
+    },
+    {
       "name": "Julián Quiñones",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
@@ -2852,12 +2858,6 @@
       "photo": "https://crests.football-data.org/779.svg",
       "team": "Australia",
       "goals": 1
-    },
-    {
-      "name": "Connor Metcalfe",
-      "photo": "https://crests.football-data.org/779.svg",
-      "team": "Australia",
-      "goals": 1
     }
   ],
   "assists": [
@@ -2903,6 +2903,18 @@
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 1,
+      "played": 1
+    },
+    {
+      "team": "France",
+      "logo": "https://crests.football-data.org/773.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Senegal",
+      "logo": "https://crests.football-data.org/senegal.svg",
+      "cleanSheets": 0,
       "played": 1
     },
     {
@@ -2974,18 +2986,6 @@
     {
       "team": "Germany",
       "logo": "https://crests.football-data.org/759.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Curaçao",
-      "logo": "https://crests.football-data.org/curacao.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Turkey",
-      "logo": "https://crests.football-data.org/803.svg",
       "cleanSheets": 0,
       "played": 1
     }
