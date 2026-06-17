@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-17T04:16:55.776Z"
+    "lastUpdated": "2026-06-17T09:18:56.001Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537398,
-        "date": "2026-06-17T04:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group J",
-        "venue": "",
-        "home": {
-          "name": "Austria",
-          "logo": "https://crests.football-data.org/816.svg"
-        },
-        "away": {
-          "name": "Jordan",
-          "logo": "https://crests.football-data.org/8049.png"
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537403,
@@ -1796,6 +1774,27 @@
     ],
     "finished": [
       {
+        "id": 537398,
+        "date": "2026-06-17T04:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group J",
+        "venue": "",
+        "home": {
+          "name": "Austria",
+          "logo": "https://crests.football-data.org/816.svg"
+        },
+        "away": {
+          "name": "Jordan",
+          "logo": "https://crests.football-data.org/8049.png"
+        },
+        "goals": {
+          "home": 3,
+          "away": 1
+        },
+        "events": []
+      },
+      {
         "id": 537397,
         "date": "2026-06-17T01:00:00Z",
         "status": "FINISHED",
@@ -2617,23 +2616,23 @@
         },
         {
           "rank": 2,
-          "name": "Jordan",
-          "logo": "https://crests.football-data.org/8049.png",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
-        },
-        {
-          "rank": 2,
           "name": "Austria",
           "logo": "https://crests.football-data.org/816.svg",
           "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
+          "points": 3,
+          "gd": 2,
+          "gf": 3,
+          "ga": 1
+        },
+        {
+          "rank": 3,
+          "name": "Jordan",
+          "logo": "https://crests.football-data.org/8049.png",
+          "played": 1,
+          "points": 0,
+          "gd": -2,
+          "gf": 1,
+          "ga": 3
         },
         {
           "rank": 4,
@@ -2912,6 +2911,18 @@
       "played": 1
     },
     {
+      "team": "Austria",
+      "logo": "https://crests.football-data.org/816.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Jordan",
+      "logo": "https://crests.football-data.org/8049.png",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
       "team": "Algeria",
       "logo": "https://crests.football-data.org/algeria.svg",
       "cleanSheets": 0,
@@ -2974,18 +2985,6 @@
     {
       "team": "Egypt",
       "logo": "https://crests.football-data.org/825.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Sweden",
-      "logo": "https://crests.football-data.org/792.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Tunisia",
-      "logo": "https://crests.football-data.org/tunisia.svg",
       "cleanSheets": 0,
       "played": 1
     }
