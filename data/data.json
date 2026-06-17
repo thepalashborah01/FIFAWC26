@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-17T19:14:12.240Z"
+    "lastUpdated": "2026-06-17T21:24:27.706Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537409,
         "date": "2026-06-17T20:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group L",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/799.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537410,
         "date": "2026-06-17T23:00:00Z",
@@ -2698,14 +2699,24 @@
           "rank": 1,
           "name": "England",
           "logo": "https://crests.football-data.org/770.svg",
-          "played": 0,
-          "points": 0,
+          "played": 1,
+          "points": 1,
           "gd": 0,
-          "gf": 0,
-          "ga": 0
+          "gf": 2,
+          "ga": 2
         },
         {
           "rank": 1,
+          "name": "Croatia",
+          "logo": "https://crests.football-data.org/799.svg",
+          "played": 1,
+          "points": 1,
+          "gd": 0,
+          "gf": 2,
+          "ga": 2
+        },
+        {
+          "rank": 3,
           "name": "Ghana",
           "logo": "https://crests.football-data.org/ghana.svg",
           "played": 0,
@@ -2715,17 +2726,7 @@
           "ga": 0
         },
         {
-          "rank": 1,
-          "name": "Croatia",
-          "logo": "https://crests.football-data.org/799.svg",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
-        },
-        {
-          "rank": 1,
+          "rank": 3,
           "name": "Panama",
           "logo": "https://crests.football-data.org/panama.svg",
           "played": 0,
@@ -2778,6 +2779,12 @@
       "name": "Erling Haaland",
       "photo": "https://crests.football-data.org/813.svg",
       "team": "Norway",
+      "goals": 2
+    },
+    {
+      "name": "Harry Kane",
+      "photo": "https://crests.football-data.org/770.svg",
+      "team": "England",
       "goals": 2
     },
     {
@@ -2850,12 +2857,6 @@
       "name": "Ismael Saibari",
       "photo": "https://crests.football-data.org/morocco.svg",
       "team": "Morocco",
-      "goals": 1
-    },
-    {
-      "name": "Vinicius Junior",
-      "photo": "https://crests.football-data.org/764.svg",
-      "team": "Brazil",
       "goals": 1
     }
   ],
