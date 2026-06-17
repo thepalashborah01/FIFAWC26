@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-17T21:24:27.706Z"
+    "lastUpdated": "2026-06-17T22:58:32.231Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537409,
-        "date": "2026-06-17T20:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group L",
-        "venue": "",
-        "home": {
-          "name": "England",
-          "logo": "https://crests.football-data.org/770.svg"
-        },
-        "away": {
-          "name": "Croatia",
-          "logo": "https://crests.football-data.org/799.svg"
-        },
-        "goals": {
-          "home": 3,
-          "away": 2
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537410,
@@ -1754,6 +1732,27 @@
     ],
     "finished": [
       {
+        "id": 537409,
+        "date": "2026-06-17T20:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group L",
+        "venue": "",
+        "home": {
+          "name": "England",
+          "logo": "https://crests.football-data.org/770.svg"
+        },
+        "away": {
+          "name": "Croatia",
+          "logo": "https://crests.football-data.org/799.svg"
+        },
+        "goals": {
+          "home": 4,
+          "away": 2
+        },
+        "events": []
+      },
+      {
         "id": 537403,
         "date": "2026-06-17T17:00:00Z",
         "status": "FINISHED",
@@ -2700,23 +2699,13 @@
           "name": "England",
           "logo": "https://crests.football-data.org/770.svg",
           "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 2,
+          "points": 3,
+          "gd": 2,
+          "gf": 4,
           "ga": 2
         },
         {
-          "rank": 1,
-          "name": "Croatia",
-          "logo": "https://crests.football-data.org/799.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 2,
-          "ga": 2
-        },
-        {
-          "rank": 3,
+          "rank": 2,
           "name": "Ghana",
           "logo": "https://crests.football-data.org/ghana.svg",
           "played": 0,
@@ -2726,7 +2715,7 @@
           "ga": 0
         },
         {
-          "rank": 3,
+          "rank": 2,
           "name": "Panama",
           "logo": "https://crests.football-data.org/panama.svg",
           "played": 0,
@@ -2734,6 +2723,16 @@
           "gd": 0,
           "gf": 0,
           "ga": 0
+        },
+        {
+          "rank": 4,
+          "name": "Croatia",
+          "logo": "https://crests.football-data.org/799.svg",
+          "played": 1,
+          "points": 0,
+          "gd": -2,
+          "gf": 2,
+          "ga": 4
         }
       ]
     }
@@ -2912,6 +2911,18 @@
       "played": 1
     },
     {
+      "team": "England",
+      "logo": "https://crests.football-data.org/770.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Croatia",
+      "logo": "https://crests.football-data.org/799.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
       "team": "Portugal",
       "logo": "https://crests.football-data.org/765.svg",
       "cleanSheets": 0,
@@ -2974,18 +2985,6 @@
     {
       "team": "New Zealand",
       "logo": "https://crests.football-data.org/783.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Saudi Arabia",
-      "logo": "https://crests.football-data.org/saudi_arabia.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Uruguay",
-      "logo": "https://crests.football-data.org/758.svg",
       "cleanSheets": 0,
       "played": 1
     }
