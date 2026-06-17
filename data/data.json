@@ -2,58 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-16T23:50:23.295Z"
+    "lastUpdated": "2026-06-17T04:16:55.776Z"
   },
   "matches": {
     "live": [
       {
-        "id": 537392,
-        "date": "2026-06-16T22:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group I",
-        "venue": "",
-        "home": {
-          "name": "Iraq",
-          "logo": "https://crests.football-data.org/iraq.svg"
-        },
-        "away": {
-          "name": "Norway",
-          "logo": "https://crests.football-data.org/813.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 3
-        },
-        "events": []
-      }
-    ],
-    "upcoming": [
-      {
-        "id": 537397,
-        "date": "2026-06-17T01:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group J",
-        "venue": "",
-        "home": {
-          "name": "Argentina",
-          "logo": "https://crests.football-data.org/762.png"
-        },
-        "away": {
-          "name": "Algeria",
-          "logo": "https://crests.football-data.org/algeria.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
-      {
         "id": 537398,
         "date": "2026-06-17T04:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group J",
         "venue": "",
@@ -66,11 +22,13 @@
           "logo": "https://crests.football-data.org/8049.png"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537403,
         "date": "2026-06-17T17:00:00Z",
@@ -1838,6 +1796,48 @@
     ],
     "finished": [
       {
+        "id": 537397,
+        "date": "2026-06-17T01:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group J",
+        "venue": "",
+        "home": {
+          "name": "Argentina",
+          "logo": "https://crests.football-data.org/762.png"
+        },
+        "away": {
+          "name": "Algeria",
+          "logo": "https://crests.football-data.org/algeria.svg"
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        },
+        "events": []
+      },
+      {
+        "id": 537392,
+        "date": "2026-06-16T22:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group I",
+        "venue": "",
+        "home": {
+          "name": "Iraq",
+          "logo": "https://crests.football-data.org/iraq.svg"
+        },
+        "away": {
+          "name": "Norway",
+          "logo": "https://crests.football-data.org/813.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 4
+        },
+        "events": []
+      },
+      {
         "id": 537391,
         "date": "2026-06-16T19:00:00Z",
         "status": "FINISHED",
@@ -2562,6 +2562,16 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Norway",
+          "logo": "https://crests.football-data.org/813.svg",
+          "played": 1,
+          "points": 3,
+          "gd": 3,
+          "gf": 4,
+          "ga": 1
+        },
+        {
+          "rank": 2,
           "name": "France",
           "logo": "https://crests.football-data.org/773.svg",
           "played": 1,
@@ -2571,27 +2581,7 @@
           "ga": 1
         },
         {
-          "rank": 2,
-          "name": "Norway",
-          "logo": "https://crests.football-data.org/813.svg",
-          "played": 1,
-          "points": 3,
-          "gd": 1,
-          "gf": 2,
-          "ga": 1
-        },
-        {
           "rank": 3,
-          "name": "Iraq",
-          "logo": "https://crests.football-data.org/iraq.svg",
-          "played": 1,
-          "points": 0,
-          "gd": -1,
-          "gf": 1,
-          "ga": 2
-        },
-        {
-          "rank": 4,
           "name": "Senegal",
           "logo": "https://crests.football-data.org/senegal.svg",
           "played": 1,
@@ -2599,6 +2589,16 @@
           "gd": -2,
           "gf": 1,
           "ga": 3
+        },
+        {
+          "rank": 4,
+          "name": "Iraq",
+          "logo": "https://crests.football-data.org/iraq.svg",
+          "played": 1,
+          "points": 0,
+          "gd": -3,
+          "gf": 1,
+          "ga": 4
         }
       ]
     },
@@ -2607,43 +2607,43 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Algeria",
-          "logo": "https://crests.football-data.org/algeria.svg",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
-        },
-        {
-          "rank": 1,
           "name": "Argentina",
           "logo": "https://crests.football-data.org/762.png",
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
+          "played": 1,
+          "points": 3,
+          "gd": 3,
+          "gf": 3,
           "ga": 0
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "Jordan",
           "logo": "https://crests.football-data.org/8049.png",
-          "played": 0,
-          "points": 0,
+          "played": 1,
+          "points": 1,
           "gd": 0,
           "gf": 0,
           "ga": 0
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "Austria",
           "logo": "https://crests.football-data.org/816.svg",
-          "played": 0,
-          "points": 0,
+          "played": 1,
+          "points": 1,
           "gd": 0,
           "gf": 0,
           "ga": 0
+        },
+        {
+          "rank": 4,
+          "name": "Algeria",
+          "logo": "https://crests.football-data.org/algeria.svg",
+          "played": 1,
+          "points": 0,
+          "gd": -3,
+          "gf": 0,
+          "ga": 3
         }
       ]
     },
@@ -2739,6 +2739,12 @@
     }
   ],
   "scorers": [
+    {
+      "name": "Lionel Messi",
+      "photo": "https://crests.football-data.org/762.png",
+      "team": "Argentina",
+      "goals": 3
+    },
     {
       "name": "Folarin Balogun",
       "photo": "https://crests.football-data.org/usa.svg",
@@ -2852,12 +2858,6 @@
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
       "goals": 1
-    },
-    {
-      "name": "John McGinn",
-      "photo": "https://crests.football-data.org/814.svg",
-      "team": "Scotland",
-      "goals": 1
     }
   ],
   "assists": [
@@ -2869,6 +2869,12 @@
     }
   ],
   "goldenGlove": [
+    {
+      "team": "Argentina",
+      "logo": "https://crests.football-data.org/762.png",
+      "cleanSheets": 1,
+      "played": 1
+    },
     {
       "team": "Spain",
       "logo": "https://crests.football-data.org/760.svg",
@@ -2903,6 +2909,24 @@
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 1,
+      "played": 1
+    },
+    {
+      "team": "Algeria",
+      "logo": "https://crests.football-data.org/algeria.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Iraq",
+      "logo": "https://crests.football-data.org/iraq.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "Norway",
+      "logo": "https://crests.football-data.org/813.svg",
+      "cleanSheets": 0,
       "played": 1
     },
     {
@@ -2962,30 +2986,6 @@
     {
       "team": "Tunisia",
       "logo": "https://crests.football-data.org/tunisia.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Ecuador",
-      "logo": "https://crests.football-data.org/791.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Netherlands",
-      "logo": "https://crests.football-data.org/8601.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Japan",
-      "logo": "https://crests.football-data.org/766.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Germany",
-      "logo": "https://crests.football-data.org/759.svg",
       "cleanSheets": 0,
       "played": 1
     }
