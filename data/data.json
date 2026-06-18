@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-18T16:35:07.956Z"
+    "lastUpdated": "2026-06-18T19:11:09.669Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537329,
-        "date": "2026-06-18T16:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group A",
-        "venue": "",
-        "home": {
-          "name": "Czechia",
-          "logo": "https://crests.football-data.org/798.svg"
-        },
-        "away": {
-          "name": "South Africa",
-          "logo": "https://crests.football-data.org/9396.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537335,
@@ -1691,6 +1669,27 @@
     ],
     "finished": [
       {
+        "id": 537329,
+        "date": "2026-06-18T16:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group A",
+        "venue": "",
+        "home": {
+          "name": "Czechia",
+          "logo": "https://crests.football-data.org/798.svg"
+        },
+        "away": {
+          "name": "South Africa",
+          "logo": "https://crests.football-data.org/9396.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "events": []
+      },
+      {
         "id": 537404,
         "date": "2026-06-18T02:00:00Z",
         "status": "FINISHED",
@@ -2225,19 +2224,19 @@
           "name": "Czechia",
           "logo": "https://crests.football-data.org/798.svg",
           "played": 2,
-          "points": 3,
-          "gd": 0,
+          "points": 1,
+          "gd": -1,
           "gf": 2,
-          "ga": 2
+          "ga": 3
         },
         {
           "rank": 4,
           "name": "South Africa",
           "logo": "https://crests.football-data.org/9396.svg",
           "played": 2,
-          "points": 0,
-          "gd": -3,
-          "gf": 0,
+          "points": 1,
+          "gd": -2,
+          "gf": 1,
           "ga": 3
         }
       ]
@@ -2249,14 +2248,24 @@
           "rank": 1,
           "name": "Switzerland",
           "logo": "https://crests.football-data.org/788.svg",
-          "played": 1,
-          "points": 1,
+          "played": 2,
+          "points": 2,
           "gd": 0,
           "gf": 1,
           "ga": 1
         },
         {
           "rank": 2,
+          "name": "Bosnia-H.",
+          "logo": "https://crests.football-data.org/bosnia.svg",
+          "played": 2,
+          "points": 2,
+          "gd": 0,
+          "gf": 1,
+          "ga": 1
+        },
+        {
+          "rank": 3,
           "name": "Canada",
           "logo": "https://crests.football-data.org/canada.svg",
           "played": 1,
@@ -2266,19 +2275,9 @@
           "ga": 1
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Qatar",
           "logo": "https://crests.football-data.org/8030.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 1,
-          "ga": 1
-        },
-        {
-          "rank": 4,
-          "name": "Bosnia-H.",
-          "logo": "https://crests.football-data.org/bosnia.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
