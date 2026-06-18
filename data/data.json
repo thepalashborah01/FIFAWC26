@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-17T22:58:32.231Z"
+    "lastUpdated": "2026-06-18T00:22:53.999Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537410,
         "date": "2026-06-17T23:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group L",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/panama.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537404,
         "date": "2026-06-18T02:00:00Z",
@@ -2708,8 +2709,8 @@
           "rank": 2,
           "name": "Ghana",
           "logo": "https://crests.football-data.org/ghana.svg",
-          "played": 0,
-          "points": 0,
+          "played": 1,
+          "points": 1,
           "gd": 0,
           "gf": 0,
           "ga": 0
@@ -2718,8 +2719,8 @@
           "rank": 2,
           "name": "Panama",
           "logo": "https://crests.football-data.org/panama.svg",
-          "played": 0,
-          "points": 0,
+          "played": 1,
+          "points": 1,
           "gd": 0,
           "gf": 0,
           "ga": 0
