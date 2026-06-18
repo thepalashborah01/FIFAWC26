@@ -2,32 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-18T19:11:09.669Z"
+    "lastUpdated": "2026-06-18T21:29:52.951Z"
   },
   "matches": {
     "live": [],
     "upcoming": [
-      {
-        "id": 537335,
-        "date": "2026-06-18T19:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group B",
-        "venue": "",
-        "home": {
-          "name": "Switzerland",
-          "logo": "https://crests.football-data.org/788.svg"
-        },
-        "away": {
-          "name": "Bosnia-H.",
-          "logo": "https://crests.football-data.org/bosnia.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
       {
         "id": 537336,
         "date": "2026-06-18T22:00:00Z",
@@ -1669,6 +1648,27 @@
     ],
     "finished": [
       {
+        "id": 537335,
+        "date": "2026-06-18T19:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group B",
+        "venue": "",
+        "home": {
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg"
+        },
+        "away": {
+          "name": "Bosnia-H.",
+          "logo": "https://crests.football-data.org/bosnia.svg"
+        },
+        "goals": {
+          "home": 4,
+          "away": 1
+        },
+        "events": []
+      },
+      {
         "id": 537329,
         "date": "2026-06-18T16:00:00Z",
         "status": "FINISHED",
@@ -2249,23 +2249,13 @@
           "name": "Switzerland",
           "logo": "https://crests.football-data.org/788.svg",
           "played": 2,
-          "points": 2,
-          "gd": 0,
-          "gf": 1,
-          "ga": 1
+          "points": 4,
+          "gd": 3,
+          "gf": 5,
+          "ga": 2
         },
         {
           "rank": 2,
-          "name": "Bosnia-H.",
-          "logo": "https://crests.football-data.org/bosnia.svg",
-          "played": 2,
-          "points": 2,
-          "gd": 0,
-          "gf": 1,
-          "ga": 1
-        },
-        {
-          "rank": 3,
           "name": "Canada",
           "logo": "https://crests.football-data.org/canada.svg",
           "played": 1,
@@ -2273,6 +2263,16 @@
           "gd": 0,
           "gf": 1,
           "ga": 1
+        },
+        {
+          "rank": 3,
+          "name": "Bosnia-H.",
+          "logo": "https://crests.football-data.org/bosnia.svg",
+          "played": 2,
+          "points": 1,
+          "gd": -3,
+          "gf": 2,
+          "ga": 5
         },
         {
           "rank": 4,
@@ -2787,6 +2787,12 @@
       "goals": 2
     },
     {
+      "name": "Johan Manzambi",
+      "photo": "https://crests.football-data.org/788.svg",
+      "team": "Switzerland",
+      "goals": 2
+    },
+    {
       "name": "Julián Quiñones",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
@@ -2851,12 +2857,6 @@
       "photo": "https://crests.football-data.org/8030.svg",
       "team": "Qatar",
       "goals": 1
-    },
-    {
-      "name": "Ismael Saibari",
-      "photo": "https://crests.football-data.org/morocco.svg",
-      "team": "Morocco",
-      "goals": 1
     }
   ],
   "assists": [
@@ -2864,6 +2864,12 @@
       "name": "In-beom Hwang",
       "photo": "https://crests.football-data.org/772.png",
       "team": "Korea Republic",
+      "assists": 1
+    },
+    {
+      "name": "Breel Embolo",
+      "photo": "https://crests.football-data.org/788.svg",
+      "team": "Switzerland",
       "assists": 1
     }
   ],
