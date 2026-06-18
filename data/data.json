@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-18T21:29:52.951Z"
+    "lastUpdated": "2026-06-18T23:21:02.407Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537336,
         "date": "2026-06-18T22:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group B",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/8030.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537330,
         "date": "2026-06-19T01:00:00Z",
@@ -2258,10 +2259,10 @@
           "rank": 2,
           "name": "Canada",
           "logo": "https://crests.football-data.org/canada.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 1,
+          "played": 2,
+          "points": 4,
+          "gd": 3,
+          "gf": 4,
           "ga": 1
         },
         {
@@ -2278,11 +2279,11 @@
           "rank": 4,
           "name": "Qatar",
           "logo": "https://crests.football-data.org/8030.svg",
-          "played": 1,
+          "played": 2,
           "points": 1,
-          "gd": 0,
+          "gd": -3,
           "gf": 1,
-          "ga": 1
+          "ga": 4
         }
       ]
     },
@@ -2745,6 +2746,12 @@
       "goals": 3
     },
     {
+      "name": "Cyle Larin",
+      "photo": "https://crests.football-data.org/canada.svg",
+      "team": "Canada",
+      "goals": 2
+    },
+    {
       "name": "Folarin Balogun",
       "photo": "https://crests.football-data.org/usa.svg",
       "team": "USA",
@@ -2793,6 +2800,12 @@
       "goals": 2
     },
     {
+      "name": "Jonathan David",
+      "photo": "https://crests.football-data.org/canada.svg",
+      "team": "Canada",
+      "goals": 2
+    },
+    {
       "name": "Julián Quiñones",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
@@ -2829,12 +2842,6 @@
       "goals": 1
     },
     {
-      "name": "Cyle Larin",
-      "photo": "https://crests.football-data.org/canada.svg",
-      "team": "Canada",
-      "goals": 1
-    },
-    {
       "name": "Mauricio",
       "photo": "https://crests.football-data.org/761.svg",
       "team": "Paraguay",
@@ -2850,12 +2857,6 @@
       "name": "Breel Embolo",
       "photo": "https://crests.football-data.org/788.svg",
       "team": "Switzerland",
-      "goals": 1
-    },
-    {
-      "name": "Boualem Khoukhi",
-      "photo": "https://crests.football-data.org/8030.svg",
-      "team": "Qatar",
       "goals": 1
     }
   ],
