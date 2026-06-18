@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-18T12:54:31.102Z"
+    "lastUpdated": "2026-06-18T16:35:07.956Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537329,
         "date": "2026-06-18T16:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group A",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/9396.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537335,
         "date": "2026-06-18T19:00:00Z",
@@ -2223,21 +2224,21 @@
           "rank": 3,
           "name": "Czechia",
           "logo": "https://crests.football-data.org/798.svg",
-          "played": 1,
-          "points": 0,
-          "gd": -1,
-          "gf": 1,
+          "played": 2,
+          "points": 3,
+          "gd": 0,
+          "gf": 2,
           "ga": 2
         },
         {
           "rank": 4,
           "name": "South Africa",
           "logo": "https://crests.football-data.org/9396.svg",
-          "played": 1,
+          "played": 2,
           "points": 0,
-          "gd": -2,
+          "gd": -3,
           "gf": 0,
-          "ga": 2
+          "ga": 3
         }
       ]
     },
