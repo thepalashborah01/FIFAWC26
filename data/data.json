@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-19T17:30:25.073Z"
+    "lastUpdated": "2026-06-19T19:18:04.840Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537348,
         "date": "2026-06-19T19:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group D",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/779.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537342,
         "date": "2026-06-19T22:00:00Z",
@@ -2146,8 +2147,8 @@
           "logo": "https://crests.football-data.org/bosnia.svg"
         },
         "goals": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "events": []
       },
@@ -2338,8 +2339,8 @@
           "rank": 1,
           "name": "USA",
           "logo": "https://crests.football-data.org/usa.svg",
-          "played": 1,
-          "points": 3,
+          "played": 2,
+          "points": 4,
           "gd": 3,
           "gf": 4,
           "ga": 1
@@ -2348,8 +2349,8 @@
           "rank": 2,
           "name": "Australia",
           "logo": "https://crests.football-data.org/779.svg",
-          "played": 1,
-          "points": 3,
+          "played": 2,
+          "points": 4,
           "gd": 2,
           "gf": 2,
           "ga": 0
@@ -2881,6 +2882,12 @@
       "played": 2
     },
     {
+      "team": "Canada",
+      "logo": "https://crests.football-data.org/canada.svg",
+      "cleanSheets": 1,
+      "played": 1
+    },
+    {
       "team": "Ghana",
       "logo": "https://crests.football-data.org/ghana.svg",
       "cleanSheets": 1,
@@ -2923,10 +2930,10 @@
       "played": 1
     },
     {
-      "team": "Canada",
-      "logo": "https://crests.football-data.org/canada.svg",
-      "cleanSheets": 1,
-      "played": 2
+      "team": "Bosnia-H.",
+      "logo": "https://crests.football-data.org/bosnia.svg",
+      "cleanSheets": 0,
+      "played": 1
     },
     {
       "team": "Uzbekistan",
@@ -2985,12 +2992,6 @@
     {
       "team": "Algeria",
       "logo": "https://crests.football-data.org/algeria.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Iraq",
-      "logo": "https://crests.football-data.org/iraq.svg",
       "cleanSheets": 0,
       "played": 1
     }
