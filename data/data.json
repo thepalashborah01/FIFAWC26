@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-19T20:51:56.640Z"
+    "lastUpdated": "2026-06-19T22:04:50.891Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537348,
-        "date": "2026-06-19T19:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group D",
-        "venue": "",
-        "home": {
-          "name": "USA",
-          "logo": "https://crests.football-data.org/usa.svg"
-        },
-        "away": {
-          "name": "Australia",
-          "logo": "https://crests.football-data.org/779.svg"
-        },
-        "goals": {
-          "home": 2,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537342,
@@ -1607,6 +1585,27 @@
     ],
     "finished": [
       {
+        "id": 537348,
+        "date": "2026-06-19T19:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group D",
+        "venue": "",
+        "home": {
+          "name": "USA",
+          "logo": "https://crests.football-data.org/usa.svg"
+        },
+        "away": {
+          "name": "Australia",
+          "logo": "https://crests.football-data.org/779.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "events": []
+      },
+      {
         "id": 537330,
         "date": "2026-06-19T01:00:00Z",
         "status": "FINISHED",
@@ -2294,8 +2293,8 @@
           "rank": 1,
           "name": "Scotland",
           "logo": "https://crests.football-data.org/814.svg",
-          "played": 1,
-          "points": 3,
+          "played": 2,
+          "points": 4,
           "gd": 1,
           "gf": 1,
           "ga": 0
@@ -2304,8 +2303,8 @@
           "rank": 2,
           "name": "Morocco",
           "logo": "https://crests.football-data.org/morocco.svg",
-          "played": 1,
-          "points": 1,
+          "played": 2,
+          "points": 2,
           "gd": 0,
           "gf": 1,
           "ga": 1
@@ -2764,6 +2763,12 @@
       "goals": 2
     },
     {
+      "name": "Ismael Saibari",
+      "photo": "https://crests.football-data.org/morocco.svg",
+      "team": "Morocco",
+      "goals": 2
+    },
+    {
       "name": "Kai Havertz",
       "photo": "https://crests.football-data.org/759.svg",
       "team": "Germany",
@@ -2852,12 +2857,6 @@
       "photo": "https://crests.football-data.org/usa.svg",
       "team": "USA",
       "goals": 1
-    },
-    {
-      "name": "Breel Embolo",
-      "photo": "https://crests.football-data.org/788.svg",
-      "team": "Switzerland",
-      "goals": 1
     }
   ],
   "assists": [
@@ -2865,12 +2864,6 @@
       "name": "In-beom Hwang",
       "photo": "https://crests.football-data.org/772.png",
       "team": "Korea Republic",
-      "assists": 1
-    },
-    {
-      "name": "Breel Embolo",
-      "photo": "https://crests.football-data.org/788.svg",
-      "team": "Switzerland",
       "assists": 1
     }
   ],
@@ -2912,16 +2905,22 @@
       "played": 1
     },
     {
-      "team": "Australia",
-      "logo": "https://crests.football-data.org/779.svg",
-      "cleanSheets": 1,
-      "played": 1
-    },
-    {
       "team": "Scotland",
       "logo": "https://crests.football-data.org/814.svg",
       "cleanSheets": 1,
       "played": 1
+    },
+    {
+      "team": "USA",
+      "logo": "https://crests.football-data.org/usa.svg",
+      "cleanSheets": 1,
+      "played": 2
+    },
+    {
+      "team": "Australia",
+      "logo": "https://crests.football-data.org/779.svg",
+      "cleanSheets": 1,
+      "played": 2
     },
     {
       "team": "Canada",
@@ -2986,12 +2985,6 @@
     {
       "team": "Algeria",
       "logo": "https://crests.football-data.org/algeria.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Iraq",
-      "logo": "https://crests.football-data.org/iraq.svg",
       "cleanSheets": 0,
       "played": 1
     }
