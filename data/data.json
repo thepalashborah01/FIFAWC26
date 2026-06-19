@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-19T02:17:55.453Z"
+    "lastUpdated": "2026-06-19T07:39:20.212Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537330,
-        "date": "2026-06-19T01:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group A",
-        "venue": "",
-        "home": {
-          "name": "Mexico",
-          "logo": "https://crests.football-data.org/769.svg"
-        },
-        "away": {
-          "name": "Korea Republic",
-          "logo": "https://crests.football-data.org/772.png"
-        },
-        "goals": {
-          "home": 1,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537348,
@@ -1628,6 +1606,27 @@
     ],
     "finished": [
       {
+        "id": 537330,
+        "date": "2026-06-19T01:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group A",
+        "venue": "",
+        "home": {
+          "name": "Mexico",
+          "logo": "https://crests.football-data.org/769.svg"
+        },
+        "away": {
+          "name": "Korea Republic",
+          "logo": "https://crests.football-data.org/772.png"
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "events": []
+      },
+      {
         "id": 537336,
         "date": "2026-06-18T22:00:00Z",
         "status": "FINISHED",
@@ -2205,9 +2204,9 @@
           "name": "Mexico",
           "logo": "https://crests.football-data.org/769.svg",
           "played": 2,
-          "points": 4,
-          "gd": 2,
-          "gf": 2,
+          "points": 6,
+          "gd": 3,
+          "gf": 3,
           "ga": 0
         },
         {
@@ -2215,10 +2214,10 @@
           "name": "Korea Republic",
           "logo": "https://crests.football-data.org/772.png",
           "played": 2,
-          "points": 4,
-          "gd": 1,
+          "points": 3,
+          "gd": 0,
           "gf": 2,
-          "ga": 1
+          "ga": 2
         },
         {
           "rank": 3,
@@ -2876,6 +2875,12 @@
   ],
   "goldenGlove": [
     {
+      "team": "Mexico",
+      "logo": "https://crests.football-data.org/769.svg",
+      "cleanSheets": 2,
+      "played": 2
+    },
+    {
       "team": "Ghana",
       "logo": "https://crests.football-data.org/ghana.svg",
       "cleanSheets": 1,
@@ -2914,12 +2919,6 @@
     {
       "team": "Scotland",
       "logo": "https://crests.football-data.org/814.svg",
-      "cleanSheets": 1,
-      "played": 1
-    },
-    {
-      "team": "Mexico",
-      "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 1,
       "played": 1
     },
