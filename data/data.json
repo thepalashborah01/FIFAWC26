@@ -2,37 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-18T23:21:02.407Z"
+    "lastUpdated": "2026-06-19T02:17:55.453Z"
   },
   "matches": {
     "live": [
       {
-        "id": 537336,
-        "date": "2026-06-18T22:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group B",
-        "venue": "",
-        "home": {
-          "name": "Canada",
-          "logo": "https://crests.football-data.org/canada.svg"
-        },
-        "away": {
-          "name": "Qatar",
-          "logo": "https://crests.football-data.org/8030.svg"
-        },
-        "goals": {
-          "home": 3,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
-    "upcoming": [
-      {
         "id": 537330,
         "date": "2026-06-19T01:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group A",
         "venue": "",
@@ -45,11 +22,13 @@
           "logo": "https://crests.football-data.org/772.png"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537348,
         "date": "2026-06-19T19:00:00Z",
@@ -1649,6 +1628,27 @@
     ],
     "finished": [
       {
+        "id": 537336,
+        "date": "2026-06-18T22:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group B",
+        "venue": "",
+        "home": {
+          "name": "Canada",
+          "logo": "https://crests.football-data.org/canada.svg"
+        },
+        "away": {
+          "name": "Qatar",
+          "logo": "https://crests.football-data.org/8030.svg"
+        },
+        "goals": {
+          "home": 6,
+          "away": 0
+        },
+        "events": []
+      },
+      {
         "id": 537335,
         "date": "2026-06-18T19:00:00Z",
         "status": "FINISHED",
@@ -2204,8 +2204,8 @@
           "rank": 1,
           "name": "Mexico",
           "logo": "https://crests.football-data.org/769.svg",
-          "played": 1,
-          "points": 3,
+          "played": 2,
+          "points": 4,
           "gd": 2,
           "gf": 2,
           "ga": 0
@@ -2214,8 +2214,8 @@
           "rank": 2,
           "name": "Korea Republic",
           "logo": "https://crests.football-data.org/772.png",
-          "played": 1,
-          "points": 3,
+          "played": 2,
+          "points": 4,
           "gd": 1,
           "gf": 2,
           "ga": 1
@@ -2247,6 +2247,16 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Canada",
+          "logo": "https://crests.football-data.org/canada.svg",
+          "played": 2,
+          "points": 4,
+          "gd": 6,
+          "gf": 7,
+          "ga": 1
+        },
+        {
+          "rank": 2,
           "name": "Switzerland",
           "logo": "https://crests.football-data.org/788.svg",
           "played": 2,
@@ -2254,16 +2264,6 @@
           "gd": 3,
           "gf": 5,
           "ga": 2
-        },
-        {
-          "rank": 2,
-          "name": "Canada",
-          "logo": "https://crests.football-data.org/canada.svg",
-          "played": 2,
-          "points": 4,
-          "gd": 3,
-          "gf": 4,
-          "ga": 1
         },
         {
           "rank": 3,
@@ -2281,9 +2281,9 @@
           "logo": "https://crests.football-data.org/8030.svg",
           "played": 2,
           "points": 1,
-          "gd": -3,
+          "gd": -6,
           "gf": 1,
-          "ga": 4
+          "ga": 7
         }
       ]
     },
@@ -2746,6 +2746,12 @@
       "goals": 3
     },
     {
+      "name": "Jonathan David",
+      "photo": "https://crests.football-data.org/canada.svg",
+      "team": "Canada",
+      "goals": 3
+    },
+    {
       "name": "Cyle Larin",
       "photo": "https://crests.football-data.org/canada.svg",
       "team": "Canada",
@@ -2797,12 +2803,6 @@
       "name": "Johan Manzambi",
       "photo": "https://crests.football-data.org/788.svg",
       "team": "Switzerland",
-      "goals": 2
-    },
-    {
-      "name": "Jonathan David",
-      "photo": "https://crests.football-data.org/canada.svg",
-      "team": "Canada",
       "goals": 2
     },
     {
@@ -2924,6 +2924,12 @@
       "played": 1
     },
     {
+      "team": "Canada",
+      "logo": "https://crests.football-data.org/canada.svg",
+      "cleanSheets": 1,
+      "played": 2
+    },
+    {
       "team": "Uzbekistan",
       "logo": "https://crests.football-data.org/8070.png",
       "cleanSheets": 0,
@@ -2986,12 +2992,6 @@
     {
       "team": "Iraq",
       "logo": "https://crests.football-data.org/iraq.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Norway",
-      "logo": "https://crests.football-data.org/813.svg",
       "cleanSheets": 0,
       "played": 1
     }
