@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-19T22:04:50.891Z"
+    "lastUpdated": "2026-06-19T23:15:32.300Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537342,
         "date": "2026-06-19T22:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group C",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/morocco.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537341,
         "date": "2026-06-20T00:30:00Z",
@@ -2291,20 +2292,20 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Scotland",
-          "logo": "https://crests.football-data.org/814.svg",
-          "played": 2,
-          "points": 4,
-          "gd": 1,
-          "gf": 1,
-          "ga": 0
-        },
-        {
-          "rank": 2,
           "name": "Morocco",
           "logo": "https://crests.football-data.org/morocco.svg",
           "played": 2,
-          "points": 2,
+          "points": 4,
+          "gd": 1,
+          "gf": 2,
+          "ga": 1
+        },
+        {
+          "rank": 2,
+          "name": "Scotland",
+          "logo": "https://crests.football-data.org/814.svg",
+          "played": 2,
+          "points": 3,
           "gd": 0,
           "gf": 1,
           "ga": 1
