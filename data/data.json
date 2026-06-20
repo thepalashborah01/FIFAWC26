@@ -2,37 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-19T23:15:32.300Z"
+    "lastUpdated": "2026-06-20T01:35:54.934Z"
   },
   "matches": {
     "live": [
       {
-        "id": 537342,
-        "date": "2026-06-19T22:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group C",
-        "venue": "",
-        "home": {
-          "name": "Scotland",
-          "logo": "https://crests.football-data.org/814.svg"
-        },
-        "away": {
-          "name": "Morocco",
-          "logo": "https://crests.football-data.org/morocco.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
-    "upcoming": [
-      {
         "id": 537341,
         "date": "2026-06-20T00:30:00Z",
-        "status": "NS",
+        "status": "PAUSED",
         "minute": null,
         "round": "Group C",
         "venue": "",
@@ -45,11 +22,13 @@
           "logo": "https://crests.football-data.org/haiti.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537347,
         "date": "2026-06-20T03:00:00Z",
@@ -1586,6 +1565,27 @@
     ],
     "finished": [
       {
+        "id": 537342,
+        "date": "2026-06-19T22:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group C",
+        "venue": "",
+        "home": {
+          "name": "Scotland",
+          "logo": "https://crests.football-data.org/814.svg"
+        },
+        "away": {
+          "name": "Morocco",
+          "logo": "https://crests.football-data.org/morocco.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "events": []
+      },
+      {
         "id": 537348,
         "date": "2026-06-19T19:00:00Z",
         "status": "FINISHED",
@@ -2302,6 +2302,16 @@
         },
         {
           "rank": 2,
+          "name": "Brazil",
+          "logo": "https://crests.football-data.org/764.svg",
+          "played": 2,
+          "points": 4,
+          "gd": 3,
+          "gf": 4,
+          "ga": 1
+        },
+        {
+          "rank": 3,
           "name": "Scotland",
           "logo": "https://crests.football-data.org/814.svg",
           "played": 2,
@@ -2311,24 +2321,14 @@
           "ga": 1
         },
         {
-          "rank": 3,
-          "name": "Brazil",
-          "logo": "https://crests.football-data.org/764.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 1,
-          "ga": 1
-        },
-        {
           "rank": 4,
           "name": "Haiti",
           "logo": "https://crests.football-data.org/haiti.svg",
-          "played": 1,
+          "played": 2,
           "points": 0,
-          "gd": -1,
+          "gd": -4,
           "gf": 0,
-          "ga": 1
+          "ga": 4
         }
       ]
     },
@@ -2770,6 +2770,12 @@
       "goals": 2
     },
     {
+      "name": "Vinicius Junior",
+      "photo": "https://crests.football-data.org/764.svg",
+      "team": "Brazil",
+      "goals": 2
+    },
+    {
       "name": "Kai Havertz",
       "photo": "https://crests.football-data.org/759.svg",
       "team": "Germany",
@@ -2812,6 +2818,12 @@
       "goals": 2
     },
     {
+      "name": "Matheus Cunha",
+      "photo": "https://crests.football-data.org/764.svg",
+      "team": "Brazil",
+      "goals": 2
+    },
+    {
       "name": "Julián Quiñones",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
@@ -2846,21 +2858,15 @@
       "photo": "https://crests.football-data.org/bosnia.svg",
       "team": "Bosnia-H.",
       "goals": 1
-    },
-    {
-      "name": "Mauricio",
-      "photo": "https://crests.football-data.org/761.svg",
-      "team": "Paraguay",
-      "goals": 1
-    },
-    {
-      "name": "Gio Reyna",
-      "photo": "https://crests.football-data.org/usa.svg",
-      "team": "USA",
-      "goals": 1
     }
   ],
   "assists": [
+    {
+      "name": "Vinicius Junior",
+      "photo": "https://crests.football-data.org/764.svg",
+      "team": "Brazil",
+      "assists": 2
+    },
     {
       "name": "In-beom Hwang",
       "photo": "https://crests.football-data.org/772.png",
@@ -2909,7 +2915,13 @@
       "team": "Scotland",
       "logo": "https://crests.football-data.org/814.svg",
       "cleanSheets": 1,
-      "played": 1
+      "played": 2
+    },
+    {
+      "team": "Morocco",
+      "logo": "https://crests.football-data.org/morocco.svg",
+      "cleanSheets": 1,
+      "played": 2
     },
     {
       "team": "USA",
@@ -2980,12 +2992,6 @@
     {
       "team": "Jordan",
       "logo": "https://crests.football-data.org/8049.png",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Algeria",
-      "logo": "https://crests.football-data.org/algeria.svg",
       "cleanSheets": 0,
       "played": 1
     }
