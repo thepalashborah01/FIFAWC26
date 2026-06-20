@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-20T21:48:06.405Z"
+    "lastUpdated": "2026-06-20T23:10:48.144Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537353,
-        "date": "2026-06-20T20:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group E",
-        "venue": "",
-        "home": {
-          "name": "Germany",
-          "logo": "https://crests.football-data.org/759.svg"
-        },
-        "away": {
-          "name": "Ivory Coast",
-          "logo": "https://crests.football-data.org/787.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537354,
@@ -1502,6 +1480,27 @@
     ],
     "finished": [
       {
+        "id": 537353,
+        "date": "2026-06-20T20:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group E",
+        "venue": "",
+        "home": {
+          "name": "Germany",
+          "logo": "https://crests.football-data.org/759.svg"
+        },
+        "away": {
+          "name": "Ivory Coast",
+          "logo": "https://crests.football-data.org/787.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "events": []
+      },
+      {
         "id": 537359,
         "date": "2026-06-20T17:00:00Z",
         "status": "FINISHED",
@@ -2382,22 +2381,22 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Ivory Coast",
-          "logo": "https://crests.football-data.org/787.svg",
-          "played": 2,
-          "points": 6,
-          "gd": 2,
-          "gf": 2,
-          "ga": 0
-        },
-        {
-          "rank": 2,
           "name": "Germany",
           "logo": "https://crests.football-data.org/759.svg",
           "played": 2,
+          "points": 6,
+          "gd": 7,
+          "gf": 9,
+          "ga": 2
+        },
+        {
+          "rank": 2,
+          "name": "Ivory Coast",
+          "logo": "https://crests.football-data.org/787.svg",
+          "played": 2,
           "points": 3,
-          "gd": 5,
-          "gf": 7,
+          "gd": 0,
+          "gf": 2,
           "ga": 2
         },
         {
@@ -2740,6 +2739,12 @@
   ],
   "scorers": [
     {
+      "name": "Deniz Undav",
+      "photo": "https://crests.football-data.org/759.svg",
+      "team": "Germany",
+      "goals": 3
+    },
+    {
       "name": "Lionel Messi",
       "photo": "https://crests.football-data.org/762.png",
       "team": "Argentina",
@@ -2777,12 +2782,6 @@
     },
     {
       "name": "Kai Havertz",
-      "photo": "https://crests.football-data.org/759.svg",
-      "team": "Germany",
-      "goals": 2
-    },
-    {
-      "name": "Deniz Undav",
       "photo": "https://crests.football-data.org/759.svg",
       "team": "Germany",
       "goals": 2
@@ -2862,15 +2861,15 @@
   ],
   "assists": [
     {
-      "name": "Vinicius Junior",
-      "photo": "https://crests.football-data.org/764.svg",
-      "team": "Brazil",
-      "assists": 2
-    },
-    {
       "name": "Deniz Undav",
       "photo": "https://crests.football-data.org/759.svg",
       "team": "Germany",
+      "assists": 2
+    },
+    {
+      "name": "Vinicius Junior",
+      "photo": "https://crests.football-data.org/764.svg",
+      "team": "Brazil",
       "assists": 2
     },
     {
@@ -2915,7 +2914,7 @@
       "team": "Ivory Coast",
       "logo": "https://crests.football-data.org/787.svg",
       "cleanSheets": 1,
-      "played": 1
+      "played": 2
     },
     {
       "team": "Paraguay",
