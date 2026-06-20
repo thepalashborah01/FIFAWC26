@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-20T17:02:07.760Z"
+    "lastUpdated": "2026-06-20T18:45:42.479Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537359,
         "date": "2026-06-20T17:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group F",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/792.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537353,
         "date": "2026-06-20T20:00:00Z",
@@ -2426,23 +2427,23 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Sweden",
-          "logo": "https://crests.football-data.org/792.svg",
-          "played": 2,
-          "points": 4,
-          "gd": 4,
-          "gf": 5,
-          "ga": 1
-        },
-        {
-          "rank": 2,
           "name": "Netherlands",
           "logo": "https://crests.football-data.org/8601.svg",
           "played": 2,
-          "points": 2,
-          "gd": 0,
-          "gf": 2,
-          "ga": 2
+          "points": 4,
+          "gd": 3,
+          "gf": 6,
+          "ga": 3
+        },
+        {
+          "rank": 2,
+          "name": "Sweden",
+          "logo": "https://crests.football-data.org/792.svg",
+          "played": 2,
+          "points": 3,
+          "gd": 1,
+          "gf": 6,
+          "ga": 5
         },
         {
           "rank": 3,
@@ -2823,6 +2824,18 @@
       "goals": 2
     },
     {
+      "name": "Brian Brobbey",
+      "photo": "https://crests.football-data.org/8601.svg",
+      "team": "Netherlands",
+      "goals": 2
+    },
+    {
+      "name": "Cody Gakpo",
+      "photo": "https://crests.football-data.org/8601.svg",
+      "team": "Netherlands",
+      "goals": 2
+    },
+    {
       "name": "Julián Quiñones",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
@@ -2845,18 +2858,6 @@
       "photo": "https://crests.football-data.org/772.png",
       "team": "Korea Republic",
       "goals": 1
-    },
-    {
-      "name": "Hyun-Gyu Oh",
-      "photo": "https://crests.football-data.org/772.png",
-      "team": "Korea Republic",
-      "goals": 1
-    },
-    {
-      "name": "Jovo Lukić",
-      "photo": "https://crests.football-data.org/bosnia.svg",
-      "team": "Bosnia-H.",
-      "goals": 1
     }
   ],
   "assists": [
@@ -2865,6 +2866,12 @@
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
       "assists": 2
+    },
+    {
+      "name": "Cody Gakpo",
+      "photo": "https://crests.football-data.org/8601.svg",
+      "team": "Netherlands",
+      "assists": 1
     },
     {
       "name": "In-beom Hwang",
