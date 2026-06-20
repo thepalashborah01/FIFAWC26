@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-20T15:21:54.320Z"
+    "lastUpdated": "2026-06-20T17:02:07.760Z"
   },
   "matches": {
     "live": [],
@@ -2428,26 +2428,26 @@
           "rank": 1,
           "name": "Sweden",
           "logo": "https://crests.football-data.org/792.svg",
-          "played": 1,
-          "points": 3,
+          "played": 2,
+          "points": 4,
           "gd": 4,
           "gf": 5,
           "ga": 1
         },
         {
           "rank": 2,
-          "name": "Japan",
-          "logo": "https://crests.football-data.org/766.svg",
-          "played": 1,
-          "points": 1,
+          "name": "Netherlands",
+          "logo": "https://crests.football-data.org/8601.svg",
+          "played": 2,
+          "points": 2,
           "gd": 0,
           "gf": 2,
           "ga": 2
         },
         {
-          "rank": 2,
-          "name": "Netherlands",
-          "logo": "https://crests.football-data.org/8601.svg",
+          "rank": 3,
+          "name": "Japan",
+          "logo": "https://crests.football-data.org/766.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
