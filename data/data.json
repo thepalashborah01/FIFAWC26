@@ -2,54 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-20T01:35:54.934Z"
+    "lastUpdated": "2026-06-20T06:03:30.584Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537341,
-        "date": "2026-06-20T00:30:00Z",
-        "status": "PAUSED",
-        "minute": null,
-        "round": "Group C",
-        "venue": "",
-        "home": {
-          "name": "Brazil",
-          "logo": "https://crests.football-data.org/764.svg"
-        },
-        "away": {
-          "name": "Haiti",
-          "logo": "https://crests.football-data.org/haiti.svg"
-        },
-        "goals": {
-          "home": 3,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
-      {
-        "id": 537347,
-        "date": "2026-06-20T03:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group D",
-        "venue": "",
-        "home": {
-          "name": "Turkey",
-          "logo": "https://crests.football-data.org/803.svg"
-        },
-        "away": {
-          "name": "Paraguay",
-          "logo": "https://crests.football-data.org/761.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
       {
         "id": 537359,
         "date": "2026-06-20T17:00:00Z",
@@ -1565,6 +1522,48 @@
     ],
     "finished": [
       {
+        "id": 537347,
+        "date": "2026-06-20T03:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group D",
+        "venue": "",
+        "home": {
+          "name": "Turkey",
+          "logo": "https://crests.football-data.org/803.svg"
+        },
+        "away": {
+          "name": "Paraguay",
+          "logo": "https://crests.football-data.org/761.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "events": []
+      },
+      {
+        "id": 537341,
+        "date": "2026-06-20T00:30:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group C",
+        "venue": "",
+        "home": {
+          "name": "Brazil",
+          "logo": "https://crests.football-data.org/764.svg"
+        },
+        "away": {
+          "name": "Haiti",
+          "logo": "https://crests.football-data.org/haiti.svg"
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        },
+        "events": []
+      },
+      {
         "id": 537342,
         "date": "2026-06-19T22:00:00Z",
         "status": "FINISHED",
@@ -2292,22 +2291,22 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Morocco",
-          "logo": "https://crests.football-data.org/morocco.svg",
-          "played": 2,
-          "points": 4,
-          "gd": 1,
-          "gf": 2,
-          "ga": 1
-        },
-        {
-          "rank": 2,
           "name": "Brazil",
           "logo": "https://crests.football-data.org/764.svg",
           "played": 2,
           "points": 4,
           "gd": 3,
           "gf": 4,
+          "ga": 1
+        },
+        {
+          "rank": 2,
+          "name": "Morocco",
+          "logo": "https://crests.football-data.org/morocco.svg",
+          "played": 2,
+          "points": 4,
+          "gd": 1,
+          "gf": 2,
           "ga": 1
         },
         {
@@ -2357,23 +2356,23 @@
         },
         {
           "rank": 3,
-          "name": "Turkey",
-          "logo": "https://crests.football-data.org/803.svg",
-          "played": 1,
-          "points": 0,
+          "name": "Paraguay",
+          "logo": "https://crests.football-data.org/761.svg",
+          "played": 2,
+          "points": 3,
           "gd": -2,
-          "gf": 0,
-          "ga": 2
+          "gf": 2,
+          "ga": 4
         },
         {
           "rank": 4,
-          "name": "Paraguay",
-          "logo": "https://crests.football-data.org/761.svg",
-          "played": 1,
+          "name": "Turkey",
+          "logo": "https://crests.football-data.org/803.svg",
+          "played": 2,
           "points": 0,
           "gd": -3,
-          "gf": 1,
-          "ga": 4
+          "gf": 0,
+          "ga": 3
         }
       ]
     },
@@ -2912,6 +2911,18 @@
       "played": 1
     },
     {
+      "team": "Paraguay",
+      "logo": "https://crests.football-data.org/761.svg",
+      "cleanSheets": 1,
+      "played": 2
+    },
+    {
+      "team": "Brazil",
+      "logo": "https://crests.football-data.org/764.svg",
+      "cleanSheets": 1,
+      "played": 2
+    },
+    {
       "team": "Scotland",
       "logo": "https://crests.football-data.org/814.svg",
       "cleanSheets": 1,
@@ -2980,18 +2991,6 @@
     {
       "team": "Congo DR",
       "logo": "https://crests.football-data.org/congo_dr.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Austria",
-      "logo": "https://crests.football-data.org/816.svg",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Jordan",
-      "logo": "https://crests.football-data.org/8049.png",
       "cleanSheets": 0,
       "played": 1
     }
