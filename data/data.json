@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-20T20:16:29.687Z"
+    "lastUpdated": "2026-06-20T21:48:06.405Z"
   },
   "matches": {
     "live": [
@@ -22,8 +22,8 @@
           "logo": "https://crests.football-data.org/787.svg"
         },
         "goals": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "events": []
       }
@@ -2382,23 +2382,23 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Germany",
-          "logo": "https://crests.football-data.org/759.svg",
-          "played": 2,
-          "points": 4,
-          "gd": 6,
-          "gf": 7,
-          "ga": 1
-        },
-        {
-          "rank": 2,
           "name": "Ivory Coast",
           "logo": "https://crests.football-data.org/787.svg",
           "played": 2,
-          "points": 4,
-          "gd": 1,
-          "gf": 1,
+          "points": 6,
+          "gd": 2,
+          "gf": 2,
           "ga": 0
+        },
+        {
+          "rank": 2,
+          "name": "Germany",
+          "logo": "https://crests.football-data.org/759.svg",
+          "played": 2,
+          "points": 3,
+          "gd": 5,
+          "gf": 7,
+          "ga": 2
         },
         {
           "rank": 3,
@@ -2782,6 +2782,12 @@
       "goals": 2
     },
     {
+      "name": "Deniz Undav",
+      "photo": "https://crests.football-data.org/759.svg",
+      "team": "Germany",
+      "goals": 2
+    },
+    {
       "name": "Yasin Ayari",
       "photo": "https://crests.football-data.org/792.svg",
       "team": "Sweden",
@@ -2852,12 +2858,6 @@
       "photo": "https://crests.football-data.org/798.svg",
       "team": "Czechia",
       "goals": 1
-    },
-    {
-      "name": "In-beom Hwang",
-      "photo": "https://crests.football-data.org/772.png",
-      "team": "Korea Republic",
-      "goals": 1
     }
   ],
   "assists": [
@@ -2868,16 +2868,16 @@
       "assists": 2
     },
     {
+      "name": "Deniz Undav",
+      "photo": "https://crests.football-data.org/759.svg",
+      "team": "Germany",
+      "assists": 2
+    },
+    {
       "name": "Cody Gakpo",
       "photo": "https://crests.football-data.org/8601.svg",
       "team": "Netherlands",
       "assists": 2
-    },
-    {
-      "name": "In-beom Hwang",
-      "photo": "https://crests.football-data.org/772.png",
-      "team": "Korea Republic",
-      "assists": 1
     }
   ],
   "goldenGlove": [
