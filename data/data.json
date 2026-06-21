@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-20T23:10:48.144Z"
+    "lastUpdated": "2026-06-21T01:40:28.589Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537354,
         "date": "2026-06-21T00:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group E",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/curacao.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537360,
         "date": "2026-06-21T04:00:00Z",
@@ -2403,8 +2404,8 @@
           "rank": 3,
           "name": "Ecuador",
           "logo": "https://crests.football-data.org/791.svg",
-          "played": 1,
-          "points": 0,
+          "played": 2,
+          "points": 1,
           "gd": -1,
           "gf": 0,
           "ga": 1
@@ -2413,8 +2414,8 @@
           "rank": 4,
           "name": "Curaçao",
           "logo": "https://crests.football-data.org/curacao.svg",
-          "played": 1,
-          "points": 0,
+          "played": 2,
+          "points": 1,
           "gd": -6,
           "gf": 1,
           "ga": 7
