@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-21T21:42:32.589Z"
+    "lastUpdated": "2026-06-21T22:50:05.095Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537372,
         "date": "2026-06-21T22:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group H",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/cape_verde.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537366,
         "date": "2026-06-22T01:00:00Z",
@@ -2526,16 +2527,26 @@
         },
         {
           "rank": 2,
-          "name": "Uruguay",
-          "logo": "https://crests.football-data.org/758.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
+          "name": "Cape Verde",
+          "logo": "https://crests.football-data.org/cape_verde.svg",
+          "played": 2,
+          "points": 4,
+          "gd": 1,
           "gf": 1,
-          "ga": 1
+          "ga": 0
         },
         {
           "rank": 3,
+          "name": "Uruguay",
+          "logo": "https://crests.football-data.org/758.svg",
+          "played": 2,
+          "points": 1,
+          "gd": -1,
+          "gf": 1,
+          "ga": 2
+        },
+        {
+          "rank": 4,
           "name": "Saudi Arabia",
           "logo": "https://crests.football-data.org/saudi_arabia.svg",
           "played": 2,
@@ -2543,16 +2554,6 @@
           "gd": -4,
           "gf": 1,
           "ga": 5
-        },
-        {
-          "rank": 4,
-          "name": "Cape Verde",
-          "logo": "https://crests.football-data.org/cape_verde.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
         }
       ]
     },
@@ -2799,6 +2800,12 @@
       "goals": 2
     },
     {
+      "name": "Maximiliano Araújo",
+      "photo": "https://crests.football-data.org/758.svg",
+      "team": "Uruguay",
+      "goals": 2
+    },
+    {
       "name": "Elijah Just",
       "photo": "https://crests.football-data.org/783.svg",
       "team": "New Zealand",
@@ -2851,12 +2858,6 @@
       "photo": "https://crests.football-data.org/766.svg",
       "team": "Japan",
       "goals": 2
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "photo": "https://crests.football-data.org/760.svg",
-      "team": "Spain",
-      "goals": 2
     }
   ],
   "assists": [
@@ -2882,12 +2883,6 @@
       "name": "Ayase Ueda",
       "photo": "https://crests.football-data.org/766.svg",
       "team": "Japan",
-      "assists": 1
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "photo": "https://crests.football-data.org/760.svg",
-      "team": "Spain",
       "assists": 1
     }
   ],
