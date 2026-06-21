@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-21T14:42:08.813Z"
+    "lastUpdated": "2026-06-21T16:21:59.545Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537371,
         "date": "2026-06-21T16:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group H",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/saudi_arabia.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537365,
         "date": "2026-06-21T19:00:00Z",
@@ -2516,6 +2517,26 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Saudi Arabia",
+          "logo": "https://crests.football-data.org/saudi_arabia.svg",
+          "played": 2,
+          "points": 2,
+          "gd": 0,
+          "gf": 1,
+          "ga": 1
+        },
+        {
+          "rank": 2,
+          "name": "Spain",
+          "logo": "https://crests.football-data.org/760.svg",
+          "played": 2,
+          "points": 2,
+          "gd": 0,
+          "gf": 0,
+          "ga": 0
+        },
+        {
+          "rank": 3,
           "name": "Uruguay",
           "logo": "https://crests.football-data.org/758.svg",
           "played": 1,
@@ -2523,26 +2544,6 @@
           "gd": 0,
           "gf": 1,
           "ga": 1
-        },
-        {
-          "rank": 2,
-          "name": "Saudi Arabia",
-          "logo": "https://crests.football-data.org/saudi_arabia.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 1,
-          "ga": 1
-        },
-        {
-          "rank": 3,
-          "name": "Spain",
-          "logo": "https://crests.football-data.org/760.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 0,
-          "ga": 0
         },
         {
           "rank": 4,
