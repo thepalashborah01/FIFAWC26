@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-21T06:32:18.173Z"
+    "lastUpdated": "2026-06-21T10:21:58.591Z"
   },
   "matches": {
     "live": [],
@@ -2146,8 +2146,8 @@
           "logo": "https://crests.football-data.org/bosnia.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "events": []
       },
@@ -2893,12 +2893,6 @@
       "played": 2
     },
     {
-      "team": "Canada",
-      "logo": "https://crests.football-data.org/canada.svg",
-      "cleanSheets": 1,
-      "played": 1
-    },
-    {
       "team": "Ghana",
       "logo": "https://crests.football-data.org/ghana.svg",
       "cleanSheets": 1,
@@ -2983,10 +2977,10 @@
       "played": 2
     },
     {
-      "team": "Bosnia-H.",
-      "logo": "https://crests.football-data.org/bosnia.svg",
-      "cleanSheets": 0,
-      "played": 1
+      "team": "Canada",
+      "logo": "https://crests.football-data.org/canada.svg",
+      "cleanSheets": 1,
+      "played": 2
     },
     {
       "team": "Uzbekistan",
@@ -3003,6 +2997,12 @@
     {
       "team": "Panama",
       "logo": "https://crests.football-data.org/panama.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "England",
+      "logo": "https://crests.football-data.org/770.svg",
       "cleanSheets": 0,
       "played": 1
     }
