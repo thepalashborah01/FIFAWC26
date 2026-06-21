@@ -2,37 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-21T18:05:38.910Z"
+    "lastUpdated": "2026-06-21T20:03:05.678Z"
   },
   "matches": {
     "live": [
       {
-        "id": 537371,
-        "date": "2026-06-21T16:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group H",
-        "venue": "",
-        "home": {
-          "name": "Spain",
-          "logo": "https://crests.football-data.org/760.svg"
-        },
-        "away": {
-          "name": "Saudi Arabia",
-          "logo": "https://crests.football-data.org/saudi_arabia.svg"
-        },
-        "goals": {
-          "home": 5,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
-    "upcoming": [
-      {
         "id": 537365,
         "date": "2026-06-21T19:00:00Z",
-        "status": "NS",
+        "status": "PAUSED",
         "minute": null,
         "round": "Group G",
         "venue": "",
@@ -45,11 +22,13 @@
           "logo": "https://crests.football-data.org/iran.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537372,
         "date": "2026-06-21T22:00:00Z",
@@ -1439,6 +1418,27 @@
     ],
     "finished": [
       {
+        "id": 537371,
+        "date": "2026-06-21T16:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group H",
+        "venue": "",
+        "home": {
+          "name": "Spain",
+          "logo": "https://crests.football-data.org/760.svg"
+        },
+        "away": {
+          "name": "Saudi Arabia",
+          "logo": "https://crests.football-data.org/saudi_arabia.svg"
+        },
+        "goals": {
+          "home": 5,
+          "away": 0
+        },
+        "events": []
+      },
+      {
         "id": 537360,
         "date": "2026-06-21T04:00:00Z",
         "status": "FINISHED",
@@ -2147,8 +2147,8 @@
           "logo": "https://crests.football-data.org/bosnia.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "events": []
       },
@@ -2472,6 +2472,26 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Iran",
+          "logo": "https://crests.football-data.org/iran.svg",
+          "played": 2,
+          "points": 2,
+          "gd": 0,
+          "gf": 2,
+          "ga": 2
+        },
+        {
+          "rank": 2,
+          "name": "Belgium",
+          "logo": "https://crests.football-data.org/805.svg",
+          "played": 2,
+          "points": 2,
+          "gd": 0,
+          "gf": 1,
+          "ga": 1
+        },
+        {
+          "rank": 3,
           "name": "New Zealand",
           "logo": "https://crests.football-data.org/783.svg",
           "played": 1,
@@ -2479,26 +2499,6 @@
           "gd": 0,
           "gf": 2,
           "ga": 2
-        },
-        {
-          "rank": 2,
-          "name": "Iran",
-          "logo": "https://crests.football-data.org/iran.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 2,
-          "ga": 2
-        },
-        {
-          "rank": 3,
-          "name": "Belgium",
-          "logo": "https://crests.football-data.org/805.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 1,
-          "ga": 1
         },
         {
           "rank": 4,
@@ -2894,16 +2894,16 @@
   ],
   "goldenGlove": [
     {
-      "team": "Mexico",
-      "logo": "https://crests.football-data.org/769.svg",
+      "team": "Spain",
+      "logo": "https://crests.football-data.org/760.svg",
       "cleanSheets": 2,
       "played": 2
     },
     {
-      "team": "Canada",
-      "logo": "https://crests.football-data.org/canada.svg",
-      "cleanSheets": 1,
-      "played": 1
+      "team": "Mexico",
+      "logo": "https://crests.football-data.org/769.svg",
+      "cleanSheets": 2,
+      "played": 2
     },
     {
       "team": "Ghana",
@@ -2914,12 +2914,6 @@
     {
       "team": "Argentina",
       "logo": "https://crests.football-data.org/762.png",
-      "cleanSheets": 1,
-      "played": 1
-    },
-    {
-      "team": "Spain",
-      "logo": "https://crests.football-data.org/760.svg",
       "cleanSheets": 1,
       "played": 1
     },
@@ -2990,10 +2984,10 @@
       "played": 2
     },
     {
-      "team": "Bosnia-H.",
-      "logo": "https://crests.football-data.org/bosnia.svg",
-      "cleanSheets": 0,
-      "played": 1
+      "team": "Canada",
+      "logo": "https://crests.football-data.org/canada.svg",
+      "cleanSheets": 1,
+      "played": 2
     },
     {
       "team": "Uzbekistan",
@@ -3010,6 +3004,12 @@
     {
       "team": "Panama",
       "logo": "https://crests.football-data.org/panama.svg",
+      "cleanSheets": 0,
+      "played": 1
+    },
+    {
+      "team": "England",
+      "logo": "https://crests.football-data.org/770.svg",
       "cleanSheets": 0,
       "played": 1
     }
