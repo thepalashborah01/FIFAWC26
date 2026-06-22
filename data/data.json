@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-21T22:50:05.095Z"
+    "lastUpdated": "2026-06-22T00:13:22.824Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537372,
-        "date": "2026-06-21T22:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group H",
-        "venue": "",
-        "home": {
-          "name": "Uruguay",
-          "logo": "https://crests.football-data.org/758.svg"
-        },
-        "away": {
-          "name": "Cape Verde",
-          "logo": "https://crests.football-data.org/cape_verde.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537366,
@@ -1397,6 +1375,27 @@
     ],
     "finished": [
       {
+        "id": 537372,
+        "date": "2026-06-21T22:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group H",
+        "venue": "",
+        "home": {
+          "name": "Uruguay",
+          "logo": "https://crests.football-data.org/758.svg"
+        },
+        "away": {
+          "name": "Cape Verde",
+          "logo": "https://crests.football-data.org/cape_verde.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 2
+        },
+        "events": []
+      },
+      {
         "id": 537365,
         "date": "2026-06-21T19:00:00Z",
         "status": "FINISHED",
@@ -2527,22 +2526,22 @@
         },
         {
           "rank": 2,
-          "name": "Cape Verde",
-          "logo": "https://crests.football-data.org/cape_verde.svg",
-          "played": 2,
-          "points": 4,
-          "gd": 1,
-          "gf": 1,
-          "ga": 0
-        },
-        {
-          "rank": 3,
           "name": "Uruguay",
           "logo": "https://crests.football-data.org/758.svg",
           "played": 2,
-          "points": 1,
-          "gd": -1,
-          "gf": 1,
+          "points": 2,
+          "gd": 0,
+          "gf": 3,
+          "ga": 3
+        },
+        {
+          "rank": 3,
+          "name": "Cape Verde",
+          "logo": "https://crests.football-data.org/cape_verde.svg",
+          "played": 2,
+          "points": 2,
+          "gd": 0,
+          "gf": 2,
           "ga": 2
         },
         {
@@ -2880,6 +2879,12 @@
       "assists": 2
     },
     {
+      "name": "Maximiliano Araújo",
+      "photo": "https://crests.football-data.org/758.svg",
+      "team": "Uruguay",
+      "assists": 1
+    },
+    {
       "name": "Ayase Ueda",
       "photo": "https://crests.football-data.org/766.svg",
       "team": "Japan",
@@ -2915,7 +2920,7 @@
       "team": "Cape Verde",
       "logo": "https://crests.football-data.org/cape_verde.svg",
       "cleanSheets": 1,
-      "played": 1
+      "played": 2
     },
     {
       "team": "Belgium",
