@@ -2,32 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-22T00:13:22.824Z"
+    "lastUpdated": "2026-06-22T05:33:54.670Z"
   },
   "matches": {
     "live": [],
     "upcoming": [
-      {
-        "id": 537366,
-        "date": "2026-06-22T01:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group G",
-        "venue": "",
-        "home": {
-          "name": "New Zealand",
-          "logo": "https://crests.football-data.org/783.svg"
-        },
-        "away": {
-          "name": "Egypt",
-          "logo": "https://crests.football-data.org/825.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
       {
         "id": 537399,
         "date": "2026-06-22T17:00:00Z",
@@ -1375,6 +1354,27 @@
     ],
     "finished": [
       {
+        "id": 537366,
+        "date": "2026-06-22T01:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group G",
+        "venue": "",
+        "home": {
+          "name": "New Zealand",
+          "logo": "https://crests.football-data.org/783.svg"
+        },
+        "away": {
+          "name": "Egypt",
+          "logo": "https://crests.football-data.org/825.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 3
+        },
+        "events": []
+      },
+      {
         "id": 537372,
         "date": "2026-06-21T22:00:00Z",
         "status": "FINISHED",
@@ -2471,6 +2471,16 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Egypt",
+          "logo": "https://crests.football-data.org/825.svg",
+          "played": 2,
+          "points": 4,
+          "gd": 2,
+          "gf": 4,
+          "ga": 2
+        },
+        {
+          "rank": 2,
           "name": "Iran",
           "logo": "https://crests.football-data.org/iran.svg",
           "played": 2,
@@ -2480,7 +2490,7 @@
           "ga": 2
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Belgium",
           "logo": "https://crests.football-data.org/805.svg",
           "played": 2,
@@ -2490,24 +2500,14 @@
           "ga": 1
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "New Zealand",
           "logo": "https://crests.football-data.org/783.svg",
-          "played": 1,
+          "played": 2,
           "points": 1,
-          "gd": 0,
-          "gf": 2,
-          "ga": 2
-        },
-        {
-          "rank": 4,
-          "name": "Egypt",
-          "logo": "https://crests.football-data.org/825.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 1,
-          "ga": 1
+          "gd": -2,
+          "gf": 3,
+          "ga": 5
         }
       ]
     },
