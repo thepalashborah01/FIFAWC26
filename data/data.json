@@ -2,32 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-22T16:11:20.721Z"
+    "lastUpdated": "2026-06-22T19:48:29.140Z"
   },
   "matches": {
     "live": [],
     "upcoming": [
-      {
-        "id": 537399,
-        "date": "2026-06-22T17:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group J",
-        "venue": "",
-        "home": {
-          "name": "Argentina",
-          "logo": "https://crests.football-data.org/762.png"
-        },
-        "away": {
-          "name": "Austria",
-          "logo": "https://crests.football-data.org/816.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
       {
         "id": 537393,
         "date": "2026-06-22T21:00:00Z",
@@ -1354,6 +1333,27 @@
     ],
     "finished": [
       {
+        "id": 537399,
+        "date": "2026-06-22T17:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group J",
+        "venue": "",
+        "home": {
+          "name": "Argentina",
+          "logo": "https://crests.football-data.org/762.png"
+        },
+        "away": {
+          "name": "Austria",
+          "logo": "https://crests.football-data.org/816.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "events": []
+      },
+      {
         "id": 537366,
         "date": "2026-06-22T01:00:00Z",
         "status": "FINISHED",
@@ -2608,21 +2608,21 @@
           "rank": 1,
           "name": "Argentina",
           "logo": "https://crests.football-data.org/762.png",
-          "played": 1,
-          "points": 3,
-          "gd": 3,
-          "gf": 3,
+          "played": 2,
+          "points": 6,
+          "gd": 5,
+          "gf": 5,
           "ga": 0
         },
         {
           "rank": 2,
           "name": "Austria",
           "logo": "https://crests.football-data.org/816.svg",
-          "played": 1,
+          "played": 2,
           "points": 3,
-          "gd": 2,
+          "gd": 0,
           "gf": 3,
-          "ga": 1
+          "ga": 3
         },
         {
           "rank": 3,
@@ -2739,15 +2739,15 @@
   ],
   "scorers": [
     {
-      "name": "Deniz Undav",
-      "photo": "https://crests.football-data.org/759.svg",
-      "team": "Germany",
-      "goals": 3
-    },
-    {
       "name": "Lionel Messi",
       "photo": "https://crests.football-data.org/762.png",
       "team": "Argentina",
+      "goals": 5
+    },
+    {
+      "name": "Deniz Undav",
+      "photo": "https://crests.football-data.org/759.svg",
+      "team": "Germany",
       "goals": 3
     },
     {
@@ -2893,6 +2893,12 @@
   ],
   "goldenGlove": [
     {
+      "team": "Argentina",
+      "logo": "https://crests.football-data.org/762.png",
+      "cleanSheets": 2,
+      "played": 2
+    },
+    {
       "team": "Spain",
       "logo": "https://crests.football-data.org/760.svg",
       "cleanSheets": 2,
@@ -2907,12 +2913,6 @@
     {
       "team": "Ghana",
       "logo": "https://crests.football-data.org/ghana.svg",
-      "cleanSheets": 1,
-      "played": 1
-    },
-    {
-      "team": "Argentina",
-      "logo": "https://crests.football-data.org/762.png",
       "cleanSheets": 1,
       "played": 1
     },
