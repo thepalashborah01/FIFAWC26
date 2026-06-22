@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-22T19:48:29.140Z"
+    "lastUpdated": "2026-06-22T22:03:36.286Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537393,
         "date": "2026-06-22T21:00:00Z",
-        "status": "NS",
+        "status": "PAUSED",
         "minute": null,
         "round": "Group I",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/iraq.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537394,
         "date": "2026-06-23T00:00:00Z",
@@ -2561,22 +2562,22 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Norway",
-          "logo": "https://crests.football-data.org/813.svg",
-          "played": 1,
-          "points": 3,
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg",
+          "played": 2,
+          "points": 6,
           "gd": 3,
           "gf": 4,
           "ga": 1
         },
         {
           "rank": 2,
-          "name": "France",
-          "logo": "https://crests.football-data.org/773.svg",
+          "name": "Norway",
+          "logo": "https://crests.football-data.org/813.svg",
           "played": 1,
           "points": 3,
-          "gd": 2,
-          "gf": 3,
+          "gd": 3,
+          "gf": 4,
           "ga": 1
         },
         {
@@ -2593,11 +2594,11 @@
           "rank": 4,
           "name": "Iraq",
           "logo": "https://crests.football-data.org/iraq.svg",
-          "played": 1,
+          "played": 2,
           "points": 0,
-          "gd": -3,
+          "gd": -4,
           "gf": 1,
-          "ga": 4
+          "ga": 5
         }
       ]
     },
@@ -2751,6 +2752,12 @@
       "goals": 3
     },
     {
+      "name": "Kylian Mbappé",
+      "photo": "https://crests.football-data.org/773.svg",
+      "team": "France",
+      "goals": 3
+    },
+    {
       "name": "Jonathan David",
       "photo": "https://crests.football-data.org/canada.svg",
       "team": "Canada",
@@ -2808,12 +2815,6 @@
       "name": "Elijah Just",
       "photo": "https://crests.football-data.org/783.svg",
       "team": "New Zealand",
-      "goals": 2
-    },
-    {
-      "name": "Kylian Mbappé",
-      "photo": "https://crests.football-data.org/773.svg",
-      "team": "France",
       "goals": 2
     },
     {
