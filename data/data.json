@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-23T10:03:08.879Z"
+    "lastUpdated": "2026-06-23T12:47:17.137Z"
   },
   "matches": {
     "live": [],
@@ -2799,6 +2799,12 @@
       "goals": 2
     },
     {
+      "name": "Crysencio Summerville",
+      "photo": "https://crests.football-data.org/8601.svg",
+      "team": "Netherlands",
+      "goals": 2
+    },
+    {
       "name": "Daichi Kamada",
       "photo": "https://crests.football-data.org/766.svg",
       "team": "Japan",
@@ -2851,12 +2857,6 @@
       "photo": "https://crests.football-data.org/8601.svg",
       "team": "Netherlands",
       "goals": 2
-    },
-    {
-      "name": "Ayase Ueda",
-      "photo": "https://crests.football-data.org/766.svg",
-      "team": "Japan",
-      "goals": 2
     }
   ],
   "assists": [
@@ -2873,10 +2873,10 @@
       "assists": 2
     },
     {
-      "name": "Cody Gakpo",
+      "name": "Crysencio Summerville",
       "photo": "https://crests.football-data.org/8601.svg",
       "team": "Netherlands",
-      "assists": 2
+      "assists": 1
     },
     {
       "name": "Maximiliano Araújo",
@@ -2885,9 +2885,9 @@
       "assists": 1
     },
     {
-      "name": "Ayase Ueda",
-      "photo": "https://crests.football-data.org/766.svg",
-      "team": "Japan",
+      "name": "Cody Gakpo",
+      "photo": "https://crests.football-data.org/8601.svg",
+      "team": "Netherlands",
       "assists": 1
     }
   ],
