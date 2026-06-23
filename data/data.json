@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-23T15:49:44.635Z"
+    "lastUpdated": "2026-06-23T17:57:49.234Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537405,
         "date": "2026-06-23T17:00:00Z",
-        "status": "NS",
+        "status": "PAUSED",
         "minute": null,
         "round": "Group K",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/8070.png"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537411,
         "date": "2026-06-23T20:00:00Z",
@@ -2651,6 +2652,16 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Portugal",
+          "logo": "https://crests.football-data.org/765.svg",
+          "played": 2,
+          "points": 4,
+          "gd": 1,
+          "gf": 3,
+          "ga": 2
+        },
+        {
+          "rank": 2,
           "name": "Colombia",
           "logo": "https://crests.football-data.org/818.svg",
           "played": 1,
@@ -2660,19 +2671,9 @@
           "ga": 1
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Congo DR",
           "logo": "https://crests.football-data.org/congo_dr.svg",
-          "played": 1,
-          "points": 1,
-          "gd": 0,
-          "gf": 1,
-          "ga": 1
-        },
-        {
-          "rank": 2,
-          "name": "Portugal",
-          "logo": "https://crests.football-data.org/765.svg",
           "played": 1,
           "points": 1,
           "gd": 0,
@@ -2683,11 +2684,11 @@
           "rank": 4,
           "name": "Uzbekistan",
           "logo": "https://crests.football-data.org/8070.png",
-          "played": 1,
+          "played": 2,
           "points": 0,
-          "gd": -2,
-          "gf": 1,
-          "ga": 3
+          "gd": -3,
+          "gf": 2,
+          "ga": 5
         }
       ]
     },
