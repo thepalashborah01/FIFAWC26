@@ -2,37 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-22T23:43:12.815Z"
+    "lastUpdated": "2026-06-23T01:49:05.513Z"
   },
   "matches": {
     "live": [
       {
-        "id": 537393,
-        "date": "2026-06-22T21:00:00Z",
-        "status": "PAUSED",
-        "minute": null,
-        "round": "Group I",
-        "venue": "",
-        "home": {
-          "name": "France",
-          "logo": "https://crests.football-data.org/773.svg"
-        },
-        "away": {
-          "name": "Iraq",
-          "logo": "https://crests.football-data.org/iraq.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
-    "upcoming": [
-      {
         "id": 537394,
         "date": "2026-06-23T00:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group I",
         "venue": "",
@@ -45,11 +22,13 @@
           "logo": "https://crests.football-data.org/senegal.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537400,
         "date": "2026-06-23T03:00:00Z",
@@ -1334,6 +1313,27 @@
     ],
     "finished": [
       {
+        "id": 537393,
+        "date": "2026-06-22T21:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group I",
+        "venue": "",
+        "home": {
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg"
+        },
+        "away": {
+          "name": "Iraq",
+          "logo": "https://crests.football-data.org/iraq.svg"
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        },
+        "events": []
+      },
+      {
         "id": 537399,
         "date": "2026-06-22T17:00:00Z",
         "status": "FINISHED",
@@ -2562,33 +2562,33 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Norway",
+          "logo": "https://crests.football-data.org/813.svg",
+          "played": 2,
+          "points": 6,
+          "gd": 5,
+          "gf": 7,
+          "ga": 2
+        },
+        {
+          "rank": 2,
           "name": "France",
           "logo": "https://crests.football-data.org/773.svg",
           "played": 2,
           "points": 6,
-          "gd": 3,
-          "gf": 4,
-          "ga": 1
-        },
-        {
-          "rank": 2,
-          "name": "Norway",
-          "logo": "https://crests.football-data.org/813.svg",
-          "played": 1,
-          "points": 3,
-          "gd": 3,
-          "gf": 4,
+          "gd": 5,
+          "gf": 6,
           "ga": 1
         },
         {
           "rank": 3,
           "name": "Senegal",
           "logo": "https://crests.football-data.org/senegal.svg",
-          "played": 1,
+          "played": 2,
           "points": 0,
-          "gd": -2,
-          "gf": 1,
-          "ga": 3
+          "gd": -4,
+          "gf": 2,
+          "ga": 6
         },
         {
           "rank": 4,
@@ -2596,9 +2596,9 @@
           "logo": "https://crests.football-data.org/iraq.svg",
           "played": 2,
           "points": 0,
-          "gd": -4,
+          "gd": -6,
           "gf": 1,
-          "ga": 5
+          "ga": 7
         }
       ]
     },
@@ -2746,15 +2746,21 @@
       "goals": 5
     },
     {
-      "name": "Deniz Undav",
-      "photo": "https://crests.football-data.org/759.svg",
-      "team": "Germany",
-      "goals": 3
-    },
-    {
       "name": "Kylian Mbappé",
       "photo": "https://crests.football-data.org/773.svg",
       "team": "France",
+      "goals": 4
+    },
+    {
+      "name": "Erling Haaland",
+      "photo": "https://crests.football-data.org/813.svg",
+      "team": "Norway",
+      "goals": 4
+    },
+    {
+      "name": "Deniz Undav",
+      "photo": "https://crests.football-data.org/759.svg",
+      "team": "Germany",
       "goals": 3
     },
     {
@@ -2815,12 +2821,6 @@
       "name": "Elijah Just",
       "photo": "https://crests.football-data.org/783.svg",
       "team": "New Zealand",
-      "goals": 2
-    },
-    {
-      "name": "Erling Haaland",
-      "photo": "https://crests.football-data.org/813.svg",
-      "team": "Norway",
       "goals": 2
     },
     {
@@ -2918,6 +2918,12 @@
       "played": 1
     },
     {
+      "team": "France",
+      "logo": "https://crests.football-data.org/773.svg",
+      "cleanSheets": 1,
+      "played": 2
+    },
+    {
       "team": "Cape Verde",
       "logo": "https://crests.football-data.org/cape_verde.svg",
       "cleanSheets": 1,
@@ -3004,12 +3010,6 @@
     {
       "team": "Uzbekistan",
       "logo": "https://crests.football-data.org/8070.png",
-      "cleanSheets": 0,
-      "played": 1
-    },
-    {
-      "team": "Colombia",
-      "logo": "https://crests.football-data.org/818.svg",
       "cleanSheets": 0,
       "played": 1
     }
