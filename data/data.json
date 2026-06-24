@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-24T21:45:46.877Z"
+    "lastUpdated": "2026-06-24T23:05:02.718Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537344,
         "date": "2026-06-24T22:00:00Z",
-        "status": "NS",
+        "status": "PAUSED",
         "minute": null,
         "round": "Group C",
         "venue": "",
@@ -23,15 +22,15 @@
           "logo": "https://crests.football-data.org/haiti.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "events": []
       },
       {
         "id": 537343,
         "date": "2026-06-24T22:00:00Z",
-        "status": "NS",
+        "status": "PAUSED",
         "minute": null,
         "round": "Group C",
         "venue": "",
@@ -44,11 +43,13 @@
           "logo": "https://crests.football-data.org/764.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537331,
         "date": "2026-06-25T01:00:00Z",
@@ -2293,41 +2294,41 @@
           "rank": 1,
           "name": "Brazil",
           "logo": "https://crests.football-data.org/764.svg",
-          "played": 2,
-          "points": 4,
-          "gd": 3,
-          "gf": 4,
+          "played": 3,
+          "points": 7,
+          "gd": 5,
+          "gf": 6,
           "ga": 1
         },
         {
           "rank": 2,
           "name": "Morocco",
           "logo": "https://crests.football-data.org/morocco.svg",
-          "played": 2,
-          "points": 4,
+          "played": 3,
+          "points": 5,
           "gd": 1,
-          "gf": 2,
-          "ga": 1
+          "gf": 4,
+          "ga": 3
         },
         {
           "rank": 3,
           "name": "Scotland",
           "logo": "https://crests.football-data.org/814.svg",
-          "played": 2,
+          "played": 3,
           "points": 3,
-          "gd": 0,
+          "gd": -2,
           "gf": 1,
-          "ga": 1
+          "ga": 3
         },
         {
           "rank": 4,
           "name": "Haiti",
           "logo": "https://crests.football-data.org/haiti.svg",
-          "played": 2,
-          "points": 0,
+          "played": 3,
+          "points": 1,
           "gd": -4,
-          "gf": 0,
-          "ga": 4
+          "gf": 2,
+          "ga": 6
         }
       ]
     },
@@ -2745,6 +2746,12 @@
       "goals": 5
     },
     {
+      "name": "Vinicius Junior",
+      "photo": "https://crests.football-data.org/764.svg",
+      "team": "Brazil",
+      "goals": 4
+    },
+    {
       "name": "Kylian Mbappé",
       "photo": "https://crests.football-data.org/773.svg",
       "team": "France",
@@ -2755,6 +2762,12 @@
       "photo": "https://crests.football-data.org/813.svg",
       "team": "Norway",
       "goals": 4
+    },
+    {
+      "name": "Ismael Saibari",
+      "photo": "https://crests.football-data.org/morocco.svg",
+      "team": "Morocco",
+      "goals": 3
     },
     {
       "name": "Deniz Undav",
@@ -2784,18 +2797,6 @@
       "name": "Folarin Balogun",
       "photo": "https://crests.football-data.org/usa.svg",
       "team": "USA",
-      "goals": 2
-    },
-    {
-      "name": "Ismael Saibari",
-      "photo": "https://crests.football-data.org/morocco.svg",
-      "team": "Morocco",
-      "goals": 2
-    },
-    {
-      "name": "Vinicius Junior",
-      "photo": "https://crests.football-data.org/764.svg",
-      "team": "Brazil",
       "goals": 2
     },
     {
@@ -2867,15 +2868,15 @@
       "assists": 2
     },
     {
-      "name": "Johan Manzambi",
-      "photo": "https://crests.football-data.org/788.svg",
-      "team": "Switzerland",
-      "assists": 1
-    },
-    {
       "name": "Vinicius Junior",
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
+      "assists": 1
+    },
+    {
+      "name": "Johan Manzambi",
+      "photo": "https://crests.football-data.org/788.svg",
+      "team": "Switzerland",
       "assists": 1
     },
     {
