@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-24T18:08:43.330Z"
+    "lastUpdated": "2026-06-24T20:09:18.541Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537337,
         "date": "2026-06-24T19:00:00Z",
-        "status": "NS",
+        "status": "LIVE",
         "minute": null,
         "round": "Group B",
         "venue": "",
@@ -23,15 +22,15 @@
           "logo": "https://crests.football-data.org/canada.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
       },
       {
         "id": 537338,
         "date": "2026-06-24T19:00:00Z",
-        "status": "NS",
+        "status": "PAUSED",
         "minute": null,
         "round": "Group B",
         "venue": "",
@@ -44,11 +43,13 @@
           "logo": "https://crests.football-data.org/8030.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537344,
         "date": "2026-06-24T22:00:00Z",
@@ -2248,8 +2249,8 @@
           "rank": 1,
           "name": "Canada",
           "logo": "https://crests.football-data.org/canada.svg",
-          "played": 2,
-          "points": 4,
+          "played": 3,
+          "points": 5,
           "gd": 6,
           "gf": 7,
           "ga": 1
@@ -2258,8 +2259,8 @@
           "rank": 2,
           "name": "Switzerland",
           "logo": "https://crests.football-data.org/788.svg",
-          "played": 2,
-          "points": 4,
+          "played": 3,
+          "points": 5,
           "gd": 3,
           "gf": 5,
           "ga": 2
@@ -2268,21 +2269,21 @@
           "rank": 3,
           "name": "Bosnia-H.",
           "logo": "https://crests.football-data.org/bosnia.svg",
-          "played": 2,
-          "points": 1,
-          "gd": -3,
-          "gf": 2,
-          "ga": 5
+          "played": 3,
+          "points": 4,
+          "gd": -2,
+          "gf": 4,
+          "ga": 6
         },
         {
           "rank": 4,
           "name": "Qatar",
           "logo": "https://crests.football-data.org/8030.svg",
-          "played": 2,
+          "played": 3,
           "points": 1,
-          "gd": -6,
-          "gf": 1,
-          "ga": 7
+          "gd": -7,
+          "gf": 2,
+          "ga": 9
         }
       ]
     },
@@ -2847,15 +2848,15 @@
       "goals": 2
     },
     {
-      "name": "Matheus Cunha",
-      "photo": "https://crests.football-data.org/764.svg",
-      "team": "Brazil",
+      "name": "Ruben Vargas",
+      "photo": "https://crests.football-data.org/788.svg",
+      "team": "Switzerland",
       "goals": 2
     },
     {
-      "name": "Brian Brobbey",
-      "photo": "https://crests.football-data.org/8601.svg",
-      "team": "Netherlands",
+      "name": "Matheus Cunha",
+      "photo": "https://crests.football-data.org/764.svg",
+      "team": "Brazil",
       "goals": 2
     }
   ],
@@ -2882,6 +2883,18 @@
       "name": "Maximiliano Araújo",
       "photo": "https://crests.football-data.org/758.svg",
       "team": "Uruguay",
+      "assists": 1
+    },
+    {
+      "name": "Johan Manzambi",
+      "photo": "https://crests.football-data.org/788.svg",
+      "team": "Switzerland",
+      "assists": 1
+    },
+    {
+      "name": "Ruben Vargas",
+      "photo": "https://crests.football-data.org/788.svg",
+      "team": "Switzerland",
       "assists": 1
     }
   ],
