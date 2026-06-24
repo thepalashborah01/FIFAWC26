@@ -2,54 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-24T00:13:01.083Z"
+    "lastUpdated": "2026-06-24T04:39:25.511Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537412,
-        "date": "2026-06-23T23:00:00Z",
-        "status": "LIVE",
-        "minute": null,
-        "round": "Group L",
-        "venue": "",
-        "home": {
-          "name": "Panama",
-          "logo": "https://crests.football-data.org/panama.svg"
-        },
-        "away": {
-          "name": "Croatia",
-          "logo": "https://crests.football-data.org/799.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
-      {
-        "id": 537406,
-        "date": "2026-06-24T02:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group K",
-        "venue": "",
-        "home": {
-          "name": "Colombia",
-          "logo": "https://crests.football-data.org/818.svg"
-        },
-        "away": {
-          "name": "Congo DR",
-          "logo": "https://crests.football-data.org/congo_dr.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
       {
         "id": 537337,
         "date": "2026-06-24T19:00:00Z",
@@ -1228,6 +1185,48 @@
       }
     ],
     "finished": [
+      {
+        "id": 537406,
+        "date": "2026-06-24T02:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group K",
+        "venue": "",
+        "home": {
+          "name": "Colombia",
+          "logo": "https://crests.football-data.org/818.svg"
+        },
+        "away": {
+          "name": "Congo DR",
+          "logo": "https://crests.football-data.org/congo_dr.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "events": []
+      },
+      {
+        "id": 537412,
+        "date": "2026-06-23T23:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group L",
+        "venue": "",
+        "home": {
+          "name": "Panama",
+          "logo": "https://crests.football-data.org/panama.svg"
+        },
+        "away": {
+          "name": "Croatia",
+          "logo": "https://crests.football-data.org/799.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "events": []
+      },
       {
         "id": 537411,
         "date": "2026-06-23T20:00:00Z",
@@ -2652,6 +2651,16 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Colombia",
+          "logo": "https://crests.football-data.org/818.svg",
+          "played": 2,
+          "points": 6,
+          "gd": 3,
+          "gf": 4,
+          "ga": 1
+        },
+        {
+          "rank": 2,
           "name": "Portugal",
           "logo": "https://crests.football-data.org/765.svg",
           "played": 2,
@@ -2661,24 +2670,14 @@
           "ga": 1
         },
         {
-          "rank": 2,
-          "name": "Colombia",
-          "logo": "https://crests.football-data.org/818.svg",
-          "played": 1,
-          "points": 3,
-          "gd": 2,
-          "gf": 3,
-          "ga": 1
-        },
-        {
           "rank": 3,
           "name": "Congo DR",
           "logo": "https://crests.football-data.org/congo_dr.svg",
-          "played": 1,
+          "played": 2,
           "points": 1,
-          "gd": 0,
+          "gd": -1,
           "gf": 1,
-          "ga": 1
+          "ga": 2
         },
         {
           "rank": 4,
@@ -2717,23 +2716,23 @@
         },
         {
           "rank": 3,
-          "name": "Panama",
-          "logo": "https://crests.football-data.org/panama.svg",
-          "played": 2,
-          "points": 1,
-          "gd": -1,
-          "gf": 0,
-          "ga": 1
-        },
-        {
-          "rank": 4,
           "name": "Croatia",
           "logo": "https://crests.football-data.org/799.svg",
           "played": 2,
-          "points": 1,
-          "gd": -2,
-          "gf": 2,
+          "points": 3,
+          "gd": -1,
+          "gf": 3,
           "ga": 4
+        },
+        {
+          "rank": 4,
+          "name": "Panama",
+          "logo": "https://crests.football-data.org/panama.svg",
+          "played": 2,
+          "points": 0,
+          "gd": -2,
+          "gf": 0,
+          "ga": 2
         }
       ]
     }
@@ -2836,6 +2835,12 @@
       "goals": 2
     },
     {
+      "name": "Daniel Muñoz",
+      "photo": "https://crests.football-data.org/818.svg",
+      "team": "Colombia",
+      "goals": 2
+    },
+    {
       "name": "Johan Manzambi",
       "photo": "https://crests.football-data.org/788.svg",
       "team": "Switzerland",
@@ -2849,12 +2854,6 @@
     },
     {
       "name": "Brian Brobbey",
-      "photo": "https://crests.football-data.org/8601.svg",
-      "team": "Netherlands",
-      "goals": 2
-    },
-    {
-      "name": "Cody Gakpo",
       "photo": "https://crests.football-data.org/8601.svg",
       "team": "Netherlands",
       "goals": 2
@@ -2884,12 +2883,6 @@
       "photo": "https://crests.football-data.org/758.svg",
       "team": "Uruguay",
       "assists": 1
-    },
-    {
-      "name": "Cody Gakpo",
-      "photo": "https://crests.football-data.org/8601.svg",
-      "team": "Netherlands",
-      "assists": 1
     }
   ],
   "goldenGlove": [
@@ -2915,6 +2908,18 @@
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 2,
+      "played": 2
+    },
+    {
+      "team": "Colombia",
+      "logo": "https://crests.football-data.org/818.svg",
+      "cleanSheets": 1,
+      "played": 2
+    },
+    {
+      "team": "Croatia",
+      "logo": "https://crests.football-data.org/799.svg",
+      "cleanSheets": 1,
       "played": 2
     },
     {
@@ -2998,18 +3003,6 @@
     {
       "team": "Morocco",
       "logo": "https://crests.football-data.org/morocco.svg",
-      "cleanSheets": 1,
-      "played": 2
-    },
-    {
-      "team": "USA",
-      "logo": "https://crests.football-data.org/usa.svg",
-      "cleanSheets": 1,
-      "played": 2
-    },
-    {
-      "team": "Australia",
-      "logo": "https://crests.football-data.org/779.svg",
       "cleanSheets": 1,
       "played": 2
     }
