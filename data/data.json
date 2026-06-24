@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-24T16:02:11.098Z"
+    "lastUpdated": "2026-06-24T18:08:43.330Z"
   },
   "matches": {
     "live": [],
@@ -561,8 +561,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "Germany",
-          "logo": "https://crests.football-data.org/759.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
           "name": "TBD",
@@ -645,8 +645,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "Mexico",
-          "logo": "https://crests.football-data.org/769.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
           "name": "TBD",
@@ -708,8 +708,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "USA",
-          "logo": "https://crests.football-data.org/usa.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
           "name": "TBD",
@@ -813,8 +813,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "Argentina",
-          "logo": "https://crests.football-data.org/762.png"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
           "name": "TBD",
