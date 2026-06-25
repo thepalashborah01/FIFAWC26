@@ -2,53 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-25T21:12:14.590Z"
+    "lastUpdated": "2026-06-25T22:48:24.007Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537355,
-        "date": "2026-06-25T20:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Group E",
-        "venue": "",
-        "home": {
-          "name": "Ecuador",
-          "logo": "https://crests.football-data.org/791.svg"
-        },
-        "away": {
-          "name": "Germany",
-          "logo": "https://crests.football-data.org/759.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        },
-        "events": []
-      },
-      {
-        "id": 537356,
-        "date": "2026-06-25T20:00:00Z",
-        "status": "LIVE",
-        "minute": null,
-        "round": "Group E",
-        "venue": "",
-        "home": {
-          "name": "Curaçao",
-          "logo": "https://crests.football-data.org/curacao.svg"
-        },
-        "away": {
-          "name": "Ivory Coast",
-          "logo": "https://crests.football-data.org/787.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537361,
@@ -436,8 +393,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Germany",
+          "logo": "https://crests.football-data.org/759.svg"
         },
         "away": {
           "name": "TBD",
@@ -520,8 +477,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Mexico",
+          "logo": "https://crests.football-data.org/769.svg"
         },
         "away": {
           "name": "TBD",
@@ -583,8 +540,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "USA",
+          "logo": "https://crests.football-data.org/usa.svg"
         },
         "away": {
           "name": "TBD",
@@ -688,8 +645,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Argentina",
+          "logo": "https://crests.football-data.org/762.png"
         },
         "away": {
           "name": "TBD",
@@ -1060,6 +1017,48 @@
       }
     ],
     "finished": [
+      {
+        "id": 537355,
+        "date": "2026-06-25T20:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group E",
+        "venue": "",
+        "home": {
+          "name": "Ecuador",
+          "logo": "https://crests.football-data.org/791.svg"
+        },
+        "away": {
+          "name": "Germany",
+          "logo": "https://crests.football-data.org/759.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "events": []
+      },
+      {
+        "id": 537356,
+        "date": "2026-06-25T20:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group E",
+        "venue": "",
+        "home": {
+          "name": "Curaçao",
+          "logo": "https://crests.football-data.org/curacao.svg"
+        },
+        "away": {
+          "name": "Ivory Coast",
+          "logo": "https://crests.football-data.org/787.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "events": []
+      },
       {
         "id": 537331,
         "date": "2026-06-25T01:00:00Z",
@@ -2385,10 +2384,10 @@
           "name": "Germany",
           "logo": "https://crests.football-data.org/759.svg",
           "played": 3,
-          "points": 7,
-          "gd": 7,
+          "points": 6,
+          "gd": 6,
           "gf": 10,
-          "ga": 3
+          "ga": 4
         },
         {
           "rank": 2,
@@ -2396,8 +2395,8 @@
           "logo": "https://crests.football-data.org/787.svg",
           "played": 3,
           "points": 6,
-          "gd": 1,
-          "gf": 3,
+          "gd": 2,
+          "gf": 4,
           "ga": 2
         },
         {
@@ -2405,9 +2404,9 @@
           "name": "Ecuador",
           "logo": "https://crests.football-data.org/791.svg",
           "played": 3,
-          "points": 2,
-          "gd": -1,
-          "gf": 1,
+          "points": 4,
+          "gd": 0,
+          "gf": 2,
           "ga": 2
         },
         {
@@ -2416,9 +2415,9 @@
           "logo": "https://crests.football-data.org/curacao.svg",
           "played": 3,
           "points": 1,
-          "gd": -7,
+          "gd": -8,
           "gf": 1,
-          "ga": 8
+          "ga": 9
         }
       ]
     },
@@ -2918,6 +2917,12 @@
       "played": 2
     },
     {
+      "team": "Ivory Coast",
+      "logo": "https://crests.football-data.org/787.svg",
+      "cleanSheets": 2,
+      "played": 3
+    },
+    {
       "team": "Brazil",
       "logo": "https://crests.football-data.org/764.svg",
       "cleanSheets": 2,
@@ -2978,24 +2983,6 @@
       "played": 2
     },
     {
-      "team": "Ecuador",
-      "logo": "https://crests.football-data.org/791.svg",
-      "cleanSheets": 1,
-      "played": 2
-    },
-    {
-      "team": "Curaçao",
-      "logo": "https://crests.football-data.org/curacao.svg",
-      "cleanSheets": 1,
-      "played": 2
-    },
-    {
-      "team": "Ivory Coast",
-      "logo": "https://crests.football-data.org/787.svg",
-      "cleanSheets": 1,
-      "played": 2
-    },
-    {
       "team": "Paraguay",
       "logo": "https://crests.football-data.org/761.svg",
       "cleanSheets": 1,
@@ -3012,6 +2999,18 @@
       "logo": "https://crests.football-data.org/779.svg",
       "cleanSheets": 1,
       "played": 2
+    },
+    {
+      "team": "Ecuador",
+      "logo": "https://crests.football-data.org/791.svg",
+      "cleanSheets": 1,
+      "played": 3
+    },
+    {
+      "team": "Curaçao",
+      "logo": "https://crests.football-data.org/curacao.svg",
+      "cleanSheets": 1,
+      "played": 3
     }
   ]
 }
