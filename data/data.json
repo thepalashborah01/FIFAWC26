@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-25T19:24:59.114Z"
+    "lastUpdated": "2026-06-25T21:12:14.590Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537355,
         "date": "2026-06-25T20:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group E",
         "venue": "",
@@ -23,15 +22,15 @@
           "logo": "https://crests.football-data.org/759.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "events": []
       },
       {
         "id": 537356,
         "date": "2026-06-25T20:00:00Z",
-        "status": "NS",
+        "status": "LIVE",
         "minute": null,
         "round": "Group E",
         "venue": "",
@@ -44,11 +43,13 @@
           "logo": "https://crests.football-data.org/787.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537361,
         "date": "2026-06-25T23:00:00Z",
@@ -2383,41 +2384,41 @@
           "rank": 1,
           "name": "Germany",
           "logo": "https://crests.football-data.org/759.svg",
-          "played": 2,
-          "points": 6,
+          "played": 3,
+          "points": 7,
           "gd": 7,
-          "gf": 9,
-          "ga": 2
+          "gf": 10,
+          "ga": 3
         },
         {
           "rank": 2,
           "name": "Ivory Coast",
           "logo": "https://crests.football-data.org/787.svg",
-          "played": 2,
-          "points": 3,
-          "gd": 0,
-          "gf": 2,
+          "played": 3,
+          "points": 6,
+          "gd": 1,
+          "gf": 3,
           "ga": 2
         },
         {
           "rank": 3,
           "name": "Ecuador",
           "logo": "https://crests.football-data.org/791.svg",
-          "played": 2,
-          "points": 1,
+          "played": 3,
+          "points": 2,
           "gd": -1,
-          "gf": 0,
-          "ga": 1
+          "gf": 1,
+          "ga": 2
         },
         {
           "rank": 4,
           "name": "Curaçao",
           "logo": "https://crests.football-data.org/curacao.svg",
-          "played": 2,
+          "played": 3,
           "points": 1,
-          "gd": -6,
+          "gd": -7,
           "gf": 1,
-          "ga": 7
+          "ga": 8
         }
       ]
     },
