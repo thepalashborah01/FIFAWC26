@@ -2,58 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-27T00:09:45.315Z"
+    "lastUpdated": "2026-06-27T04:16:34.990Z"
   },
   "matches": {
     "live": [
       {
-        "id": 537373,
-        "date": "2026-06-27T00:00:00Z",
-        "status": "LIVE",
-        "minute": null,
-        "round": "Group H",
-        "venue": "",
-        "home": {
-          "name": "Uruguay",
-          "logo": "https://crests.football-data.org/758.svg"
-        },
-        "away": {
-          "name": "Spain",
-          "logo": "https://crests.football-data.org/760.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        },
-        "events": []
-      },
-      {
-        "id": 537374,
-        "date": "2026-06-27T00:00:00Z",
-        "status": "LIVE",
-        "minute": null,
-        "round": "Group H",
-        "venue": "",
-        "home": {
-          "name": "Cape Verde",
-          "logo": "https://crests.football-data.org/cape_verde.svg"
-        },
-        "away": {
-          "name": "Saudi Arabia",
-          "logo": "https://crests.football-data.org/saudi_arabia.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
-    "upcoming": [
-      {
         "id": 537367,
         "date": "2026-06-27T03:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group G",
         "venue": "",
@@ -66,15 +22,15 @@
           "logo": "https://crests.football-data.org/805.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "events": []
       },
       {
         "id": 537368,
         "date": "2026-06-27T03:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group G",
         "venue": "",
@@ -87,11 +43,13 @@
           "logo": "https://crests.football-data.org/iran.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537413,
         "date": "2026-06-27T21:00:00Z",
@@ -892,6 +850,48 @@
       }
     ],
     "finished": [
+      {
+        "id": 537373,
+        "date": "2026-06-27T00:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group H",
+        "venue": "",
+        "home": {
+          "name": "Uruguay",
+          "logo": "https://crests.football-data.org/758.svg"
+        },
+        "away": {
+          "name": "Spain",
+          "logo": "https://crests.football-data.org/760.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "events": []
+      },
+      {
+        "id": 537374,
+        "date": "2026-06-27T00:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group H",
+        "venue": "",
+        "home": {
+          "name": "Cape Verde",
+          "logo": "https://crests.football-data.org/cape_verde.svg"
+        },
+        "away": {
+          "name": "Saudi Arabia",
+          "logo": "https://crests.football-data.org/saudi_arabia.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "events": []
+      },
       {
         "id": 537395,
         "date": "2026-06-26T19:00:00Z",
@@ -2472,43 +2472,43 @@
       "teams": [
         {
           "rank": 1,
-          "name": "Egypt",
-          "logo": "https://crests.football-data.org/825.svg",
-          "played": 2,
-          "points": 4,
-          "gd": 2,
-          "gf": 4,
-          "ga": 2
+          "name": "Belgium",
+          "logo": "https://crests.football-data.org/805.svg",
+          "played": 3,
+          "points": 5,
+          "gd": 1,
+          "gf": 2,
+          "ga": 1
         },
         {
           "rank": 2,
-          "name": "Iran",
-          "logo": "https://crests.football-data.org/iran.svg",
-          "played": 2,
-          "points": 2,
-          "gd": 0,
-          "gf": 2,
-          "ga": 2
+          "name": "Egypt",
+          "logo": "https://crests.football-data.org/825.svg",
+          "played": 3,
+          "points": 5,
+          "gd": 2,
+          "gf": 5,
+          "ga": 3
         },
         {
           "rank": 3,
-          "name": "Belgium",
-          "logo": "https://crests.football-data.org/805.svg",
-          "played": 2,
-          "points": 2,
+          "name": "Iran",
+          "logo": "https://crests.football-data.org/iran.svg",
+          "played": 3,
+          "points": 3,
           "gd": 0,
-          "gf": 1,
-          "ga": 1
+          "gf": 3,
+          "ga": 3
         },
         {
           "rank": 4,
           "name": "New Zealand",
           "logo": "https://crests.football-data.org/783.svg",
-          "played": 2,
+          "played": 3,
           "points": 1,
-          "gd": -2,
+          "gd": -3,
           "gf": 3,
-          "ga": 5
+          "ga": 6
         }
       ]
     },
@@ -2520,23 +2520,13 @@
           "name": "Spain",
           "logo": "https://crests.football-data.org/760.svg",
           "played": 3,
-          "points": 5,
-          "gd": 4,
-          "gf": 4,
+          "points": 7,
+          "gd": 5,
+          "gf": 5,
           "ga": 0
         },
         {
           "rank": 2,
-          "name": "Uruguay",
-          "logo": "https://crests.football-data.org/758.svg",
-          "played": 3,
-          "points": 3,
-          "gd": 0,
-          "gf": 3,
-          "ga": 3
-        },
-        {
-          "rank": 3,
           "name": "Cape Verde",
           "logo": "https://crests.football-data.org/cape_verde.svg",
           "played": 3,
@@ -2544,6 +2534,16 @@
           "gd": 0,
           "gf": 2,
           "ga": 2
+        },
+        {
+          "rank": 3,
+          "name": "Uruguay",
+          "logo": "https://crests.football-data.org/758.svg",
+          "played": 3,
+          "points": 2,
+          "gd": -1,
+          "gf": 3,
+          "ga": 4
         },
         {
           "rank": 4,
@@ -2912,6 +2912,12 @@
   ],
   "goldenGlove": [
     {
+      "team": "Spain",
+      "logo": "https://crests.football-data.org/760.svg",
+      "cleanSheets": 3,
+      "played": 3
+    },
+    {
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 3,
@@ -2930,10 +2936,10 @@
       "played": 2
     },
     {
-      "team": "Spain",
-      "logo": "https://crests.football-data.org/760.svg",
+      "team": "Cape Verde",
+      "logo": "https://crests.football-data.org/cape_verde.svg",
       "cleanSheets": 2,
-      "played": 2
+      "played": 3
     },
     {
       "team": "Paraguay",
@@ -2984,12 +2990,6 @@
       "played": 2
     },
     {
-      "team": "Cape Verde",
-      "logo": "https://crests.football-data.org/cape_verde.svg",
-      "cleanSheets": 1,
-      "played": 2
-    },
-    {
       "team": "Belgium",
       "logo": "https://crests.football-data.org/805.svg",
       "cleanSheets": 1,
@@ -3000,6 +3000,12 @@
       "logo": "https://crests.football-data.org/iran.svg",
       "cleanSheets": 1,
       "played": 2
+    },
+    {
+      "team": "Saudi Arabia",
+      "logo": "https://crests.football-data.org/saudi_arabia.svg",
+      "cleanSheets": 1,
+      "played": 3
     },
     {
       "team": "France",
@@ -3022,12 +3028,6 @@
     {
       "team": "Japan",
       "logo": "https://crests.football-data.org/766.svg",
-      "cleanSheets": 1,
-      "played": 3
-    },
-    {
-      "team": "Ecuador",
-      "logo": "https://crests.football-data.org/791.svg",
       "cleanSheets": 1,
       "played": 3
     }
