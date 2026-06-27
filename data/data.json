@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-27T19:53:08.293Z"
+    "lastUpdated": "2026-06-27T21:05:07.355Z"
   },
   "matches": {
     "live": [],
@@ -2698,8 +2698,8 @@
           "rank": 1,
           "name": "England",
           "logo": "https://crests.football-data.org/770.svg",
-          "played": 2,
-          "points": 4,
+          "played": 3,
+          "points": 5,
           "gd": 2,
           "gf": 4,
           "ga": 2
@@ -2708,8 +2708,8 @@
           "rank": 2,
           "name": "Ghana",
           "logo": "https://crests.football-data.org/ghana.svg",
-          "played": 2,
-          "points": 4,
+          "played": 3,
+          "points": 5,
           "gd": 1,
           "gf": 1,
           "ga": 0
@@ -2718,8 +2718,8 @@
           "rank": 3,
           "name": "Croatia",
           "logo": "https://crests.football-data.org/799.svg",
-          "played": 2,
-          "points": 3,
+          "played": 3,
+          "points": 4,
           "gd": -1,
           "gf": 3,
           "ga": 4
@@ -2728,8 +2728,8 @@
           "rank": 4,
           "name": "Panama",
           "logo": "https://crests.football-data.org/panama.svg",
-          "played": 2,
-          "points": 0,
+          "played": 3,
+          "points": 1,
           "gd": -2,
           "gf": 0,
           "ga": 2
