@@ -2,53 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-27T07:35:23.560Z"
+    "lastUpdated": "2026-06-27T09:51:10.619Z"
   },
   "matches": {
     "live": [],
     "upcoming": [
-      {
-        "id": 537395,
-        "date": "2026-06-26T19:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group I",
-        "venue": "",
-        "home": {
-          "name": "Norway",
-          "logo": "https://crests.football-data.org/813.svg"
-        },
-        "away": {
-          "name": "France",
-          "logo": "https://crests.football-data.org/773.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
-      {
-        "id": 537396,
-        "date": "2026-06-26T19:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group I",
-        "venue": "",
-        "home": {
-          "name": "Senegal",
-          "logo": "https://crests.football-data.org/senegal.svg"
-        },
-        "away": {
-          "name": "Iraq",
-          "logo": "https://crests.football-data.org/iraq.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
       {
         "id": 537413,
         "date": "2026-06-27T21:00:00Z",
@@ -267,8 +225,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Ivory Coast",
+          "logo": "https://crests.football-data.org/787.svg"
         },
         "away": {
           "name": "TBD",
@@ -887,7 +845,7 @@
         },
         "goals": {
           "home": 1,
-          "away": 2
+          "away": 1
         },
         "events": []
       },
@@ -929,6 +887,48 @@
         },
         "goals": {
           "home": 0,
+          "away": 0
+        },
+        "events": []
+      },
+      {
+        "id": 537395,
+        "date": "2026-06-26T19:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group I",
+        "venue": "",
+        "home": {
+          "name": "Norway",
+          "logo": "https://crests.football-data.org/813.svg"
+        },
+        "away": {
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 4
+        },
+        "events": []
+      },
+      {
+        "id": 537396,
+        "date": "2026-06-26T19:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group I",
+        "venue": "",
+        "home": {
+          "name": "Senegal",
+          "logo": "https://crests.football-data.org/senegal.svg"
+        },
+        "away": {
+          "name": "Iraq",
+          "logo": "https://crests.football-data.org/iraq.svg"
+        },
+        "goals": {
+          "home": 5,
           "away": 0
         },
         "events": []
@@ -2983,12 +2983,6 @@
       "played": 2
     },
     {
-      "team": "France",
-      "logo": "https://crests.football-data.org/773.svg",
-      "cleanSheets": 1,
-      "played": 2
-    },
-    {
       "team": "Belgium",
       "logo": "https://crests.football-data.org/805.svg",
       "cleanSheets": 1,
@@ -3007,6 +3001,18 @@
       "played": 3
     },
     {
+      "team": "France",
+      "logo": "https://crests.football-data.org/773.svg",
+      "cleanSheets": 1,
+      "played": 3
+    },
+    {
+      "team": "Senegal",
+      "logo": "https://crests.football-data.org/senegal.svg",
+      "cleanSheets": 1,
+      "played": 3
+    },
+    {
       "team": "USA",
       "logo": "https://crests.football-data.org/usa.svg",
       "cleanSheets": 1,
@@ -3015,12 +3021,6 @@
     {
       "team": "Japan",
       "logo": "https://crests.football-data.org/766.svg",
-      "cleanSheets": 1,
-      "played": 3
-    },
-    {
-      "team": "Ecuador",
-      "logo": "https://crests.football-data.org/791.svg",
       "cleanSheets": 1,
       "played": 3
     }
