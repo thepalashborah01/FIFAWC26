@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-27T21:05:07.355Z"
+    "lastUpdated": "2026-06-27T22:16:07.122Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537413,
         "date": "2026-06-27T21:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group L",
         "venue": "",
@@ -23,15 +22,15 @@
           "logo": "https://crests.football-data.org/770.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
       },
       {
         "id": 537414,
         "date": "2026-06-27T21:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Group L",
         "venue": "",
@@ -44,11 +43,13 @@
           "logo": "https://crests.football-data.org/ghana.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537407,
         "date": "2026-06-27T23:30:00Z",
@@ -141,12 +142,12 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "South Africa",
-          "logo": "https://crests.football-data.org/9396.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
-          "name": "Canada",
-          "logo": "https://crests.football-data.org/canada.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "goals": {
           "home": null,
@@ -162,12 +163,12 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "Brazil",
-          "logo": "https://crests.football-data.org/764.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
-          "name": "Japan",
-          "logo": "https://crests.football-data.org/766.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "goals": {
           "home": null,
@@ -183,8 +184,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "Germany",
-          "logo": "https://crests.football-data.org/759.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
           "name": "TBD",
@@ -204,12 +205,12 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "Netherlands",
-          "logo": "https://crests.football-data.org/8601.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
-          "name": "Morocco",
-          "logo": "https://crests.football-data.org/morocco.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "goals": {
           "home": null,
@@ -225,8 +226,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "Ivory Coast",
-          "logo": "https://crests.football-data.org/787.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
           "name": "TBD",
@@ -267,8 +268,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "Mexico",
-          "logo": "https://crests.football-data.org/769.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
           "name": "TBD",
@@ -330,12 +331,12 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "USA",
-          "logo": "https://crests.football-data.org/usa.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
-          "name": "Bosnia-H.",
-          "logo": "https://crests.football-data.org/bosnia.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "goals": {
           "home": null,
@@ -393,8 +394,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "Switzerland",
-          "logo": "https://crests.football-data.org/788.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
           "name": "TBD",
@@ -414,8 +415,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "Australia",
-          "logo": "https://crests.football-data.org/779.svg"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
           "name": "TBD",
@@ -435,8 +436,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "Argentina",
-          "logo": "https://crests.football-data.org/762.png"
+          "name": "TBD",
+          "logo": ""
         },
         "away": {
           "name": "TBD",
@@ -2696,6 +2697,16 @@
       "teams": [
         {
           "rank": 1,
+          "name": "Croatia",
+          "logo": "https://crests.football-data.org/799.svg",
+          "played": 3,
+          "points": 6,
+          "gd": 0,
+          "gf": 4,
+          "ga": 4
+        },
+        {
+          "rank": 2,
           "name": "England",
           "logo": "https://crests.football-data.org/770.svg",
           "played": 3,
@@ -2705,24 +2716,14 @@
           "ga": 2
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Ghana",
           "logo": "https://crests.football-data.org/ghana.svg",
           "played": 3,
-          "points": 5,
-          "gd": 1,
-          "gf": 1,
-          "ga": 0
-        },
-        {
-          "rank": 3,
-          "name": "Croatia",
-          "logo": "https://crests.football-data.org/799.svg",
-          "played": 3,
           "points": 4,
-          "gd": -1,
-          "gf": 3,
-          "ga": 4
+          "gd": 0,
+          "gf": 1,
+          "ga": 1
         },
         {
           "rank": 4,
