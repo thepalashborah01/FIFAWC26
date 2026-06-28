@@ -2,53 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-27T23:34:12.551Z"
+    "lastUpdated": "2026-06-28T01:52:37.801Z"
   },
   "matches": {
     "live": [],
     "upcoming": [
-      {
-        "id": 537407,
-        "date": "2026-06-27T23:30:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group K",
-        "venue": "",
-        "home": {
-          "name": "Colombia",
-          "logo": "https://crests.football-data.org/818.svg"
-        },
-        "away": {
-          "name": "Portugal",
-          "logo": "https://crests.football-data.org/765.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
-      {
-        "id": 537408,
-        "date": "2026-06-27T23:30:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Group K",
-        "venue": "",
-        "home": {
-          "name": "Congo DR",
-          "logo": "https://crests.football-data.org/congo_dr.svg"
-        },
-        "away": {
-          "name": "Uzbekistan",
-          "logo": "https://crests.football-data.org/8070.png"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
       {
         "id": 537401,
         "date": "2026-06-28T02:00:00Z",
@@ -99,12 +57,12 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "South Africa",
+          "logo": "https://crests.football-data.org/9396.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Canada",
+          "logo": "https://crests.football-data.org/canada.svg"
         },
         "goals": {
           "home": null,
@@ -120,12 +78,12 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Brazil",
+          "logo": "https://crests.football-data.org/764.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Japan",
+          "logo": "https://crests.football-data.org/766.svg"
         },
         "goals": {
           "home": null,
@@ -141,8 +99,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Germany",
+          "logo": "https://crests.football-data.org/759.svg"
         },
         "away": {
           "name": "TBD",
@@ -162,12 +120,12 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Netherlands",
+          "logo": "https://crests.football-data.org/8601.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Morocco",
+          "logo": "https://crests.football-data.org/morocco.svg"
         },
         "goals": {
           "home": null,
@@ -183,8 +141,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Ivory Coast",
+          "logo": "https://crests.football-data.org/787.svg"
         },
         "away": {
           "name": "TBD",
@@ -225,8 +183,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Mexico",
+          "logo": "https://crests.football-data.org/769.svg"
         },
         "away": {
           "name": "TBD",
@@ -288,12 +246,12 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "USA",
+          "logo": "https://crests.football-data.org/usa.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Bosnia-H.",
+          "logo": "https://crests.football-data.org/bosnia.svg"
         },
         "goals": {
           "home": null,
@@ -351,8 +309,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg"
         },
         "away": {
           "name": "TBD",
@@ -372,8 +330,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Australia",
+          "logo": "https://crests.football-data.org/779.svg"
         },
         "away": {
           "name": "TBD",
@@ -393,8 +351,8 @@
         "round": "Last 32",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Argentina",
+          "logo": "https://crests.football-data.org/762.png"
         },
         "away": {
           "name": "TBD",
@@ -765,6 +723,48 @@
       }
     ],
     "finished": [
+      {
+        "id": 537407,
+        "date": "2026-06-27T23:30:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group K",
+        "venue": "",
+        "home": {
+          "name": "Colombia",
+          "logo": "https://crests.football-data.org/818.svg"
+        },
+        "away": {
+          "name": "Portugal",
+          "logo": "https://crests.football-data.org/765.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 0
+        },
+        "events": []
+      },
+      {
+        "id": 537408,
+        "date": "2026-06-27T23:30:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Group K",
+        "venue": "",
+        "home": {
+          "name": "Congo DR",
+          "logo": "https://crests.football-data.org/congo_dr.svg"
+        },
+        "away": {
+          "name": "Uzbekistan",
+          "logo": "https://crests.football-data.org/8070.png"
+        },
+        "goals": {
+          "home": 3,
+          "away": 1
+        },
+        "events": []
+      },
       {
         "id": 537413,
         "date": "2026-06-27T21:00:00Z",
@@ -2674,20 +2674,20 @@
           "name": "Congo DR",
           "logo": "https://crests.football-data.org/congo_dr.svg",
           "played": 3,
-          "points": 2,
-          "gd": -1,
-          "gf": 1,
-          "ga": 2
+          "points": 4,
+          "gd": 1,
+          "gf": 4,
+          "ga": 3
         },
         {
           "rank": 4,
           "name": "Uzbekistan",
           "logo": "https://crests.football-data.org/8070.png",
           "played": 3,
-          "points": 1,
-          "gd": -7,
-          "gf": 1,
-          "ga": 8
+          "points": 0,
+          "gd": -9,
+          "gf": 2,
+          "ga": 11
         }
       ]
     },
@@ -2787,6 +2787,12 @@
       "goals": 3
     },
     {
+      "name": "Yoane Wissa",
+      "photo": "https://crests.football-data.org/congo_dr.svg",
+      "team": "Congo DR",
+      "goals": 3
+    },
+    {
       "name": "Harry Kane",
       "photo": "https://crests.football-data.org/770.svg",
       "team": "England",
@@ -2850,12 +2856,6 @@
       "name": "Crysencio Summerville",
       "photo": "https://crests.football-data.org/8601.svg",
       "team": "Netherlands",
-      "goals": 2
-    },
-    {
-      "name": "Daichi Kamada",
-      "photo": "https://crests.football-data.org/766.svg",
-      "team": "Japan",
       "goals": 2
     }
   ],
@@ -2923,6 +2923,18 @@
       "played": 2
     },
     {
+      "team": "Colombia",
+      "logo": "https://crests.football-data.org/818.svg",
+      "cleanSheets": 2,
+      "played": 3
+    },
+    {
+      "team": "Portugal",
+      "logo": "https://crests.football-data.org/765.svg",
+      "cleanSheets": 2,
+      "played": 3
+    },
+    {
       "team": "England",
       "logo": "https://crests.football-data.org/770.svg",
       "cleanSheets": 2,
@@ -2963,18 +2975,6 @@
       "logo": "https://crests.football-data.org/764.svg",
       "cleanSheets": 2,
       "played": 3
-    },
-    {
-      "team": "Colombia",
-      "logo": "https://crests.football-data.org/818.svg",
-      "cleanSheets": 1,
-      "played": 2
-    },
-    {
-      "team": "Portugal",
-      "logo": "https://crests.football-data.org/765.svg",
-      "cleanSheets": 1,
-      "played": 2
     },
     {
       "team": "Croatia",
