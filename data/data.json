@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-29T20:56:36.620Z"
+    "lastUpdated": "2026-06-29T22:13:12.575Z"
   },
   "matches": {
     "live": [
@@ -22,8 +22,8 @@
           "logo": "https://crests.football-data.org/761.svg"
         },
         "goals": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 1
         },
         "events": []
       }
@@ -2776,6 +2776,12 @@
       "goals": 3
     },
     {
+      "name": "Kai Havertz",
+      "photo": "https://crests.football-data.org/759.svg",
+      "team": "Germany",
+      "goals": 3
+    },
+    {
       "name": "Deniz Undav",
       "photo": "https://crests.football-data.org/759.svg",
       "team": "Germany",
@@ -2845,12 +2851,6 @@
       "name": "Folarin Balogun",
       "photo": "https://crests.football-data.org/usa.svg",
       "team": "USA",
-      "goals": 2
-    },
-    {
-      "name": "Kai Havertz",
-      "photo": "https://crests.football-data.org/759.svg",
-      "team": "Germany",
       "goals": 2
     },
     {
