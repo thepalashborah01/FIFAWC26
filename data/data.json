@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-29T04:05:08.452Z"
+    "lastUpdated": "2026-06-29T09:08:19.275Z"
   },
   "matches": {
     "live": [],
@@ -330,8 +330,8 @@
         "round": "Last 16",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Canada",
+          "logo": "https://crests.football-data.org/canada.svg"
         },
         "away": {
           "name": "TBD",
