@@ -2,37 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-29T19:04:59.240Z"
+    "lastUpdated": "2026-06-29T20:56:36.620Z"
   },
   "matches": {
     "live": [
       {
-        "id": 537423,
-        "date": "2026-06-29T17:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Brazil",
-          "logo": "https://crests.football-data.org/764.svg"
-        },
-        "away": {
-          "name": "Japan",
-          "logo": "https://crests.football-data.org/766.svg"
-        },
-        "goals": {
-          "home": 2,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
-    "upcoming": [
-      {
         "id": 537415,
         "date": "2026-06-29T20:30:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Last 32",
         "venue": "",
@@ -45,11 +22,13 @@
           "logo": "https://crests.football-data.org/761.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537418,
         "date": "2026-06-30T01:00:00Z",
@@ -661,6 +640,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537423,
+        "date": "2026-06-29T17:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Brazil",
+          "logo": "https://crests.football-data.org/764.svg"
+        },
+        "away": {
+          "name": "Japan",
+          "logo": "https://crests.football-data.org/766.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "events": []
+      },
       {
         "id": 537417,
         "date": "2026-06-28T19:00:00Z",
@@ -2975,7 +2975,7 @@
       "team": "Brazil",
       "logo": "https://crests.football-data.org/764.svg",
       "cleanSheets": 2,
-      "played": 3
+      "played": 4
     },
     {
       "team": "Canada",
