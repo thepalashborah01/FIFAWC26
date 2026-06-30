@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-30T05:56:22.187Z"
+    "lastUpdated": "2026-06-30T09:48:57.454Z"
   },
   "matches": {
     "live": [],
@@ -271,8 +271,8 @@
           "logo": "https://crests.football-data.org/canada.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Morocco",
+          "logo": "https://crests.football-data.org/morocco.svg"
         },
         "goals": {
           "home": null,
@@ -288,8 +288,8 @@
         "round": "Last 16",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Paraguay",
+          "logo": "https://crests.football-data.org/761.svg"
         },
         "away": {
           "name": "TBD",
@@ -309,8 +309,8 @@
         "round": "Last 16",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Brazil",
+          "logo": "https://crests.football-data.org/764.svg"
         },
         "away": {
           "name": "TBD",
