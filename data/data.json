@@ -2,37 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-29T23:17:51.931Z"
+    "lastUpdated": "2026-06-30T01:30:23.515Z"
   },
   "matches": {
     "live": [
       {
-        "id": 537415,
-        "date": "2026-06-29T20:30:00Z",
-        "status": "PAUSED",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Germany",
-          "logo": "https://crests.football-data.org/759.svg"
-        },
-        "away": {
-          "name": "Paraguay",
-          "logo": "https://crests.football-data.org/761.svg"
-        },
-        "goals": {
-          "home": 2,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
-    "upcoming": [
-      {
         "id": 537418,
         "date": "2026-06-30T01:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Last 32",
         "venue": "",
@@ -45,11 +22,13 @@
           "logo": "https://crests.football-data.org/morocco.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537424,
         "date": "2026-06-30T17:00:00Z",
@@ -640,6 +619,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537415,
+        "date": "2026-06-29T20:30:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Germany",
+          "logo": "https://crests.football-data.org/759.svg"
+        },
+        "away": {
+          "name": "Paraguay",
+          "logo": "https://crests.football-data.org/761.svg"
+        },
+        "goals": {
+          "home": 4,
+          "away": 5
+        },
+        "events": []
+      },
       {
         "id": 537423,
         "date": "2026-06-29T17:00:00Z",
@@ -2954,12 +2954,6 @@
       "played": 3
     },
     {
-      "team": "Paraguay",
-      "logo": "https://crests.football-data.org/761.svg",
-      "cleanSheets": 2,
-      "played": 3
-    },
-    {
       "team": "Australia",
       "logo": "https://crests.football-data.org/779.svg",
       "cleanSheets": 2,
@@ -2970,6 +2964,12 @@
       "logo": "https://crests.football-data.org/787.svg",
       "cleanSheets": 2,
       "played": 3
+    },
+    {
+      "team": "Paraguay",
+      "logo": "https://crests.football-data.org/761.svg",
+      "cleanSheets": 2,
+      "played": 4
     },
     {
       "team": "Brazil",
