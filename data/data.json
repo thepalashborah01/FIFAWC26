@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-30T18:58:39.730Z"
+    "lastUpdated": "2026-06-30T21:01:41.996Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537424,
-        "date": "2026-06-30T17:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Ivory Coast",
-          "logo": "https://crests.football-data.org/787.svg"
-        },
-        "away": {
-          "name": "Norway",
-          "logo": "https://crests.football-data.org/813.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 2
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537416,
@@ -598,6 +576,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537424,
+        "date": "2026-06-30T17:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Ivory Coast",
+          "logo": "https://crests.football-data.org/787.svg"
+        },
+        "away": {
+          "name": "Norway",
+          "logo": "https://crests.football-data.org/813.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        },
+        "events": []
+      },
       {
         "id": 537418,
         "date": "2026-06-30T01:00:00Z",
@@ -2963,7 +2962,7 @@
       "team": "Ivory Coast",
       "logo": "https://crests.football-data.org/787.svg",
       "cleanSheets": 2,
-      "played": 3
+      "played": 4
     },
     {
       "team": "Paraguay",
