@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-30T01:30:23.515Z"
+    "lastUpdated": "2026-06-30T05:56:22.187Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537418,
-        "date": "2026-06-30T01:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Netherlands",
-          "logo": "https://crests.football-data.org/8601.svg"
-        },
-        "away": {
-          "name": "Morocco",
-          "logo": "https://crests.football-data.org/morocco.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537424,
@@ -619,6 +597,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537418,
+        "date": "2026-06-30T01:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Netherlands",
+          "logo": "https://crests.football-data.org/8601.svg"
+        },
+        "away": {
+          "name": "Morocco",
+          "logo": "https://crests.football-data.org/morocco.svg"
+        },
+        "goals": {
+          "home": 3,
+          "away": 4
+        },
+        "events": []
+      },
       {
         "id": 537415,
         "date": "2026-06-29T20:30:00Z",
@@ -2830,6 +2829,12 @@
       "goals": 3
     },
     {
+      "name": "Cody Gakpo",
+      "photo": "https://crests.football-data.org/8601.svg",
+      "team": "Netherlands",
+      "goals": 3
+    },
+    {
       "name": "Ismaïla Sarr",
       "photo": "https://crests.football-data.org/senegal.svg",
       "team": "Senegal",
@@ -2851,12 +2856,6 @@
       "name": "Folarin Balogun",
       "photo": "https://crests.football-data.org/usa.svg",
       "team": "USA",
-      "goals": 2
-    },
-    {
-      "name": "Crysencio Summerville",
-      "photo": "https://crests.football-data.org/8601.svg",
-      "team": "Netherlands",
       "goals": 2
     }
   ],
@@ -2892,15 +2891,15 @@
       "assists": 1
     },
     {
-      "name": "Ismaïla Sarr",
-      "photo": "https://crests.football-data.org/senegal.svg",
-      "team": "Senegal",
+      "name": "Cody Gakpo",
+      "photo": "https://crests.football-data.org/8601.svg",
+      "team": "Netherlands",
       "assists": 1
     },
     {
-      "name": "Crysencio Summerville",
-      "photo": "https://crests.football-data.org/8601.svg",
-      "team": "Netherlands",
+      "name": "Ismaïla Sarr",
+      "photo": "https://crests.football-data.org/senegal.svg",
+      "team": "Senegal",
       "assists": 1
     }
   ],
