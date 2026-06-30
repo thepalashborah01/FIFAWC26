@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-30T22:40:20.013Z"
+    "lastUpdated": "2026-06-30T23:50:26.470Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537416,
-        "date": "2026-06-30T21:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "France",
-          "logo": "https://crests.football-data.org/773.svg"
-        },
-        "away": {
-          "name": "Sweden",
-          "logo": "https://crests.football-data.org/792.svg"
-        },
-        "goals": {
-          "home": 3,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537425,
@@ -577,6 +555,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537416,
+        "date": "2026-06-30T21:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg"
+        },
+        "away": {
+          "name": "Sweden",
+          "logo": "https://crests.football-data.org/792.svg"
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        },
+        "events": []
+      },
       {
         "id": 537424,
         "date": "2026-06-30T17:00:00Z",
@@ -2960,6 +2959,12 @@
       "played": 3
     },
     {
+      "team": "France",
+      "logo": "https://crests.football-data.org/773.svg",
+      "cleanSheets": 2,
+      "played": 4
+    },
+    {
       "team": "Ivory Coast",
       "logo": "https://crests.football-data.org/787.svg",
       "cleanSheets": 2,
@@ -3004,12 +3009,6 @@
     {
       "team": "Saudi Arabia",
       "logo": "https://crests.football-data.org/saudi_arabia.svg",
-      "cleanSheets": 1,
-      "played": 3
-    },
-    {
-      "team": "France",
-      "logo": "https://crests.football-data.org/773.svg",
       "cleanSheets": 1,
       "played": 3
     },
