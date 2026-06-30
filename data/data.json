@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-30T16:56:04.495Z"
+    "lastUpdated": "2026-06-30T18:58:39.730Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537424,
         "date": "2026-06-30T17:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Last 32",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/813.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537416,
         "date": "2026-06-30T21:00:00Z",
@@ -2745,6 +2746,12 @@
       "goals": 6
     },
     {
+      "name": "Erling Haaland",
+      "photo": "https://crests.football-data.org/813.svg",
+      "team": "Norway",
+      "goals": 5
+    },
+    {
       "name": "Vinicius Junior",
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
@@ -2754,12 +2761,6 @@
       "name": "Kylian Mbappé",
       "photo": "https://crests.football-data.org/773.svg",
       "team": "France",
-      "goals": 4
-    },
-    {
-      "name": "Erling Haaland",
-      "photo": "https://crests.football-data.org/813.svg",
-      "team": "Norway",
       "goals": 4
     },
     {
