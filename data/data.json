@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-06-30T21:01:41.996Z"
+    "lastUpdated": "2026-06-30T22:40:20.013Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537416,
         "date": "2026-06-30T21:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Last 32",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/792.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537425,
         "date": "2026-07-01T01:00:00Z",
@@ -2739,6 +2740,12 @@
   ],
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "photo": "https://crests.football-data.org/773.svg",
+      "team": "France",
+      "goals": 6
+    },
+    {
       "name": "Lionel Messi",
       "photo": "https://crests.football-data.org/762.png",
       "team": "Argentina",
@@ -2754,12 +2761,6 @@
       "name": "Vinicius Junior",
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
-      "goals": 4
-    },
-    {
-      "name": "Kylian Mbappé",
-      "photo": "https://crests.football-data.org/773.svg",
-      "team": "France",
       "goals": 4
     },
     {
@@ -2867,6 +2868,12 @@
       "assists": 2
     },
     {
+      "name": "Ousmane Dembélé",
+      "photo": "https://crests.football-data.org/773.svg",
+      "team": "France",
+      "assists": 2
+    },
+    {
       "name": "Deniz Undav",
       "photo": "https://crests.football-data.org/759.svg",
       "team": "Germany",
@@ -2876,12 +2883,6 @@
       "name": "Vinicius Junior",
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
-      "assists": 1
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "photo": "https://crests.football-data.org/773.svg",
-      "team": "France",
       "assists": 1
     },
     {
