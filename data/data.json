@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-01T22:04:19.879Z"
+    "lastUpdated": "2026-07-01T23:43:33.703Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537422,
-        "date": "2026-07-01T20:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Belgium",
-          "logo": "https://crests.football-data.org/805.svg"
-        },
-        "away": {
-          "name": "Senegal",
-          "logo": "https://crests.football-data.org/senegal.svg"
-        },
-        "goals": {
-          "home": 2,
-          "away": 2
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537421,
@@ -514,6 +492,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537422,
+        "date": "2026-07-01T20:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Belgium",
+          "logo": "https://crests.football-data.org/805.svg"
+        },
+        "away": {
+          "name": "Senegal",
+          "logo": "https://crests.football-data.org/senegal.svg"
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        },
+        "events": []
+      },
       {
         "id": 537426,
         "date": "2026-07-01T16:00:00Z",
@@ -3002,12 +3001,6 @@
       "played": 3
     },
     {
-      "team": "Belgium",
-      "logo": "https://crests.football-data.org/805.svg",
-      "cleanSheets": 1,
-      "played": 3
-    },
-    {
       "team": "Iran",
       "logo": "https://crests.football-data.org/iran.svg",
       "cleanSheets": 1,
@@ -3020,14 +3013,20 @@
       "played": 3
     },
     {
-      "team": "Senegal",
-      "logo": "https://crests.football-data.org/senegal.svg",
+      "team": "USA",
+      "logo": "https://crests.football-data.org/usa.svg",
       "cleanSheets": 1,
       "played": 3
     },
     {
-      "team": "USA",
-      "logo": "https://crests.football-data.org/usa.svg",
+      "team": "Curaçao",
+      "logo": "https://crests.football-data.org/curacao.svg",
+      "cleanSheets": 1,
+      "played": 3
+    },
+    {
+      "team": "Scotland",
+      "logo": "https://crests.football-data.org/814.svg",
       "cleanSheets": 1,
       "played": 3
     }
