@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-01T04:03:02.068Z"
+    "lastUpdated": "2026-07-01T08:31:57.141Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537425,
-        "date": "2026-07-01T01:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Mexico",
-          "logo": "https://crests.football-data.org/769.svg"
-        },
-        "away": {
-          "name": "Ecuador",
-          "logo": "https://crests.football-data.org/791.svg"
-        },
-        "goals": {
-          "home": 2,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537426,
@@ -251,8 +229,8 @@
           "logo": "https://crests.football-data.org/761.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg"
         },
         "goals": {
           "home": null,
@@ -272,8 +250,8 @@
           "logo": "https://crests.football-data.org/764.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Norway",
+          "logo": "https://crests.football-data.org/813.svg"
         },
         "goals": {
           "home": null,
@@ -556,6 +534,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537425,
+        "date": "2026-07-01T01:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Mexico",
+          "logo": "https://crests.football-data.org/769.svg"
+        },
+        "away": {
+          "name": "Ecuador",
+          "logo": "https://crests.football-data.org/791.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "events": []
+      },
       {
         "id": 537416,
         "date": "2026-06-30T21:00:00Z",
@@ -2912,14 +2911,14 @@
   ],
   "goldenGlove": [
     {
-      "team": "Spain",
-      "logo": "https://crests.football-data.org/760.svg",
-      "cleanSheets": 3,
-      "played": 3
-    },
-    {
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
+      "cleanSheets": 4,
+      "played": 4
+    },
+    {
+      "team": "Spain",
+      "logo": "https://crests.football-data.org/760.svg",
       "cleanSheets": 3,
       "played": 3
     },
