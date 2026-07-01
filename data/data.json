@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-01T20:26:32.995Z"
+    "lastUpdated": "2026-07-01T22:04:19.879Z"
   },
   "matches": {
     "live": [
@@ -22,8 +22,8 @@
           "logo": "https://crests.football-data.org/senegal.svg"
         },
         "goals": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 2
         },
         "events": []
       }
@@ -2776,6 +2776,12 @@
       "goals": 4
     },
     {
+      "name": "Ismaïla Sarr",
+      "photo": "https://crests.football-data.org/senegal.svg",
+      "team": "Senegal",
+      "goals": 4
+    },
+    {
       "name": "Julián Quiñones",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
@@ -2842,12 +2848,6 @@
       "goals": 3
     },
     {
-      "name": "Ismaïla Sarr",
-      "photo": "https://crests.football-data.org/senegal.svg",
-      "team": "Senegal",
-      "goals": 3
-    },
-    {
       "name": "Raúl Jiménez",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
@@ -2886,6 +2886,12 @@
       "assists": 1
     },
     {
+      "name": "Ismaïla Sarr",
+      "photo": "https://crests.football-data.org/senegal.svg",
+      "team": "Senegal",
+      "assists": 1
+    },
+    {
       "name": "Julián Quiñones",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
@@ -2901,12 +2907,6 @@
       "name": "Cody Gakpo",
       "photo": "https://crests.football-data.org/8601.svg",
       "team": "Netherlands",
-      "assists": 1
-    },
-    {
-      "name": "Ismaïla Sarr",
-      "photo": "https://crests.football-data.org/senegal.svg",
-      "team": "Senegal",
       "assists": 1
     }
   ],
