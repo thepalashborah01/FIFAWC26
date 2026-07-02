@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-02T18:13:49.234Z"
+    "lastUpdated": "2026-07-02T19:55:19.402Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537420,
         "date": "2026-07-02T19:00:00Z",
-        "status": "NS",
+        "status": "PAUSED",
         "minute": null,
         "round": "Last 32",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/816.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537419,
         "date": "2026-07-02T23:00:00Z",
@@ -2853,10 +2854,10 @@
       "goals": 3
     },
     {
-      "name": "Raúl Jiménez",
-      "photo": "https://crests.football-data.org/769.svg",
-      "team": "Mexico",
-      "goals": 2
+      "name": "Mikel Oyarzabal",
+      "photo": "https://crests.football-data.org/760.svg",
+      "team": "Spain",
+      "goals": 3
     }
   ],
   "assists": [
@@ -2906,6 +2907,12 @@
       "name": "Cody Gakpo",
       "photo": "https://crests.football-data.org/8601.svg",
       "team": "Netherlands",
+      "assists": 1
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "photo": "https://crests.football-data.org/760.svg",
+      "team": "Spain",
       "assists": 1
     }
   ],
