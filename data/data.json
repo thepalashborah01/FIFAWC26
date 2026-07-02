@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-01T23:43:33.703Z"
+    "lastUpdated": "2026-07-02T01:51:07.502Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537421,
         "date": "2026-07-02T00:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Last 32",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/bosnia.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537420,
         "date": "2026-07-02T19:00:00Z",
@@ -2787,6 +2788,12 @@
       "goals": 3
     },
     {
+      "name": "Folarin Balogun",
+      "photo": "https://crests.football-data.org/usa.svg",
+      "team": "USA",
+      "goals": 3
+    },
+    {
       "name": "Ismael Saibari",
       "photo": "https://crests.football-data.org/morocco.svg",
       "team": "Morocco",
@@ -2850,12 +2857,6 @@
       "name": "Raúl Jiménez",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
-      "goals": 2
-    },
-    {
-      "name": "Cyle Larin",
-      "photo": "https://crests.football-data.org/canada.svg",
-      "team": "Canada",
       "goals": 2
     }
   ],
