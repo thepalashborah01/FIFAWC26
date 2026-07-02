@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-02T19:55:19.402Z"
+    "lastUpdated": "2026-07-02T21:09:19.895Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537420,
-        "date": "2026-07-02T19:00:00Z",
-        "status": "PAUSED",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Spain",
-          "logo": "https://crests.football-data.org/760.svg"
-        },
-        "away": {
-          "name": "Austria",
-          "logo": "https://crests.football-data.org/816.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537419,
@@ -472,6 +450,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537420,
+        "date": "2026-07-02T19:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Spain",
+          "logo": "https://crests.football-data.org/760.svg"
+        },
+        "away": {
+          "name": "Austria",
+          "logo": "https://crests.football-data.org/816.svg"
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        },
+        "events": []
+      },
       {
         "id": 537421,
         "date": "2026-07-02T00:00:00Z",
@@ -2770,6 +2769,12 @@
       "goals": 4
     },
     {
+      "name": "Mikel Oyarzabal",
+      "photo": "https://crests.football-data.org/760.svg",
+      "team": "Spain",
+      "goals": 4
+    },
+    {
       "name": "Ousmane Dembélé",
       "photo": "https://crests.football-data.org/773.svg",
       "team": "France",
@@ -2852,12 +2857,6 @@
       "photo": "https://crests.football-data.org/8601.svg",
       "team": "Netherlands",
       "goals": 3
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "photo": "https://crests.football-data.org/760.svg",
-      "team": "Spain",
-      "goals": 3
     }
   ],
   "assists": [
@@ -2886,6 +2885,12 @@
       "assists": 1
     },
     {
+      "name": "Mikel Oyarzabal",
+      "photo": "https://crests.football-data.org/760.svg",
+      "team": "Spain",
+      "assists": 1
+    },
+    {
       "name": "Ismaïla Sarr",
       "photo": "https://crests.football-data.org/senegal.svg",
       "team": "Senegal",
@@ -2908,26 +2913,20 @@
       "photo": "https://crests.football-data.org/8601.svg",
       "team": "Netherlands",
       "assists": 1
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "photo": "https://crests.football-data.org/760.svg",
-      "team": "Spain",
-      "assists": 1
     }
   ],
   "goldenGlove": [
+    {
+      "team": "Spain",
+      "logo": "https://crests.football-data.org/760.svg",
+      "cleanSheets": 4,
+      "played": 4
+    },
     {
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 4,
       "played": 4
-    },
-    {
-      "team": "Spain",
-      "logo": "https://crests.football-data.org/760.svg",
-      "cleanSheets": 3,
-      "played": 3
     },
     {
       "team": "Argentina",
