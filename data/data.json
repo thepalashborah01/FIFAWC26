@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-02T06:01:14.682Z"
+    "lastUpdated": "2026-07-02T09:32:24.553Z"
   },
   "matches": {
     "live": [],
@@ -204,12 +204,12 @@
         "round": "Last 16",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Mexico",
+          "logo": "https://crests.football-data.org/769.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "England",
+          "logo": "https://crests.football-data.org/770.svg"
         },
         "goals": {
           "home": null,
@@ -246,12 +246,12 @@
         "round": "Last 16",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "USA",
+          "logo": "https://crests.football-data.org/usa.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Belgium",
+          "logo": "https://crests.football-data.org/805.svg"
         },
         "goals": {
           "home": null,
