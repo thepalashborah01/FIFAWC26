@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-02T23:37:52.606Z"
+    "lastUpdated": "2026-07-03T01:17:28.311Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537419,
-        "date": "2026-07-02T23:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Portugal",
-          "logo": "https://crests.football-data.org/765.svg"
-        },
-        "away": {
-          "name": "Croatia",
-          "logo": "https://crests.football-data.org/799.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537429,
@@ -451,6 +429,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537419,
+        "date": "2026-07-02T23:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Portugal",
+          "logo": "https://crests.football-data.org/765.svg"
+        },
+        "away": {
+          "name": "Croatia",
+          "logo": "https://crests.football-data.org/799.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 2
+        },
+        "events": []
+      },
       {
         "id": 537420,
         "date": "2026-07-02T19:00:00Z",
@@ -2942,12 +2941,6 @@
       "played": 3
     },
     {
-      "team": "Portugal",
-      "logo": "https://crests.football-data.org/765.svg",
-      "cleanSheets": 2,
-      "played": 3
-    },
-    {
       "team": "Ghana",
       "logo": "https://crests.football-data.org/ghana.svg",
       "cleanSheets": 2,
@@ -2964,6 +2957,12 @@
       "logo": "https://crests.football-data.org/779.svg",
       "cleanSheets": 2,
       "played": 3
+    },
+    {
+      "team": "Portugal",
+      "logo": "https://crests.football-data.org/765.svg",
+      "cleanSheets": 2,
+      "played": 4
     },
     {
       "team": "USA",
@@ -3008,12 +3007,6 @@
       "played": 4
     },
     {
-      "team": "Croatia",
-      "logo": "https://crests.football-data.org/799.svg",
-      "cleanSheets": 1,
-      "played": 3
-    },
-    {
       "team": "Iran",
       "logo": "https://crests.football-data.org/iran.svg",
       "cleanSheets": 1,
@@ -3036,6 +3029,12 @@
       "logo": "https://crests.football-data.org/814.svg",
       "cleanSheets": 1,
       "played": 3
+    },
+    {
+      "team": "Croatia",
+      "logo": "https://crests.football-data.org/799.svg",
+      "cleanSheets": 1,
+      "played": 4
     }
   ]
 }
