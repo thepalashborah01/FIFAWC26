@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-03T20:03:32.070Z"
+    "lastUpdated": "2026-07-03T21:31:53.861Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537428,
-        "date": "2026-07-03T18:00:00Z",
-        "status": "PAUSED",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Australia",
-          "logo": "https://crests.football-data.org/779.svg"
-        },
-        "away": {
-          "name": "Egypt",
-          "logo": "https://crests.football-data.org/825.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537427,
@@ -409,6 +387,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537428,
+        "date": "2026-07-03T18:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Australia",
+          "logo": "https://crests.football-data.org/779.svg"
+        },
+        "away": {
+          "name": "Egypt",
+          "logo": "https://crests.football-data.org/825.svg"
+        },
+        "goals": {
+          "home": 3,
+          "away": 5
+        },
+        "events": []
+      },
       {
         "id": 537429,
         "date": "2026-07-03T03:00:00Z",
@@ -2957,7 +2956,7 @@
       "team": "Australia",
       "logo": "https://crests.football-data.org/779.svg",
       "cleanSheets": 2,
-      "played": 3
+      "played": 4
     },
     {
       "team": "Portugal",
