@@ -2,32 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-03T01:17:28.311Z"
+    "lastUpdated": "2026-07-03T05:27:15.601Z"
   },
   "matches": {
     "live": [],
     "upcoming": [
-      {
-        "id": 537429,
-        "date": "2026-07-03T03:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Switzerland",
-          "logo": "https://crests.football-data.org/788.svg"
-        },
-        "away": {
-          "name": "Algeria",
-          "logo": "https://crests.football-data.org/algeria.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
       {
         "id": 537428,
         "date": "2026-07-03T18:00:00Z",
@@ -430,6 +409,27 @@
     ],
     "finished": [
       {
+        "id": 537429,
+        "date": "2026-07-03T03:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg"
+        },
+        "away": {
+          "name": "Algeria",
+          "logo": "https://crests.football-data.org/algeria.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "events": []
+      },
+      {
         "id": 537419,
         "date": "2026-07-02T23:00:00Z",
         "status": "FINISHED",
@@ -446,7 +446,7 @@
         },
         "goals": {
           "home": 2,
-          "away": 2
+          "away": 1
         },
         "events": []
       },
@@ -2879,6 +2879,12 @@
       "assists": 2
     },
     {
+      "name": "Johan Manzambi",
+      "photo": "https://crests.football-data.org/788.svg",
+      "team": "Switzerland",
+      "assists": 2
+    },
+    {
       "name": "Vinicius Junior",
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
@@ -2900,12 +2906,6 @@
       "name": "Julián Quiñones",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
-      "assists": 1
-    },
-    {
-      "name": "Johan Manzambi",
-      "photo": "https://crests.football-data.org/788.svg",
-      "team": "Switzerland",
       "assists": 1
     },
     {
@@ -3031,8 +3031,8 @@
       "played": 3
     },
     {
-      "team": "Croatia",
-      "logo": "https://crests.football-data.org/799.svg",
+      "team": "Switzerland",
+      "logo": "https://crests.football-data.org/788.svg",
       "cleanSheets": 1,
       "played": 4
     }
