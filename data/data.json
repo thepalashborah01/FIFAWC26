@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-03T17:04:21.352Z"
+    "lastUpdated": "2026-07-03T18:39:25.344Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537428,
         "date": "2026-07-03T18:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Last 32",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/825.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537427,
         "date": "2026-07-03T22:00:00Z",
