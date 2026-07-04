@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-04T22:06:19.422Z"
+    "lastUpdated": "2026-07-04T23:13:48.163Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537375,
-        "date": "2026-07-04T21:00:00Z",
-        "status": "PAUSED",
-        "minute": null,
-        "round": "Last 16",
-        "venue": "",
-        "home": {
-          "name": "Paraguay",
-          "logo": "https://crests.football-data.org/761.svg"
-        },
-        "away": {
-          "name": "France",
-          "logo": "https://crests.football-data.org/773.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537377,
@@ -325,6 +303,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537375,
+        "date": "2026-07-04T21:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 16",
+        "venue": "",
+        "home": {
+          "name": "Paraguay",
+          "logo": "https://crests.football-data.org/761.svg"
+        },
+        "away": {
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "events": []
+      },
       {
         "id": 537376,
         "date": "2026-07-04T17:00:00Z",
@@ -2740,16 +2739,16 @@
   ],
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "photo": "https://crests.football-data.org/773.svg",
+      "team": "France",
+      "goals": 7
+    },
+    {
       "name": "Lionel Messi",
       "photo": "https://crests.football-data.org/762.png",
       "team": "Argentina",
       "goals": 7
-    },
-    {
-      "name": "Kylian Mbappé",
-      "photo": "https://crests.football-data.org/773.svg",
-      "team": "France",
-      "goals": 6
     },
     {
       "name": "Erling Haaland",
@@ -2936,6 +2935,12 @@
       "played": 4
     },
     {
+      "team": "France",
+      "logo": "https://crests.football-data.org/773.svg",
+      "cleanSheets": 3,
+      "played": 5
+    },
+    {
       "team": "Ghana",
       "logo": "https://crests.football-data.org/ghana.svg",
       "cleanSheets": 2,
@@ -2978,20 +2983,8 @@
       "played": 4
     },
     {
-      "team": "France",
-      "logo": "https://crests.football-data.org/773.svg",
-      "cleanSheets": 2,
-      "played": 4
-    },
-    {
       "team": "Ivory Coast",
       "logo": "https://crests.football-data.org/787.svg",
-      "cleanSheets": 2,
-      "played": 4
-    },
-    {
-      "team": "Paraguay",
-      "logo": "https://crests.football-data.org/761.svg",
       "cleanSheets": 2,
       "played": 4
     },
@@ -3000,6 +2993,12 @@
       "logo": "https://crests.football-data.org/764.svg",
       "cleanSheets": 2,
       "played": 4
+    },
+    {
+      "team": "Paraguay",
+      "logo": "https://crests.football-data.org/761.svg",
+      "cleanSheets": 2,
+      "played": 5
     },
     {
       "team": "Canada",
