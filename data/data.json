@@ -2,32 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-04T01:20:28.637Z"
+    "lastUpdated": "2026-07-04T05:10:26.208Z"
   },
   "matches": {
     "live": [],
     "upcoming": [
-      {
-        "id": 537430,
-        "date": "2026-07-04T01:30:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Colombia",
-          "logo": "https://crests.football-data.org/818.svg"
-        },
-        "away": {
-          "name": "Ghana",
-          "logo": "https://crests.football-data.org/ghana.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
       {
         "id": 537376,
         "date": "2026-07-04T17:00:00Z",
@@ -366,6 +345,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537430,
+        "date": "2026-07-04T01:30:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Colombia",
+          "logo": "https://crests.football-data.org/818.svg"
+        },
+        "away": {
+          "name": "Ghana",
+          "logo": "https://crests.football-data.org/ghana.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "events": []
+      },
       {
         "id": 537427,
         "date": "2026-07-03T22:00:00Z",
@@ -2937,14 +2937,14 @@
     {
       "team": "Colombia",
       "logo": "https://crests.football-data.org/818.svg",
-      "cleanSheets": 2,
-      "played": 3
+      "cleanSheets": 3,
+      "played": 4
     },
     {
       "team": "Ghana",
       "logo": "https://crests.football-data.org/ghana.svg",
       "cleanSheets": 2,
-      "played": 3
+      "played": 4
     },
     {
       "team": "Argentina",
