@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-04T18:32:37.104Z"
+    "lastUpdated": "2026-07-04T19:55:24.085Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537376,
-        "date": "2026-07-04T17:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 16",
-        "venue": "",
-        "home": {
-          "name": "Canada",
-          "logo": "https://crests.football-data.org/canada.svg"
-        },
-        "away": {
-          "name": "Morocco",
-          "logo": "https://crests.football-data.org/morocco.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537375,
@@ -346,6 +324,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537376,
+        "date": "2026-07-04T17:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 16",
+        "venue": "",
+        "home": {
+          "name": "Canada",
+          "logo": "https://crests.football-data.org/canada.svg"
+        },
+        "away": {
+          "name": "Morocco",
+          "logo": "https://crests.football-data.org/morocco.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 3
+        },
+        "events": []
+      },
       {
         "id": 537430,
         "date": "2026-07-04T01:30:00Z",
@@ -3005,7 +3004,13 @@
       "team": "Canada",
       "logo": "https://crests.football-data.org/canada.svg",
       "cleanSheets": 2,
-      "played": 4
+      "played": 5
+    },
+    {
+      "team": "Morocco",
+      "logo": "https://crests.football-data.org/morocco.svg",
+      "cleanSheets": 2,
+      "played": 5
     },
     {
       "team": "Iran",
@@ -3030,12 +3035,6 @@
       "logo": "https://crests.football-data.org/814.svg",
       "cleanSheets": 1,
       "played": 3
-    },
-    {
-      "team": "Switzerland",
-      "logo": "https://crests.football-data.org/788.svg",
-      "cleanSheets": 1,
-      "played": 4
     }
   ]
 }
