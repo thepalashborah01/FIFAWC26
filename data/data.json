@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-04T16:03:48.464Z"
+    "lastUpdated": "2026-07-04T17:19:37.970Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537376,
         "date": "2026-07-04T17:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Last 16",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/morocco.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537375,
         "date": "2026-07-04T21:00:00Z",
