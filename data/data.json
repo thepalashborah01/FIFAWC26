@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-04T05:10:26.208Z"
+    "lastUpdated": "2026-07-04T08:05:24.646Z"
   },
   "matches": {
     "live": [],
@@ -99,12 +99,12 @@
         "round": "Last 16",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Portugal",
+          "logo": "https://crests.football-data.org/765.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Spain",
+          "logo": "https://crests.football-data.org/760.svg"
         },
         "goals": {
           "home": null,
@@ -141,12 +141,12 @@
         "round": "Last 16",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Argentina",
+          "logo": "https://crests.football-data.org/762.png"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Egypt",
+          "logo": "https://crests.football-data.org/825.svg"
         },
         "goals": {
           "home": null,
@@ -162,12 +162,12 @@
         "round": "Last 16",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Colombia",
+          "logo": "https://crests.football-data.org/818.svg"
         },
         "goals": {
           "home": null,
