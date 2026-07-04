@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-04T11:52:29.556Z"
+    "lastUpdated": "2026-07-04T13:36:22.858Z"
   },
   "matches": {
     "live": [],
@@ -2883,12 +2883,6 @@
       "photo": "https://crests.football-data.org/788.svg",
       "team": "Switzerland",
       "assists": 2
-    },
-    {
-      "name": "Lionel Messi",
-      "photo": "https://crests.football-data.org/762.png",
-      "team": "Argentina",
-      "assists": 1
     },
     {
       "name": "Vinicius Junior",
