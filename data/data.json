@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-03T23:44:59.468Z"
+    "lastUpdated": "2026-07-04T01:20:28.637Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537427,
-        "date": "2026-07-03T22:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 32",
-        "venue": "",
-        "home": {
-          "name": "Argentina",
-          "logo": "https://crests.football-data.org/762.png"
-        },
-        "away": {
-          "name": "Cape Verde",
-          "logo": "https://crests.football-data.org/cape_verde.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537430,
@@ -388,6 +366,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537427,
+        "date": "2026-07-03T22:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 32",
+        "venue": "",
+        "home": {
+          "name": "Argentina",
+          "logo": "https://crests.football-data.org/762.png"
+        },
+        "away": {
+          "name": "Cape Verde",
+          "logo": "https://crests.football-data.org/cape_verde.svg"
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        },
+        "events": []
+      },
       {
         "id": 537428,
         "date": "2026-07-03T18:00:00Z",
@@ -2886,6 +2885,12 @@
       "assists": 2
     },
     {
+      "name": "Lionel Messi",
+      "photo": "https://crests.football-data.org/762.png",
+      "team": "Argentina",
+      "assists": 1
+    },
+    {
       "name": "Vinicius Junior",
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
@@ -2930,12 +2935,6 @@
       "played": 4
     },
     {
-      "team": "Argentina",
-      "logo": "https://crests.football-data.org/762.png",
-      "cleanSheets": 2,
-      "played": 3
-    },
-    {
       "team": "Colombia",
       "logo": "https://crests.football-data.org/818.svg",
       "cleanSheets": 2,
@@ -2948,10 +2947,16 @@
       "played": 3
     },
     {
+      "team": "Argentina",
+      "logo": "https://crests.football-data.org/762.png",
+      "cleanSheets": 2,
+      "played": 4
+    },
+    {
       "team": "Cape Verde",
       "logo": "https://crests.football-data.org/cape_verde.svg",
       "cleanSheets": 2,
-      "played": 3
+      "played": 4
     },
     {
       "team": "Australia",
