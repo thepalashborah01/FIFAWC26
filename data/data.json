@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-05T04:40:19.465Z"
+    "lastUpdated": "2026-07-05T07:49:13.671Z"
   },
   "matches": {
     "live": [],
@@ -141,12 +141,12 @@
         "round": "Quarter Finals",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Morocco",
+          "logo": "https://crests.football-data.org/morocco.svg"
         },
         "goals": {
           "home": null,
