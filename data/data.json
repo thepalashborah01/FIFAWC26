@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-05T21:34:19.502Z"
+    "lastUpdated": "2026-07-05T22:40:37.941Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537377,
-        "date": "2026-07-05T20:00:00Z",
-        "status": "LIVE",
-        "minute": null,
-        "round": "Last 16",
-        "venue": "",
-        "home": {
-          "name": "Brazil",
-          "logo": "https://crests.football-data.org/764.svg"
-        },
-        "away": {
-          "name": "Norway",
-          "logo": "https://crests.football-data.org/813.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537378,
@@ -304,6 +282,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537377,
+        "date": "2026-07-05T20:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 16",
+        "venue": "",
+        "home": {
+          "name": "Brazil",
+          "logo": "https://crests.football-data.org/764.svg"
+        },
+        "away": {
+          "name": "Norway",
+          "logo": "https://crests.football-data.org/813.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        },
+        "events": []
+      },
       {
         "id": 537375,
         "date": "2026-07-04T21:00:00Z",
@@ -2746,16 +2745,16 @@
       "goals": 7
     },
     {
+      "name": "Erling Haaland",
+      "photo": "https://crests.football-data.org/813.svg",
+      "team": "Norway",
+      "goals": 7
+    },
+    {
       "name": "Lionel Messi",
       "photo": "https://crests.football-data.org/762.png",
       "team": "Argentina",
       "goals": 7
-    },
-    {
-      "name": "Erling Haaland",
-      "photo": "https://crests.football-data.org/813.svg",
-      "team": "Norway",
-      "goals": 5
     },
     {
       "name": "Harry Kane",
@@ -2993,7 +2992,7 @@
       "team": "Brazil",
       "logo": "https://crests.football-data.org/764.svg",
       "cleanSheets": 2,
-      "played": 4
+      "played": 5
     },
     {
       "team": "Paraguay",
