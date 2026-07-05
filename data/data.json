@@ -2,15 +2,15 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-05T22:40:37.941Z"
+    "lastUpdated": "2026-07-05T23:45:21.962Z"
   },
   "matches": {
     "live": [],
     "upcoming": [
       {
         "id": 537378,
-        "date": "2026-07-06T00:00:00Z",
-        "status": "NS",
+        "date": "2026-07-06T01:00:00Z",
+        "status": "2026-07-06 01:00:00Z",
         "minute": null,
         "round": "Last 16",
         "venue": "",
