@@ -2,32 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-05T23:45:21.962Z"
+    "lastUpdated": "2026-07-06T03:40:54.213Z"
   },
   "matches": {
     "live": [],
     "upcoming": [
-      {
-        "id": 537378,
-        "date": "2026-07-06T01:00:00Z",
-        "status": "2026-07-06 01:00:00Z",
-        "minute": null,
-        "round": "Last 16",
-        "venue": "",
-        "home": {
-          "name": "Mexico",
-          "logo": "https://crests.football-data.org/769.svg"
-        },
-        "away": {
-          "name": "England",
-          "logo": "https://crests.football-data.org/770.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
-        },
-        "events": []
-      },
       {
         "id": 537379,
         "date": "2026-07-06T19:00:00Z",
@@ -282,6 +261,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537378,
+        "date": "2026-07-06T01:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 16",
+        "venue": "",
+        "home": {
+          "name": "Mexico",
+          "logo": "https://crests.football-data.org/769.svg"
+        },
+        "away": {
+          "name": "England",
+          "logo": "https://crests.football-data.org/770.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 3
+        },
+        "events": []
+      },
       {
         "id": 537377,
         "date": "2026-07-05T20:00:00Z",
@@ -2760,12 +2760,24 @@
       "name": "Harry Kane",
       "photo": "https://crests.football-data.org/770.svg",
       "team": "England",
-      "goals": 5
+      "goals": 6
+    },
+    {
+      "name": "Julián Quiñones",
+      "photo": "https://crests.football-data.org/769.svg",
+      "team": "Mexico",
+      "goals": 4
     },
     {
       "name": "Vinicius Junior",
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
+      "goals": 4
+    },
+    {
+      "name": "Jude Bellingham",
+      "photo": "https://crests.football-data.org/770.svg",
+      "team": "England",
       "goals": 4
     },
     {
@@ -2787,7 +2799,7 @@
       "goals": 4
     },
     {
-      "name": "Julián Quiñones",
+      "name": "Raúl Jiménez",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
       "goals": 3
@@ -2845,18 +2857,6 @@
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
       "goals": 3
-    },
-    {
-      "name": "Brian Brobbey",
-      "photo": "https://crests.football-data.org/8601.svg",
-      "team": "Netherlands",
-      "goals": 3
-    },
-    {
-      "name": "Cody Gakpo",
-      "photo": "https://crests.football-data.org/8601.svg",
-      "team": "Netherlands",
-      "goals": 3
     }
   ],
   "assists": [
@@ -2885,9 +2885,27 @@
       "assists": 2
     },
     {
+      "name": "Harry Kane",
+      "photo": "https://crests.football-data.org/770.svg",
+      "team": "England",
+      "assists": 1
+    },
+    {
+      "name": "Julián Quiñones",
+      "photo": "https://crests.football-data.org/769.svg",
+      "team": "Mexico",
+      "assists": 1
+    },
+    {
       "name": "Vinicius Junior",
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
+      "assists": 1
+    },
+    {
+      "name": "Jude Bellingham",
+      "photo": "https://crests.football-data.org/770.svg",
+      "team": "England",
       "assists": 1
     },
     {
@@ -2900,18 +2918,6 @@
       "name": "Ismaïla Sarr",
       "photo": "https://crests.football-data.org/senegal.svg",
       "team": "Senegal",
-      "assists": 1
-    },
-    {
-      "name": "Julián Quiñones",
-      "photo": "https://crests.football-data.org/769.svg",
-      "team": "Mexico",
-      "assists": 1
-    },
-    {
-      "name": "Cody Gakpo",
-      "photo": "https://crests.football-data.org/8601.svg",
-      "team": "Netherlands",
       "assists": 1
     }
   ],
@@ -2926,7 +2932,7 @@
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 4,
-      "played": 4
+      "played": 5
     },
     {
       "team": "Colombia",
@@ -2977,16 +2983,16 @@
       "played": 4
     },
     {
-      "team": "England",
-      "logo": "https://crests.football-data.org/770.svg",
-      "cleanSheets": 2,
-      "played": 4
-    },
-    {
       "team": "Ivory Coast",
       "logo": "https://crests.football-data.org/787.svg",
       "cleanSheets": 2,
       "played": 4
+    },
+    {
+      "team": "England",
+      "logo": "https://crests.football-data.org/770.svg",
+      "cleanSheets": 2,
+      "played": 5
     },
     {
       "team": "Brazil",
