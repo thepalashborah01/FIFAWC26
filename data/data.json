@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-06T20:15:52.307Z"
+    "lastUpdated": "2026-07-06T21:55:26.223Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537379,
-        "date": "2026-07-06T19:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 16",
-        "venue": "",
-        "home": {
-          "name": "Portugal",
-          "logo": "https://crests.football-data.org/765.svg"
-        },
-        "away": {
-          "name": "Spain",
-          "logo": "https://crests.football-data.org/760.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537380,
@@ -262,6 +240,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537379,
+        "date": "2026-07-06T19:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 16",
+        "venue": "",
+        "home": {
+          "name": "Portugal",
+          "logo": "https://crests.football-data.org/765.svg"
+        },
+        "away": {
+          "name": "Spain",
+          "logo": "https://crests.football-data.org/760.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "events": []
+      },
       {
         "id": 537378,
         "date": "2026-07-06T01:00:00Z",
@@ -2926,8 +2925,8 @@
     {
       "team": "Spain",
       "logo": "https://crests.football-data.org/760.svg",
-      "cleanSheets": 4,
-      "played": 4
+      "cleanSheets": 5,
+      "played": 5
     },
     {
       "team": "Mexico",
@@ -2972,12 +2971,6 @@
       "played": 4
     },
     {
-      "team": "Portugal",
-      "logo": "https://crests.football-data.org/765.svg",
-      "cleanSheets": 2,
-      "played": 4
-    },
-    {
       "team": "USA",
       "logo": "https://crests.football-data.org/usa.svg",
       "cleanSheets": 2,
@@ -2988,6 +2981,12 @@
       "logo": "https://crests.football-data.org/787.svg",
       "cleanSheets": 2,
       "played": 4
+    },
+    {
+      "team": "Portugal",
+      "logo": "https://crests.football-data.org/765.svg",
+      "cleanSheets": 2,
+      "played": 5
     },
     {
       "team": "England",
