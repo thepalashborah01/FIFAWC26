@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-07T00:20:41.548Z"
+    "lastUpdated": "2026-07-07T04:33:06.838Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537380,
-        "date": "2026-07-07T00:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 16",
-        "venue": "",
-        "home": {
-          "name": "USA",
-          "logo": "https://crests.football-data.org/usa.svg"
-        },
-        "away": {
-          "name": "Belgium",
-          "logo": "https://crests.football-data.org/805.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537381,
@@ -241,6 +219,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537380,
+        "date": "2026-07-07T00:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 16",
+        "venue": "",
+        "home": {
+          "name": "USA",
+          "logo": "https://crests.football-data.org/usa.svg"
+        },
+        "away": {
+          "name": "Belgium",
+          "logo": "https://crests.football-data.org/805.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 4
+        },
+        "events": []
+      },
       {
         "id": 537379,
         "date": "2026-07-06T19:00:00Z",
@@ -2972,16 +2971,16 @@
       "played": 4
     },
     {
-      "team": "USA",
-      "logo": "https://crests.football-data.org/usa.svg",
-      "cleanSheets": 2,
-      "played": 4
-    },
-    {
       "team": "Ivory Coast",
       "logo": "https://crests.football-data.org/787.svg",
       "cleanSheets": 2,
       "played": 4
+    },
+    {
+      "team": "USA",
+      "logo": "https://crests.football-data.org/usa.svg",
+      "cleanSheets": 2,
+      "played": 5
     },
     {
       "team": "Portugal",
