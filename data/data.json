@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-07T21:53:56.603Z"
+    "lastUpdated": "2026-07-07T23:02:48.676Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537382,
-        "date": "2026-07-07T20:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Last 16",
-        "venue": "",
-        "home": {
-          "name": "Switzerland",
-          "logo": "https://crests.football-data.org/788.svg"
-        },
-        "away": {
-          "name": "Colombia",
-          "logo": "https://crests.football-data.org/818.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537383,
@@ -199,6 +177,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537382,
+        "date": "2026-07-07T20:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 16",
+        "venue": "",
+        "home": {
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg"
+        },
+        "away": {
+          "name": "Colombia",
+          "logo": "https://crests.football-data.org/818.svg"
+        },
+        "goals": {
+          "home": 4,
+          "away": 3
+        },
+        "events": []
+      },
       {
         "id": 537381,
         "date": "2026-07-07T16:00:00Z",
@@ -2945,7 +2944,7 @@
       "team": "Colombia",
       "logo": "https://crests.football-data.org/818.svg",
       "cleanSheets": 3,
-      "played": 4
+      "played": 5
     },
     {
       "team": "France",
