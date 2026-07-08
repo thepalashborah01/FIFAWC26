@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-08T03:46:04.387Z"
+    "lastUpdated": "2026-07-08T06:29:05.953Z"
   },
   "matches": {
     "live": [],
@@ -78,12 +78,12 @@
         "round": "Quarter Finals",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Argentina",
+          "logo": "https://crests.football-data.org/762.png"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg"
         },
         "goals": {
           "home": null,
