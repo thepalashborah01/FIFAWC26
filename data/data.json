@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-09T21:58:11.288Z"
+    "lastUpdated": "2026-07-09T23:20:24.598Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537383,
-        "date": "2026-07-09T20:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Quarter Finals",
-        "venue": "",
-        "home": {
-          "name": "France",
-          "logo": "https://crests.football-data.org/773.svg"
-        },
-        "away": {
-          "name": "Morocco",
-          "logo": "https://crests.football-data.org/morocco.svg"
-        },
-        "goals": {
-          "home": 2,
-          "away": 0
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537384,
@@ -178,6 +156,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537383,
+        "date": "2026-07-09T20:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Quarter Finals",
+        "venue": "",
+        "home": {
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg"
+        },
+        "away": {
+          "name": "Morocco",
+          "logo": "https://crests.football-data.org/morocco.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "events": []
+      },
       {
         "id": 537382,
         "date": "2026-07-07T20:00:00Z",
@@ -2942,14 +2941,14 @@
       "played": 5
     },
     {
-      "team": "Colombia",
-      "logo": "https://crests.football-data.org/818.svg",
-      "cleanSheets": 3,
-      "played": 5
-    },
-    {
       "team": "France",
       "logo": "https://crests.football-data.org/773.svg",
+      "cleanSheets": 4,
+      "played": 6
+    },
+    {
+      "team": "Colombia",
+      "logo": "https://crests.football-data.org/818.svg",
       "cleanSheets": 3,
       "played": 5
     },
@@ -3023,7 +3022,7 @@
       "team": "Morocco",
       "logo": "https://crests.football-data.org/morocco.svg",
       "cleanSheets": 2,
-      "played": 5
+      "played": 6
     },
     {
       "team": "Iran",
