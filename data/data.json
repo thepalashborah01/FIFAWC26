@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-10T05:08:17.288Z"
+    "lastUpdated": "2026-07-10T08:41:23.793Z"
   },
   "matches": {
     "live": [],
@@ -78,8 +78,8 @@
         "round": "Semi Finals",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg"
         },
         "away": {
           "name": "TBD",
