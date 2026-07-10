@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-10T18:01:25.789Z"
+    "lastUpdated": "2026-07-10T19:52:14.073Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537384,
         "date": "2026-07-10T19:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Quarter Finals",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/805.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537385,
         "date": "2026-07-11T21:00:00Z",
