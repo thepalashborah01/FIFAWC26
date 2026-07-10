@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-10T19:52:14.073Z"
+    "lastUpdated": "2026-07-10T21:06:27.846Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537384,
-        "date": "2026-07-10T19:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Quarter Finals",
-        "venue": "",
-        "home": {
-          "name": "Spain",
-          "logo": "https://crests.football-data.org/760.svg"
-        },
-        "away": {
-          "name": "Belgium",
-          "logo": "https://crests.football-data.org/805.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537385,
@@ -157,6 +135,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537384,
+        "date": "2026-07-10T19:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Quarter Finals",
+        "venue": "",
+        "home": {
+          "name": "Spain",
+          "logo": "https://crests.football-data.org/760.svg"
+        },
+        "away": {
+          "name": "Belgium",
+          "logo": "https://crests.football-data.org/805.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "events": []
+      },
       {
         "id": 537383,
         "date": "2026-07-09T20:00:00Z",
@@ -2933,7 +2932,7 @@
       "team": "Spain",
       "logo": "https://crests.football-data.org/760.svg",
       "cleanSheets": 5,
-      "played": 5
+      "played": 6
     },
     {
       "team": "Mexico",
