@@ -2,54 +2,11 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-12T03:23:02.598Z"
+    "lastUpdated": "2026-07-12T06:17:41.314Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537386,
-        "date": "2026-07-12T01:00:00Z",
-        "status": "PAUSED",
-        "minute": null,
-        "round": "Quarter Finals",
-        "venue": "",
-        "home": {
-          "name": "Argentina",
-          "logo": "https://crests.football-data.org/762.png"
-        },
-        "away": {
-          "name": "Switzerland",
-          "logo": "https://crests.football-data.org/788.svg"
-        },
-        "goals": {
-          "home": 1,
-          "away": 1
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
-      {
-        "id": 537378,
-        "date": "2026-07-06T01:00:00Z",
-        "status": "2026-07-06 01:00:00Z",
-        "minute": null,
-        "round": "Last 16",
-        "venue": "",
-        "home": {
-          "name": "Mexico",
-          "logo": "https://crests.football-data.org/769.svg"
-        },
-        "away": {
-          "name": "England",
-          "logo": "https://crests.football-data.org/770.svg"
-        },
-        "goals": {
-          "home": 2,
-          "away": 3
-        },
-        "events": []
-      },
       {
         "id": 537387,
         "date": "2026-07-14T19:00:00Z",
@@ -79,12 +36,12 @@
         "round": "Semi Finals",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "England",
+          "logo": "https://crests.football-data.org/770.svg"
         },
         "away": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Argentina",
+          "logo": "https://crests.football-data.org/762.png"
         },
         "goals": {
           "home": null,
@@ -136,6 +93,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537386,
+        "date": "2026-07-12T01:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Quarter Finals",
+        "venue": "",
+        "home": {
+          "name": "Argentina",
+          "logo": "https://crests.football-data.org/762.png"
+        },
+        "away": {
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg"
+        },
+        "goals": {
+          "home": 3,
+          "away": 1
+        },
+        "events": []
+      },
       {
         "id": 537385,
         "date": "2026-07-11T21:00:00Z",
@@ -280,6 +258,27 @@
         "goals": {
           "home": 0,
           "away": 1
+        },
+        "events": []
+      },
+      {
+        "id": 537378,
+        "date": "2026-07-06T01:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Last 16",
+        "venue": "",
+        "home": {
+          "name": "Mexico",
+          "logo": "https://crests.football-data.org/769.svg"
+        },
+        "away": {
+          "name": "England",
+          "logo": "https://crests.football-data.org/770.svg"
+        },
+        "goals": {
+          "home": 2,
+          "away": 3
         },
         "events": []
       },
@@ -2939,7 +2938,7 @@
       "team": "Mexico",
       "logo": "https://crests.football-data.org/769.svg",
       "cleanSheets": 4,
-      "played": 4
+      "played": 5
     },
     {
       "team": "France",
@@ -2978,18 +2977,6 @@
       "played": 4
     },
     {
-      "team": "England",
-      "logo": "https://crests.football-data.org/770.svg",
-      "cleanSheets": 2,
-      "played": 5
-    },
-    {
-      "team": "Argentina",
-      "logo": "https://crests.football-data.org/762.png",
-      "cleanSheets": 2,
-      "played": 5
-    },
-    {
       "team": "USA",
       "logo": "https://crests.football-data.org/usa.svg",
       "cleanSheets": 2,
@@ -3018,6 +3005,18 @@
       "logo": "https://crests.football-data.org/canada.svg",
       "cleanSheets": 2,
       "played": 5
+    },
+    {
+      "team": "Argentina",
+      "logo": "https://crests.football-data.org/762.png",
+      "cleanSheets": 2,
+      "played": 6
+    },
+    {
+      "team": "England",
+      "logo": "https://crests.football-data.org/770.svg",
+      "cleanSheets": 2,
+      "played": 6
     },
     {
       "team": "Morocco",
