@@ -2,10 +2,32 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-11T23:56:15.202Z"
+    "lastUpdated": "2026-07-12T03:23:02.598Z"
   },
   "matches": {
-    "live": [],
+    "live": [
+      {
+        "id": 537386,
+        "date": "2026-07-12T01:00:00Z",
+        "status": "PAUSED",
+        "minute": null,
+        "round": "Quarter Finals",
+        "venue": "",
+        "home": {
+          "name": "Argentina",
+          "logo": "https://crests.football-data.org/762.png"
+        },
+        "away": {
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg"
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "events": []
+      }
+    ],
     "upcoming": [
       {
         "id": 537378,
@@ -25,27 +47,6 @@
         "goals": {
           "home": 2,
           "away": 3
-        },
-        "events": []
-      },
-      {
-        "id": 537386,
-        "date": "2026-07-12T01:00:00Z",
-        "status": "NS",
-        "minute": null,
-        "round": "Quarter Finals",
-        "venue": "",
-        "home": {
-          "name": "Argentina",
-          "logo": "https://crests.football-data.org/762.png"
-        },
-        "away": {
-          "name": "Switzerland",
-          "logo": "https://crests.football-data.org/788.svg"
-        },
-        "goals": {
-          "home": null,
-          "away": null
         },
         "events": []
       },
@@ -2867,6 +2868,12 @@
       "assists": 2
     },
     {
+      "name": "Lionel Messi",
+      "photo": "https://crests.football-data.org/762.png",
+      "team": "Argentina",
+      "assists": 2
+    },
+    {
       "name": "Ousmane Dembélé",
       "photo": "https://crests.football-data.org/773.svg",
       "team": "France",
@@ -2883,12 +2890,6 @@
       "photo": "https://crests.football-data.org/788.svg",
       "team": "Switzerland",
       "assists": 2
-    },
-    {
-      "name": "Lionel Messi",
-      "photo": "https://crests.football-data.org/762.png",
-      "team": "Argentina",
-      "assists": 1
     },
     {
       "name": "Harry Kane",
