@@ -2,15 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-14T18:38:51.005Z"
+    "lastUpdated": "2026-07-14T19:55:43.396Z"
   },
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "id": 537387,
         "date": "2026-07-14T19:00:00Z",
-        "status": "NS",
+        "status": "IN_PLAY",
         "minute": null,
         "round": "Semi Finals",
         "venue": "",
@@ -23,11 +22,13 @@
           "logo": "https://crests.football-data.org/760.svg"
         },
         "goals": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "events": []
-      },
+      }
+    ],
+    "upcoming": [
       {
         "id": 537388,
         "date": "2026-07-15T19:00:00Z",
@@ -2769,6 +2770,12 @@
       "goals": 6
     },
     {
+      "name": "Mikel Oyarzabal",
+      "photo": "https://crests.football-data.org/760.svg",
+      "team": "Spain",
+      "goals": 5
+    },
+    {
       "name": "Ousmane Dembélé",
       "photo": "https://crests.football-data.org/773.svg",
       "team": "France",
@@ -2784,12 +2791,6 @@
       "name": "Vinicius Junior",
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
-      "goals": 4
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "photo": "https://crests.football-data.org/760.svg",
-      "team": "Spain",
       "goals": 4
     },
     {
@@ -2903,6 +2904,12 @@
       "assists": 1
     },
     {
+      "name": "Mikel Oyarzabal",
+      "photo": "https://crests.football-data.org/760.svg",
+      "team": "Spain",
+      "assists": 1
+    },
+    {
       "name": "Julián Quiñones",
       "photo": "https://crests.football-data.org/769.svg",
       "team": "Mexico",
@@ -2912,12 +2919,6 @@
       "name": "Vinicius Junior",
       "photo": "https://crests.football-data.org/764.svg",
       "team": "Brazil",
-      "assists": 1
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "photo": "https://crests.football-data.org/760.svg",
-      "team": "Spain",
       "assists": 1
     },
     {
