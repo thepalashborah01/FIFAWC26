@@ -2,32 +2,10 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-14T21:02:20.164Z"
+    "lastUpdated": "2026-07-14T22:12:22.254Z"
   },
   "matches": {
-    "live": [
-      {
-        "id": 537387,
-        "date": "2026-07-14T19:00:00Z",
-        "status": "IN_PLAY",
-        "minute": null,
-        "round": "Semi Finals",
-        "venue": "",
-        "home": {
-          "name": "France",
-          "logo": "https://crests.football-data.org/773.svg"
-        },
-        "away": {
-          "name": "Spain",
-          "logo": "https://crests.football-data.org/760.svg"
-        },
-        "goals": {
-          "home": 0,
-          "away": 2
-        },
-        "events": []
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "id": 537388,
@@ -94,6 +72,27 @@
       }
     ],
     "finished": [
+      {
+        "id": 537387,
+        "date": "2026-07-14T19:00:00Z",
+        "status": "FINISHED",
+        "minute": null,
+        "round": "Semi Finals",
+        "venue": "",
+        "home": {
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg"
+        },
+        "away": {
+          "name": "Spain",
+          "logo": "https://crests.football-data.org/760.svg"
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "events": []
+      },
       {
         "id": 537386,
         "date": "2026-07-12T01:00:00Z",
@@ -2932,8 +2931,8 @@
     {
       "team": "Spain",
       "logo": "https://crests.football-data.org/760.svg",
-      "cleanSheets": 5,
-      "played": 6
+      "cleanSheets": 6,
+      "played": 7
     },
     {
       "team": "Mexico",
@@ -2945,7 +2944,7 @@
       "team": "France",
       "logo": "https://crests.football-data.org/773.svg",
       "cleanSheets": 4,
-      "played": 6
+      "played": 7
     },
     {
       "team": "Colombia",
