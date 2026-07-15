@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-15T19:51:32.570Z"
+    "lastUpdated": "2026-07-15T21:01:32.369Z"
   },
   "matches": {
     "live": [
@@ -22,8 +22,8 @@
           "logo": "https://crests.football-data.org/762.png"
         },
         "goals": {
-          "home": 0,
-          "away": 0
+          "home": 1,
+          "away": 2
         },
         "events": []
       }
@@ -2862,15 +2862,15 @@
   ],
   "assists": [
     {
-      "name": "Kylian Mbappé",
-      "photo": "https://crests.football-data.org/773.svg",
-      "team": "France",
-      "assists": 2
-    },
-    {
       "name": "Lionel Messi",
       "photo": "https://crests.football-data.org/762.png",
       "team": "Argentina",
+      "assists": 4
+    },
+    {
+      "name": "Kylian Mbappé",
+      "photo": "https://crests.football-data.org/773.svg",
+      "team": "France",
       "assists": 2
     },
     {
