@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-15T05:59:03.836Z"
+    "lastUpdated": "2026-07-15T08:29:37.748Z"
   },
   "matches": {
     "live": [],
@@ -36,8 +36,8 @@
         "round": "Third Place",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg"
         },
         "away": {
           "name": "TBD",
@@ -57,8 +57,8 @@
         "round": "Final",
         "venue": "",
         "home": {
-          "name": "TBD",
-          "logo": ""
+          "name": "Spain",
+          "logo": "https://crests.football-data.org/760.svg"
         },
         "away": {
           "name": "TBD",
