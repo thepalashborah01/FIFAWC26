@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-17T06:05:17.858Z"
+    "lastUpdated": "2026-07-17T08:28:27.708Z"
   },
   "matches": {
     "live": [],
@@ -2870,7 +2870,7 @@
       "name": "Kylian Mbappé",
       "photo": "https://crests.football-data.org/773.svg",
       "team": "France",
-      "assists": 2
+      "assists": 3
     },
     {
       "name": "Ousmane Dembélé",
