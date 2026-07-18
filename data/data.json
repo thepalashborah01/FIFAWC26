@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-18T21:52:21.176Z"
+    "lastUpdated": "2026-07-18T22:51:22.395Z"
   },
   "matches": {
     "live": [
@@ -22,8 +22,8 @@
           "logo": "https://crests.football-data.org/770.svg"
         },
         "goals": {
-          "home": 0,
-          "away": 3
+          "home": 3,
+          "away": 4
         },
         "events": []
       }
@@ -2743,7 +2743,7 @@
       "name": "Kylian Mbappé",
       "photo": "https://crests.football-data.org/773.svg",
       "team": "France",
-      "goals": 8
+      "goals": 10
     },
     {
       "name": "Lionel Messi",
@@ -2836,6 +2836,12 @@
       "goals": 3
     },
     {
+      "name": "Bradley Barcola",
+      "photo": "https://crests.football-data.org/773.svg",
+      "team": "France",
+      "goals": 3
+    },
+    {
       "name": "Yoane Wissa",
       "photo": "https://crests.football-data.org/congo_dr.svg",
       "team": "Congo DR",
@@ -2852,26 +2858,20 @@
       "photo": "https://crests.football-data.org/canada.svg",
       "team": "Canada",
       "goals": 3
-    },
-    {
-      "name": "Matheus Cunha",
-      "photo": "https://crests.football-data.org/764.svg",
-      "team": "Brazil",
-      "goals": 3
     }
   ],
   "assists": [
+    {
+      "name": "Kylian Mbappé",
+      "photo": "https://crests.football-data.org/773.svg",
+      "team": "France",
+      "assists": 4
+    },
     {
       "name": "Lionel Messi",
       "photo": "https://crests.football-data.org/762.png",
       "team": "Argentina",
       "assists": 4
-    },
-    {
-      "name": "Kylian Mbappé",
-      "photo": "https://crests.football-data.org/773.svg",
-      "team": "France",
-      "assists": 3
     },
     {
       "name": "Ousmane Dembélé",
@@ -2925,6 +2925,12 @@
       "name": "Ismaïla Sarr",
       "photo": "https://crests.football-data.org/senegal.svg",
       "team": "Senegal",
+      "assists": 1
+    },
+    {
+      "name": "Bradley Barcola",
+      "photo": "https://crests.football-data.org/773.svg",
+      "team": "France",
       "assists": 1
     }
   ],
