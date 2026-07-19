@@ -2,14 +2,16 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-19T21:54:18.994Z"
+    "lastUpdated": "2026-07-19T22:53:53.582Z"
   },
   "matches": {
-    "live": [
+    "live": [],
+    "upcoming": [],
+    "finished": [
       {
         "id": 537390,
         "date": "2026-07-19T19:00:00Z",
-        "status": "LIVE",
+        "status": "FINISHED",
         "minute": null,
         "round": "Final",
         "venue": "",
@@ -26,10 +28,7 @@
           "away": 0
         },
         "events": []
-      }
-    ],
-    "upcoming": [],
-    "finished": [
+      },
       {
         "id": 537389,
         "date": "2026-07-18T21:00:00Z",
@@ -2937,8 +2936,8 @@
     {
       "team": "Spain",
       "logo": "https://crests.football-data.org/760.svg",
-      "cleanSheets": 6,
-      "played": 7
+      "cleanSheets": 7,
+      "played": 8
     },
     {
       "team": "Mexico",
@@ -3022,7 +3021,7 @@
       "team": "Argentina",
       "logo": "https://crests.football-data.org/762.png",
       "cleanSheets": 2,
-      "played": 7
+      "played": 8
     },
     {
       "team": "England",
