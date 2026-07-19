@@ -2,14 +2,14 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-07-19T20:51:32.154Z"
+    "lastUpdated": "2026-07-19T21:54:18.994Z"
   },
   "matches": {
     "live": [
       {
         "id": 537390,
         "date": "2026-07-19T19:00:00Z",
-        "status": "IN_PLAY",
+        "status": "LIVE",
         "minute": null,
         "round": "Final",
         "venue": "",
@@ -22,7 +22,7 @@
           "logo": "https://crests.football-data.org/762.png"
         },
         "goals": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "events": []
