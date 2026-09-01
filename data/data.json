@@ -2,7 +2,7 @@
   "meta": {
     "league": "FIFA World Cup 2026",
     "season": 2026,
-    "lastUpdated": "2026-09-01T18:12:44.611Z"
+    "lastUpdated": "2026-09-01T21:05:05.164Z"
   },
   "matches": {
     "live": [],
@@ -2194,7 +2194,548 @@
       }
     ]
   },
-  "standings": [],
+  "standings": [
+    {
+      "group": "Group a",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "Mexico",
+          "logo": "https://crests.football-data.org/769.svg",
+          "played": 3,
+          "points": 9,
+          "gd": 6,
+          "gf": 6,
+          "ga": 0
+        },
+        {
+          "rank": 2,
+          "name": "South Africa",
+          "logo": "https://crests.football-data.org/9396.svg",
+          "played": 3,
+          "points": 4,
+          "gd": -1,
+          "gf": 2,
+          "ga": 3
+        },
+        {
+          "rank": 3,
+          "name": "Korea Republic",
+          "logo": "https://crests.football-data.org/772.png",
+          "played": 3,
+          "points": 3,
+          "gd": -1,
+          "gf": 2,
+          "ga": 3
+        },
+        {
+          "rank": 4,
+          "name": "Czechia",
+          "logo": "https://crests.football-data.org/798.svg",
+          "played": 3,
+          "points": 1,
+          "gd": -4,
+          "gf": 2,
+          "ga": 6
+        }
+      ]
+    },
+    {
+      "group": "Group b",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "Switzerland",
+          "logo": "https://crests.football-data.org/788.svg",
+          "played": 3,
+          "points": 7,
+          "gd": 4,
+          "gf": 7,
+          "ga": 3
+        },
+        {
+          "rank": 2,
+          "name": "Canada",
+          "logo": "https://crests.football-data.org/canada.svg",
+          "played": 3,
+          "points": 4,
+          "gd": 5,
+          "gf": 8,
+          "ga": 3
+        },
+        {
+          "rank": 3,
+          "name": "Bosnia-H.",
+          "logo": "https://crests.football-data.org/bosnia.svg",
+          "played": 3,
+          "points": 4,
+          "gd": -1,
+          "gf": 5,
+          "ga": 6
+        },
+        {
+          "rank": 4,
+          "name": "Qatar",
+          "logo": "https://crests.football-data.org/8030.svg",
+          "played": 3,
+          "points": 1,
+          "gd": -8,
+          "gf": 2,
+          "ga": 10
+        }
+      ]
+    },
+    {
+      "group": "Group c",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "Brazil",
+          "logo": "https://crests.football-data.org/764.svg",
+          "played": 3,
+          "points": 7,
+          "gd": 6,
+          "gf": 7,
+          "ga": 1
+        },
+        {
+          "rank": 2,
+          "name": "Morocco",
+          "logo": "https://crests.football-data.org/morocco.svg",
+          "played": 3,
+          "points": 7,
+          "gd": 3,
+          "gf": 6,
+          "ga": 3
+        },
+        {
+          "rank": 3,
+          "name": "Scotland",
+          "logo": "https://crests.football-data.org/814.svg",
+          "played": 3,
+          "points": 3,
+          "gd": -3,
+          "gf": 1,
+          "ga": 4
+        },
+        {
+          "rank": 4,
+          "name": "Haiti",
+          "logo": "https://crests.football-data.org/haiti.svg",
+          "played": 3,
+          "points": 0,
+          "gd": -6,
+          "gf": 2,
+          "ga": 8
+        }
+      ]
+    },
+    {
+      "group": "Group d",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "USA",
+          "logo": "https://crests.football-data.org/usa.svg",
+          "played": 3,
+          "points": 6,
+          "gd": 4,
+          "gf": 8,
+          "ga": 4
+        },
+        {
+          "rank": 2,
+          "name": "Australia",
+          "logo": "https://crests.football-data.org/779.svg",
+          "played": 3,
+          "points": 4,
+          "gd": 0,
+          "gf": 2,
+          "ga": 2
+        },
+        {
+          "rank": 3,
+          "name": "Paraguay",
+          "logo": "https://crests.football-data.org/761.svg",
+          "played": 3,
+          "points": 4,
+          "gd": -2,
+          "gf": 2,
+          "ga": 4
+        },
+        {
+          "rank": 4,
+          "name": "Turkey",
+          "logo": "https://crests.football-data.org/803.svg",
+          "played": 3,
+          "points": 3,
+          "gd": -2,
+          "gf": 3,
+          "ga": 5
+        }
+      ]
+    },
+    {
+      "group": "Group e",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "Germany",
+          "logo": "https://crests.football-data.org/759.svg",
+          "played": 3,
+          "points": 6,
+          "gd": 6,
+          "gf": 10,
+          "ga": 4
+        },
+        {
+          "rank": 2,
+          "name": "Ivory Coast",
+          "logo": "https://crests.football-data.org/787.svg",
+          "played": 3,
+          "points": 6,
+          "gd": 2,
+          "gf": 4,
+          "ga": 2
+        },
+        {
+          "rank": 3,
+          "name": "Ecuador",
+          "logo": "https://crests.football-data.org/791.svg",
+          "played": 3,
+          "points": 4,
+          "gd": 0,
+          "gf": 2,
+          "ga": 2
+        },
+        {
+          "rank": 4,
+          "name": "Curaçao",
+          "logo": "https://crests.football-data.org/curacao.svg",
+          "played": 3,
+          "points": 1,
+          "gd": -8,
+          "gf": 1,
+          "ga": 9
+        }
+      ]
+    },
+    {
+      "group": "Group f",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "Netherlands",
+          "logo": "https://crests.football-data.org/8601.svg",
+          "played": 3,
+          "points": 7,
+          "gd": 6,
+          "gf": 10,
+          "ga": 4
+        },
+        {
+          "rank": 2,
+          "name": "Japan",
+          "logo": "https://crests.football-data.org/766.svg",
+          "played": 3,
+          "points": 5,
+          "gd": 4,
+          "gf": 7,
+          "ga": 3
+        },
+        {
+          "rank": 3,
+          "name": "Sweden",
+          "logo": "https://crests.football-data.org/792.svg",
+          "played": 3,
+          "points": 4,
+          "gd": 0,
+          "gf": 7,
+          "ga": 7
+        },
+        {
+          "rank": 4,
+          "name": "Tunisia",
+          "logo": "https://crests.football-data.org/tunisia.svg",
+          "played": 3,
+          "points": 0,
+          "gd": -10,
+          "gf": 2,
+          "ga": 12
+        }
+      ]
+    },
+    {
+      "group": "Group g",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "Belgium",
+          "logo": "https://crests.football-data.org/805.svg",
+          "played": 3,
+          "points": 5,
+          "gd": 4,
+          "gf": 6,
+          "ga": 2
+        },
+        {
+          "rank": 2,
+          "name": "Egypt",
+          "logo": "https://crests.football-data.org/825.svg",
+          "played": 3,
+          "points": 5,
+          "gd": 2,
+          "gf": 5,
+          "ga": 3
+        },
+        {
+          "rank": 3,
+          "name": "Iran",
+          "logo": "https://crests.football-data.org/iran.svg",
+          "played": 3,
+          "points": 3,
+          "gd": 0,
+          "gf": 3,
+          "ga": 3
+        },
+        {
+          "rank": 4,
+          "name": "New Zealand",
+          "logo": "https://crests.football-data.org/783.svg",
+          "played": 3,
+          "points": 1,
+          "gd": -6,
+          "gf": 4,
+          "ga": 10
+        }
+      ]
+    },
+    {
+      "group": "Group h",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "Spain",
+          "logo": "https://crests.football-data.org/760.svg",
+          "played": 3,
+          "points": 7,
+          "gd": 5,
+          "gf": 5,
+          "ga": 0
+        },
+        {
+          "rank": 2,
+          "name": "Cape Verde",
+          "logo": "https://crests.football-data.org/cape_verde.svg",
+          "played": 3,
+          "points": 3,
+          "gd": 0,
+          "gf": 2,
+          "ga": 2
+        },
+        {
+          "rank": 3,
+          "name": "Uruguay",
+          "logo": "https://crests.football-data.org/758.svg",
+          "played": 3,
+          "points": 2,
+          "gd": -1,
+          "gf": 3,
+          "ga": 4
+        },
+        {
+          "rank": 4,
+          "name": "Saudi Arabia",
+          "logo": "https://crests.football-data.org/saudi_arabia.svg",
+          "played": 3,
+          "points": 2,
+          "gd": -4,
+          "gf": 1,
+          "ga": 5
+        }
+      ]
+    },
+    {
+      "group": "Group i",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "France",
+          "logo": "https://crests.football-data.org/773.svg",
+          "played": 3,
+          "points": 9,
+          "gd": 8,
+          "gf": 10,
+          "ga": 2
+        },
+        {
+          "rank": 2,
+          "name": "Norway",
+          "logo": "https://crests.football-data.org/813.svg",
+          "played": 3,
+          "points": 6,
+          "gd": 1,
+          "gf": 8,
+          "ga": 7
+        },
+        {
+          "rank": 3,
+          "name": "Senegal",
+          "logo": "https://crests.football-data.org/senegal.svg",
+          "played": 3,
+          "points": 3,
+          "gd": 2,
+          "gf": 8,
+          "ga": 6
+        },
+        {
+          "rank": 4,
+          "name": "Iraq",
+          "logo": "https://crests.football-data.org/iraq.svg",
+          "played": 3,
+          "points": 0,
+          "gd": -11,
+          "gf": 1,
+          "ga": 12
+        }
+      ]
+    },
+    {
+      "group": "Group j",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "Argentina",
+          "logo": "https://crests.football-data.org/762.png",
+          "played": 3,
+          "points": 9,
+          "gd": 7,
+          "gf": 8,
+          "ga": 1
+        },
+        {
+          "rank": 2,
+          "name": "Austria",
+          "logo": "https://crests.football-data.org/816.svg",
+          "played": 3,
+          "points": 4,
+          "gd": 0,
+          "gf": 6,
+          "ga": 6
+        },
+        {
+          "rank": 3,
+          "name": "Algeria",
+          "logo": "https://crests.football-data.org/algeria.svg",
+          "played": 3,
+          "points": 4,
+          "gd": -2,
+          "gf": 5,
+          "ga": 7
+        },
+        {
+          "rank": 4,
+          "name": "Jordan",
+          "logo": "https://crests.football-data.org/8049.png",
+          "played": 3,
+          "points": 0,
+          "gd": -5,
+          "gf": 3,
+          "ga": 8
+        }
+      ]
+    },
+    {
+      "group": "Group k",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "Colombia",
+          "logo": "https://crests.football-data.org/818.svg",
+          "played": 3,
+          "points": 7,
+          "gd": 3,
+          "gf": 4,
+          "ga": 1
+        },
+        {
+          "rank": 2,
+          "name": "Portugal",
+          "logo": "https://crests.football-data.org/765.svg",
+          "played": 3,
+          "points": 5,
+          "gd": 5,
+          "gf": 6,
+          "ga": 1
+        },
+        {
+          "rank": 3,
+          "name": "Congo DR",
+          "logo": "https://crests.football-data.org/congo_dr.svg",
+          "played": 3,
+          "points": 4,
+          "gd": 1,
+          "gf": 4,
+          "ga": 3
+        },
+        {
+          "rank": 4,
+          "name": "Uzbekistan",
+          "logo": "https://crests.football-data.org/8070.png",
+          "played": 3,
+          "points": 0,
+          "gd": -9,
+          "gf": 2,
+          "ga": 11
+        }
+      ]
+    },
+    {
+      "group": "Group l",
+      "teams": [
+        {
+          "rank": 1,
+          "name": "England",
+          "logo": "https://crests.football-data.org/770.svg",
+          "played": 3,
+          "points": 7,
+          "gd": 4,
+          "gf": 6,
+          "ga": 2
+        },
+        {
+          "rank": 2,
+          "name": "Croatia",
+          "logo": "https://crests.football-data.org/799.svg",
+          "played": 3,
+          "points": 6,
+          "gd": 0,
+          "gf": 5,
+          "ga": 5
+        },
+        {
+          "rank": 3,
+          "name": "Ghana",
+          "logo": "https://crests.football-data.org/ghana.svg",
+          "played": 3,
+          "points": 4,
+          "gd": 0,
+          "gf": 2,
+          "ga": 2
+        },
+        {
+          "rank": 4,
+          "name": "Panama",
+          "logo": "https://crests.football-data.org/panama.svg",
+          "played": 3,
+          "points": 0,
+          "gd": -4,
+          "gf": 0,
+          "ga": 4
+        }
+      ]
+    }
+  ],
   "scorers": [
     {
       "name": "Kylian Mbappé",
